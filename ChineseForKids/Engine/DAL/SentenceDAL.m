@@ -160,6 +160,8 @@ static SentenceDAL *instance = nil;
             
             worderOrder = [worderOrder stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
             
+            DLog(@"sentence: %@; worderOrder: %@", sentence, worderOrder);
+            
             // 直接存入数据库中
             [[DMDataManager sharedManager] saveSentenceDataWithUserID:userID humanID:humanID groupID:groupID bookID:bookID typeID:typeID lessonID:lessonID knowledgeID:knowledgeID sentenceID:[sentenceID integerValue] sentence:sentence worderOrder:worderOrder audio:audio error:nil];
         }

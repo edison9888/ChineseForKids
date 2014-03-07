@@ -421,9 +421,10 @@ int GameTouchStatus = 0;
         
         NSMutableArray *arrWordData = [[NSMutableArray alloc] init];
         
-        NSArray *arrObstruct = [wordModel.obstruction componentsSeparatedByString:@"|"];
+        NSString *orderWorder = [wordModel.obstruction stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+        NSArray *arrObstruct = [orderWorder componentsSeparatedByString:@"|"];
         [arrWordData setArray:arrObstruct];
-        NSString *rightWord = [NSString stringWithFormat:@"%@", wordModel.rightWord];
+        NSString *rightWord = [[NSString stringWithFormat:@"%@", wordModel.rightWord] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
         [arrWordData addObject:rightWord];
         
         NSInteger bunCount = [arrWordData count];
