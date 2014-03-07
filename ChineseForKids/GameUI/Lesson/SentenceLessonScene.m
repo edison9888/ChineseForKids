@@ -268,6 +268,7 @@ const int towerOffset = 151;
     NSArray *arrSen = [[GameManager sharedManager] loadSentenceDataWithUserID:curUserID humanID:curHumanID groupID:curGroupID bookID:curBookID typeID:curTypeID lessonID:curLessonID senPatternID:senPatternModel.knowledgeIDValue];
     if (arrSen)
     {
+        [arrSentence removeAllObjects];
         [arrSentence setArray:arrSen];
     }
 }
@@ -280,7 +281,7 @@ const int towerOffset = 151;
     spDropPlank.position=ccp(winSize.width/1.4, winSize.height/1.32);
     spDropPlank.scale = 1;
     spDropPlank.rotation = 0;
-    menuRedoItem.visible=NO;
+    menuRedoItem.visible= NO;
     // 随机抽取
     sentenceModel = [arrSentence objectAtIndex:_Level];
     //NSLog(@"sentenceModel.worderOrder: %@", sentenceModel.worderOrder);
@@ -318,7 +319,8 @@ const int towerOffset = 151;
                 randomY = [self randomValueBetween:1.67 high:6];
                 position = ccp(winSize.width/randomX, winSize.height/randomY);
             }
-            if (sum > [_arrayPlanks count]*[_arrayPlanks count]*[_arrayPlanks count])
+            NSInteger count = [_arrayPlanks count];
+            if (sum > count * count * count)
             {
                 break;
             }
@@ -349,12 +351,12 @@ const int towerOffset = 151;
     if ([_arrayPlanks containsObject:spPlank])
     {
         [_arrayPlanks removeObject:spPlank];
+        spPlank = nil;
     }
-    spPlank = nil;
     
     menuRedoItem.visible=YES;
     
-    if(_arrayPlanks.count == 0)
+    if([_arrayPlanks count] == 0)
     {
         menuRedoItem.visible = NO;
         
@@ -397,8 +399,6 @@ const int towerOffset = 151;
             [lblDropValue setString:_currentValue];
         }
         _Level = arc4random() % [arrSentence count];
-        //_currentValue = @"";
-        //[lblDropValue setString:_currentValue];
     }
     
     [[SimpleAudioEngine sharedEngine] playEffect:@"dropplank.mp3"];
@@ -615,7 +615,7 @@ const int towerOffset = 151;
     
     //坐标转换
     CGPoint translation = ccpSub(touchLocation, oldTouchLocation);
-    if(spTouchPlank!=nil){
+    if(spTouchPlank != nil){
         [spTouchPlank dragPlank:translation];
     }
     

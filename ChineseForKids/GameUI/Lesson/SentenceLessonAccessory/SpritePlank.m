@@ -16,68 +16,82 @@
 @synthesize lblValue;
 @synthesize value;
 
--(id)initWithValue:(NSString *)paramValue{
-    
-    self.value = paramValue;
-    int strLength = [paramValue length];
-    NSInteger index = 1;
-    if(strLength <= 1){
-        index = 1;
-    }else if (strLength <= 2){
-        index = 2;
-    }else if (strLength <= 3){
-        index = 3;
-    }else{
-        index = 4;
+-(id)initWithValue:(NSString *)paramValue
+{
+    if (self = [super init])
+    {
+        self.value = paramValue;
+        int strLength = [paramValue length];
+        NSInteger index = 1;
+        if(strLength <= 1){
+            index = 1;
+        }else if (strLength <= 2){
+            index = 2;
+        }else if (strLength <= 3){
+            index = 3;
+        }else{
+            index = 4;
+        }
+        
+        NSString *spFrameName = [NSString stringWithFormat:@"sub_plank%d.png", index];
+        spPlankbg = [CCSprite spriteWithSpriteFrameName:spFrameName];
+        
+        if (paramValue)
+        {
+            CGFloat width  = spPlankbg.contentSize.width;
+            CGSize size = [paramValue sizeWithFont:[UIFont fontWithName:valueFontName size:valueFontSize]];
+            CGFloat scaleFactor = size.width > width ? size.width/width : 1;
+            [spPlankbg setScaleX:scaleFactor];
+            
+            lblValue = [CCLabelTTF labelWithString:paramValue fontName:valueFontName fontSize:valueFontSize];
+            lblValue.color = [self valueLabelColor];
+            
+        }
+        
     }
-    
-    spPlankbg = [CCSprite spriteWithSpriteFrameName:[NSString stringWithFormat:@"sub_plank%d.png", index]];
-    
-    CGFloat width  = spPlankbg.contentSize.width;
-    CGSize size = [value sizeWithFont:[UIFont fontWithName:valueFontName size:valueFontSize]];
-    CGFloat scaleFactor = size.width > width ? size.width/width : 1;
-    [spPlankbg setScaleX:scaleFactor];
-    
-    lblValue = [CCLabelTTF labelWithString:value fontName:valueFontName fontSize:valueFontSize];
-   
+    return self;
+}
+
+- (ccColor3B)valueLabelColor
+{
+    ccColor3B color = ccc3(109, 4, 97);
     int colorRandNum = arc4random()%9;
-    switch (colorRandNum) {
+    switch (colorRandNum)
+    {
         case 0:
-            lblValue.color=ccc3(109, 4, 97);  
+            color=ccc3(109, 4, 97);
             break;
         case 1:
-            lblValue.color=ccc3(70, 4, 110);
+            color=ccc3(70, 4, 110);
             break;
         case 2:
-            lblValue.color=ccc3(17,4, 110);
+            color=ccc3(17,4, 110);
             break;
         case 3:
-            lblValue.color=ccc3(4, 45, 110);
+            color=ccc3(4, 45, 110);
             break;
         case 4:
-            lblValue.color=ccc3(4, 98, 110);
+            color=ccc3(4, 98, 110);
             break;
         case 5:
-            lblValue.color=ccc3(101, 71, 7);
+            color=ccc3(101, 71, 7);
             break;
         case 6:
-            lblValue.color=ccc3(94, 112, 0);
+            color=ccc3(94, 112, 0);
             break;
         case 7:
-            lblValue.color=ccc3(46, 109, 4);
+            color=ccc3(46, 109, 4);
             break;
         case 8:
-            lblValue.color=ccc3(4, 112, 13);
+            color=ccc3(4, 112, 13);
             break;
         case 9:
-            lblValue.color=ccc3(4, 111, 67);
+            color=ccc3(4, 111, 67);
             break;
         default:
             break;
     }
-    
-    
-    return self;
+    return color;
 }
 
 
