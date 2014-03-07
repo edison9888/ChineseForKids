@@ -1,0 +1,23 @@
+/* 
+  Localization.strings
+  ChineseForKids
+
+  Created by yang on 13-12-26.
+  Copyright (c) 2013年 yang. All rights reserved.
+*/
+
+"获取服务器数据出错!" = "Access to server data error!";
+
+"分享成功" = "sharing success";
+
+"Email不正确!" = "Email format is incorrect!";
+
+"密码为6到20位的数字或字母!" = "Password between 6 to 20 numbers or letters!";
+
+"两次密码不一致!" = "Two passwords do not match!";
+
+"注册中..." = "Registing...";
+
+"6-20 字符(数字或字母)" = "6-20 characters";
+
+"确认密码" = "Password Confirm";

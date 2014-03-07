@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Assets</key>
+	<array/>
+	<key>Music</key>
+	<array/>
+	<key>SpriteSheets</key>
+	<array>
+		<string>GameNavigationBkg.plist</string>
+		<string>GameNavigationClouds.plist</string>
+		<string>GameNavigationBigCloud.plist</string>
+	</array>
+	<key>Images</key>
+	<array/>
+	<key>SoundFX</key>
+	<array/>
+</dict>
+</plist>

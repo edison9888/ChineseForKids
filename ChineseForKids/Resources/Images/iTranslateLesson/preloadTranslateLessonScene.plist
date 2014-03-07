@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Assets</key>
+	<array/>
+	<key>Music</key>
+	<array>
+		<string>wordimagebg.mp3</string>
+	</array>
+	<key>SpriteSheets</key>
+	<array>
+		<string>gameBase.plist</string>
+		<string>translateGameScene.plist</string>
+		<string>translateGameBkg.plist</string>
+		<string>translateGameMountains.plist</string>
+		<string>translateGameTreesAndRoad.plist</string>
+		<string>translateGameMonkeyChase.plist</string>
+		<string>translateGameMonsterFly.plist</string>
+		<string>translateGameMonkeyJump0.plist</string>
+		<string>translateGameMonkeyWrong0.plist</string>
+		<string>translateGameMonkeyKeepRight0.plist</string>
+		<string>translateGameMonkeyJump0-hd.plist</string>
+		<string>translateGameMonkeyJump0-ipadhd.plist</string>
+		<string>translateGameMonkeyJump1-ipadhd.plist</string>
+		<string>translateGameMonkeyJump3-ipadhd.plist</string>
+		<string>translateGameMonkeyJump2-ipadhd.plist</string>
+		<string>translateGameMonkeyWrong0-hd.plist</string>
+		<string>translateGameMonkeyWrong2-ipadhd.plist</string>
+		<string>translateGameMonkeyWrong0-ipadhd.plist</string>
+		<string>translateGameMonkeyWrong0.plist</string>
+		<string>translateGameMonkeyWrong3-ipadhd.plist</string>
+		<string>translateGameMonkeyWrong1-ipadhd.plist</string>
+		<string>translateGameMonkeyKeepRight4-ipadhd.plist</string>
+		<string>translateGameMonkeyKeepRight2-ipadhd.plist</string>
+		<string>translateGameMonkeyKeepRight1-ipadhd.plist</string>
+		<string>translateGameMonkeyKeepRight3-ipadhd.plist</string>
+		<string>translateGameMonkeyKeepRight0-ipadhd.plist</string>
+		<string>translateGameMonkeyKeepRight1-hd.plist</string>
+		<string>translateGameMonkeyKeepRight0-hd.plist</string>
+		<string>translateGameMonkeyKeepRight5-ipadhd.plist</string>
+	</array>
+	<key>Images</key>
+	<array/>
+	<key>SoundFX</key>
+	<array>
+		<string>carddisappear.mp3</string>
+		<string>cardclick.mp3</string>
+	</array>
+</dict>
+</plist>

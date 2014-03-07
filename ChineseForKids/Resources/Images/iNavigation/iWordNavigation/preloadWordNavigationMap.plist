@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Assets</key>
+	<array/>
+	<key>Music</key>
+	<array/>
+	<key>SpriteSheets</key>
+	<array>
+		<string>MainNavigationMap_Sky.plist</string>
+		<string>MainNavigationMap_Sea.plist</string>
+		<string>MainNavigationMap_Accessory.plist</string>
+		<string>MainNavigationMap_LandWave.plist</string>
+		<string>MainNavigationMap_WaterWave.plist</string>
+	</array>
+	<key>Images</key>
+	<array>
+		<string>landUnit1.png</string>
+		<string>landUnit2.png</string>
+		<string>landUnit3.png</string>
+		<string>landUnit4.png</string>
+		<string>landUnit5.png</string>
+		<string>landUnit6.png</string>
+	</array>
+	<key>SoundFX</key>
+	<array/>
+</dict>
+</plist>

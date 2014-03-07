@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Assets</key>
+	<array/>
+	<key>Music</key>
+	<array>
+		<string>orderwordbg.mp3</string>
+	</array>
+	<key>SpriteSheets</key>
+	<array>
+		<string>sentenceGameLessonBkg.plist</string>
+		<string>sentenceGameClouds.plist</string>
+		<string>sentenceGameMonkteam.plist</string>
+		<string>sentenceGameTower.plist</string>
+		<string>gameBase.plist</string>
+	</array>
+	<key>Images</key>
+	<array/>
+	<key>SoundFX</key>
+	<array>
+		<string>completeplank.mp3</string>
+		<string>dropplank.mp3</string>
+		<string>plankdestroy.mp3</string>
+	</array>
+</dict>
+</plist>

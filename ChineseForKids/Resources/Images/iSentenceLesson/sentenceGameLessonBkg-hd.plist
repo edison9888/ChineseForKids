@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>orderwordGameBkg.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{1024,768}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{1024,768}}</string>
+                <key>sourceSize</key>
+                <string>{1024,768}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>sentenceGameLessonBkg-hd.pvr.ccz</string>
+            <key>size</key>
+            <string>{1025,768}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:31b9b87cd14697ece1dd4b67ca9b6be9:1/1$</string>
+            <key>textureFileName</key>
+            <string>sentenceGameLessonBkg-hd.pvr.ccz</string>
+        </dict>
+    </dict>
+</plist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Assets</key>
+	<array/>
+	<key>Music</key>
+	<array>
+		<string>caculateScore.mp3</string>
+		<string>levelBackgroundAudio.mp3</string>
+	</array>
+	<key>SpriteSheets</key>
+	<array>
+		<string>levelBackground.plist</string>
+		<string>levelOneSceneAccessory.plist</string>
+		<string>monkeyRun.plist</string>
+		<string>monkeySomersault.plist</string>
+		<string>monkeyFly.plist</string>
+		<string>moveTree.plist</string>
+		<string>moveTreeRootAndStone.plist</string>
+		<string>gameBase.plist</string>
+	</array>
+	<key>Images</key>
+	<array/>
+	<key>SoundFX</key>
+	<array>
+		<string>selectWrongTone.caf</string>
+		<string>selectRightTone.caf</string>
+		<string>keepRight.caf</string>
+		<string>clockTick.caf</string>
+	</array>
+</dict>
+</plist>
