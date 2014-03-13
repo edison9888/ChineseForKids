@@ -323,7 +323,12 @@
 {
     CCLOG(@"%@ : %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
     mdPinyin = (PinyinModel *)[[GameManager sharedManager] pickOutPinyinInfoWithUserID:curUserID humanID:curHumanID groupID:curGroupID bookID:curBookID typeID:curTypeID lessonID:curLessonID];
-    arrChinese = (NSMutableArray *)[CommonHelper separateComponents:mdPinyin.chinese key:nil];
+    if ([mdPinyin.chinese isEqualToString:mdPinyin.phoneme]){
+        arrChinese = (NSMutableArray *)[CommonHelper separateComponents:mdPinyin.chinese key:@"|"];
+    }else{
+        arrChinese = (NSMutableArray *)[CommonHelper separateComponents:mdPinyin.chinese key:nil];
+    }
+    
     //NSLog(@"Chinese: %@", arrChinese);
     arrPinyin  = (NSMutableArray *)[CommonHelper separateComponents:mdPinyin.pinyin key:kPinyinSeperateKey];
     arrPhoneme = (NSMutableArray *)[CommonHelper separateComponents:mdPinyin.tone key:kPinyinSeperateKey];

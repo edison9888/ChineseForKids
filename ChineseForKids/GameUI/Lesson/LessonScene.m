@@ -377,7 +377,10 @@
 {
     [self resumeScene];
     [self removeChild:layer cleanup:YES];
-    [[SimpleAudioEngine sharedEngine] playEffect:oldAudioName];
+    if (oldAudioName)
+    {
+        [[SimpleAudioEngine sharedEngine] playEffect:oldAudioName];
+    }
 }
 
 // 重开

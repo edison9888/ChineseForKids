@@ -9,12 +9,16 @@
 #ifndef PinyinGame_Constants_h
 #define PinyinGame_Constants_h
 
+#import "HSFileManager.h"
+
 //#define kHostUrl @"http://192.168.10.89/hellohsk/js/app/fileaddress/"
 //#define kHostUrl @"http://www.hschinese.com/app/api/"
 #define kHostUrl @"http://192.168.10.180/journeywest/app/api/"
 
-#define kDownloadingPath [[[FileHelper sharedInstance] getDocumentPath] stringByAppendingPathComponent:@"Downloading"]
-#define kDownloadedPath [[[FileHelper sharedInstance] getDocumentPath] stringByAppendingPathComponent:@"Downloaded"]
+//#define kDownloadingPath [[[FileHelper sharedInstance] getDocumentPath] stringByAppendingPathComponent:@"Downloading"]
+//#define kDownloadedPath [[[FileHelper sharedInstance] getDocumentPath] stringByAppendingPathComponent:@"Downloaded"]
+#define kDownloadingPath [[HSFileManager cachePath] stringByAppendingPathComponent:@"Downloading"]
+#define kDownloadedPath [[HSFileManager cachePath] stringByAppendingPathComponent:@"Downloaded"]
 
 #define kLoginMethod  @"user/login"
 #define kRegistMethod @"user/regist"

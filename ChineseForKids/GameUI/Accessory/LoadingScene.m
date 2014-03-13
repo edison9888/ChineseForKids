@@ -487,24 +487,43 @@
     return success;
 }
 
+// 是否有下载文件的提示文件路径
+- (NSString *)downloadDataTipPath
+{
+    NSString *downloadDir = [kDownloadedPath stringByAppendingPathComponent:strLessonID];
+    NSString *tipFile = [NSString stringWithFormat:@"%@_%@.txt", strTypeID, strLessonID];
+    NSString *tipPath = [downloadDir stringByAppendingPathComponent:tipFile];
+    return tipPath;
+}
+
 - (BOOL)loadPinyinLessonNetworkData
 {
     BOOL success = NO;
-    NSArray *arrTPinyin = [[GameManager sharedManager] loadPinyinDataWithUserID:curUserID humanID:curHumanID groupID:curGroupID bookID:curBookID typeID:curTypeID lessonID:curLessonID];
-    
-    if (arrTPinyin && ([arrTPinyin count] > 0))
+    NSString *tipPath = [self downloadDataTipPath];
+    if ([[NSFileManager defaultManager] fileExistsAtPath:tipPath])
     {
-        success = YES;
+        NSArray *arrTPinyin = [[GameManager sharedManager] loadPinyinDataWithUserID:curUserID humanID:curHumanID groupID:curGroupID bookID:curBookID typeID:curTypeID lessonID:curLessonID];
+        
+        if (arrTPinyin && ([arrTPinyin count] > 0)){
+            success = YES;
+        }else{
+            success = [self downloadPinyinLessonData];
+        }
     }
     else
     {
-        ResponseModel *response = [PinyinNet getPinyinGameInfoWithUserID:curUserID HumanID:strHumanID GroupID:strGroupID BookID:strBookID TypeID:strTypeID LessonID:strLessonID];
-        
-        if (response.error.code == 0)
-        {
-            //success = YES;
-            success = [self downloadLessonSource];
-        }
+        success = [self downloadPinyinLessonData];
+    }
+    return success;
+}
+
+- (BOOL)downloadPinyinLessonData
+{
+    BOOL success = NO;
+    ResponseModel *response = [PinyinNet getPinyinGameInfoWithUserID:curUserID HumanID:strHumanID GroupID:strGroupID BookID:strBookID TypeID:strTypeID LessonID:strLessonID];
+    
+    if (response.error.code == 0){
+        success = [self downloadLessonSource];
     }
     return success;
 }
@@ -512,69 +531,99 @@
 - (BOOL)loadWordLessonNetworkData
 {
     BOOL success = NO;
-    NSArray *arrTWord = [[GameManager sharedManager] loadWordDataWithUserID:curUserID humanID:curHumanID groupID:curGroupID bookID:curBookID typeID:curTypeID lessonID:curLessonID];
-    
-    if (arrTWord && ([arrTWord count] > 0))
+    NSString *tipPath = [self downloadDataTipPath];
+    if ([[NSFileManager defaultManager] fileExistsAtPath:tipPath])
     {
-        success = YES;
+        NSArray *arrTWord = [[GameManager sharedManager] loadWordDataWithUserID:curUserID humanID:curHumanID groupID:curGroupID bookID:curBookID typeID:curTypeID lessonID:curLessonID];
+        
+        if (arrTWord && ([arrTWord count] > 0)){
+            success = YES;
+        }else{
+            success = [self downloadWordLessonData];
+        }
     }
     else
     {
-        ResponseModel *response = [WordNet getWordGameInfoWithUserID:curUserID HumanID:strHumanID GroupID:strGroupID BookID:strBookID TypeID:strTypeID LessonID:strLessonID];
-        
-        if (response.error.code == 0)
-        {
-            //success = YES;
-            success = [self downloadLessonSource];
-        }
+        success = [self downloadWordLessonData];
     }
     
+    return success;
+}
+
+- (BOOL)downloadWordLessonData
+{
+    BOOL success = NO;
+    ResponseModel *response = [WordNet getWordGameInfoWithUserID:curUserID HumanID:strHumanID GroupID:strGroupID BookID:strBookID TypeID:strTypeID LessonID:strLessonID];
+    
+    if (response.error.code == 0){
+        success = [self downloadLessonSource];
+    }
     return success;
 }
 
 - (BOOL)loadSentenceLessonNetworkData
 {
     BOOL success = NO;
-    NSArray *arrTSen = [[GameManager sharedManager] loadSentencePatternDataWithUserID:curUserID humanID:curHumanID groupID:curGroupID bookID:curBookID typeID:curTypeID lessonID:curLessonID];
-    
-    if (arrTSen && ([arrTSen count] > 0))
+    NSString *tipPath = [self downloadDataTipPath];
+    if ([[NSFileManager defaultManager] fileExistsAtPath:tipPath])
     {
-        success = YES;
+        NSArray *arrTSen = [[GameManager sharedManager] loadSentencePatternDataWithUserID:curUserID humanID:curHumanID groupID:curGroupID bookID:curBookID typeID:curTypeID lessonID:curLessonID];
+        
+        if (arrTSen && ([arrTSen count] > 0)){
+            success = YES;
+        }else{
+            success = [self downloadSentenceLessonData];
+        }
     }
     else
     {
-        ResponseModel *response = [SentenceNet getSentenceGameInfoWithUserID:curUserID HumanID:strHumanID GroupID:strGroupID BookID:strBookID TypeID:strTypeID LessonID:strLessonID];
-        
-        if (response.error.code == 0)
-        {
-            //success = YES;
-            success = [self downloadLessonSource];
-        }
+        success = [self downloadSentenceLessonData];
     }
     
+    return success;
+}
+
+- (BOOL)downloadSentenceLessonData
+{
+    BOOL success = NO;
+    ResponseModel *response = [SentenceNet getSentenceGameInfoWithUserID:curUserID HumanID:strHumanID GroupID:strGroupID BookID:strBookID TypeID:strTypeID LessonID:strLessonID];
+    
+    if (response.error.code == 0){
+        success = [self downloadLessonSource];
+    }
     return success;
 }
 
 - (BOOL)loadTranslateLessonNetworkData
 {
     BOOL success = NO;
-    NSArray *arrTTrans = [[GameManager sharedManager] loadTranslationDataWithUserID:curUserID humanID:curHumanID groupID:curGroupID bookID:curBookID typeID:curTypeID lessonID:curLessonID];
-    
-    if (arrTTrans && ([arrTTrans count] > 0))
+    NSString *tipPath = [self downloadDataTipPath];
+    if ([[NSFileManager defaultManager] fileExistsAtPath:tipPath])
     {
-        success = YES;
+        NSArray *arrTTrans = [[GameManager sharedManager] loadTranslationDataWithUserID:curUserID humanID:curHumanID groupID:curGroupID bookID:curBookID typeID:curTypeID lessonID:curLessonID];
+        
+        if (arrTTrans && ([arrTTrans count] > 0)){
+            success = YES;
+        }else{
+            success = [self downloadTranslateLessonData];
+        }
     }
     else
     {
-        ResponseModel *response = [TranslateNet getTranslationGameInfoWithUserID:curUserID HumanID:strHumanID GroupID:strGroupID BookID:strBookID TypeID:strTypeID LessonID:strLessonID];
-        
-        if (response.error.code == 0)
-        {
-            //success = YES;
-            success = [self downloadLessonSource];
-        }
+        success = [self downloadTranslateLessonData];
     }
     
+    return success;
+}
+
+- (BOOL)downloadTranslateLessonData
+{
+    BOOL success = NO;
+    ResponseModel *response = [TranslateNet getTranslationGameInfoWithUserID:curUserID HumanID:strHumanID GroupID:strGroupID BookID:strBookID TypeID:strTypeID LessonID:strLessonID];
+    
+    if (response.error.code == 0){
+        success = [self downloadLessonSource];
+    }
     return success;
 }
 

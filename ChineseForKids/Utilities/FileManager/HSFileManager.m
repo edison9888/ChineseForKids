@@ -19,6 +19,13 @@
     return [paths objectAtIndex:0];
 }
 
++ (NSString *)cachePath
+{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+    NSString *cachesDir = [paths objectAtIndex:0];
+    return cachesDir;
+}
+
 + (NSString *)BundleResourcePath
 {
     NSString *resourcePath = [[NSBundle mainBundle] resourcePath];

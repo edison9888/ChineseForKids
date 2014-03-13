@@ -125,6 +125,9 @@ static PinyinDAL *instance = nil;
             NSString *phoneme     = [dicData objectForKey:@"Phoneme"];
             NSString *progress    = [dicData objectForKey:@"Progress"];
             NSString *audio       = [dicData objectForKey:@"Audio"];
+            
+            //NSLog(@"chinese:%@, pinyin:%@, english:%@, tone:%@, phoneme:%@", chinese, pinyin, english, tone, phoneme);
+            
             NSInteger phonemeCount = [[CommonHelper separateComponents:phoneme key:@"|"] count];
             
             NSString *userID  = [GlobalDataHelper sharedManager].curUserID;

@@ -185,7 +185,7 @@ static DMDataManager *dataManager = nil;
 {
     // 先查询
     PinyinModel *pinyinModel = (PinyinModel *)[self queryPinyinInfoWithUserID:userID humanID:humanID groupID:groupID bookID:bookID typeID:typeID lessonID:lessonID knowledgeID:knowledgeID];
-    if (pinyinModel.knowledgeIDValue == knowledgeID)
+    if (pinyinModel.knowledgeIDValue == knowledgeID && pinyinModel.lessonIDValue == lessonID)
     {
         // 更新数据
         [self updatePinyinDataWithUserID:userID humanID:humanID groupID:groupID bookID:bookID typeID:typeID lessonID:lessonID knowledgeID:knowledgeID chinese:chinese pinyin:pinyin english:english tone:tone phoneme:phoneme  phonemeCount:phonemeCount progress:progress audio:audio error:err];

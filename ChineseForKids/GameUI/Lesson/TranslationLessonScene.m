@@ -310,7 +310,7 @@
     CGSize winSize=[CCDirector sharedDirector].winSize;
     float spec = 30;
     
-    NSArray *arrayNumber=[NSArray arrayWithObjects:@2,@2,@2,@4,@4,@6,@6,@8, nil];
+    NSArray *arrayNumber=[NSArray arrayWithObjects:@2,@2,@2,@4,@4,@4,@4,@4, nil];
     int numberOfCards = [[arrayNumber objectAtIndex:_Level] intValue];
     
     // 打乱各个数据模块的位置

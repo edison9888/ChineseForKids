@@ -291,8 +291,6 @@
 				}
 				
 			}
-		
-			
 			
 		}
 		unzCloseCurrentFile( _unzFile );

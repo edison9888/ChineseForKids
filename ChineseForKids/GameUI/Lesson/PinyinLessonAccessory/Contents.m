@@ -32,7 +32,7 @@
         
         CGFloat pinyinFontSize = chineseEmpty ? kContentsChineseFontSize : kPinyinFontSize;
         CGFloat pinyinPostionY = chineseEmpty ? -kContentsChineseFontSize*0.36f : 0.0f;
-        
+        //NSLog(@"pinyin: %@; chinese: %@", pinyin, chinese);
         lblPinyin = [CCLabelTTF labelWithString:pinyin fontName:kFontName fontSize:pinyinFontSize];
         lblPinyin.color = kPinyinColor;
         lblPinyin.position = ccpAdd(position, ccp(0.0f, pinyinPostionY));

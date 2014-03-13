@@ -191,9 +191,9 @@ static DownloadLessonNet *instance = nil;
             DLog(@"解压成功！");
             [self deleteDownloadFileWithLessonID:lessonID];
             // 做一个标记，看看该课的该游戏是否已经下载了。
-            NSString *bookID = [NSString stringWithFormat:@"%d", [GlobalDataHelper sharedManager].curBookID];
+            //NSString *bookID = [NSString stringWithFormat:@"%d", [GlobalDataHelper sharedManager].curBookID];
             NSString *typeID = [NSString stringWithFormat:@"%d", [GlobalDataHelper sharedManager].curTypeID];
-            NSString *lessonPath = [NSString stringWithFormat:@"%@_%@_%@.txt", bookID, typeID, lessonSPath];
+            NSString *lessonPath = [NSString stringWithFormat:@"%@_%@.txt", typeID, lessonSPath];
             [lessonSPath writeToFile:[unzipPath stringByAppendingPathComponent:lessonPath] atomically:YES encoding:NSUTF8StringEncoding error:nil];
             //NSArray *arrAudio = [[NSFileManager defaultManager] subpathsOfDirectoryAtPath:[kDownloadedPath stringByAppendingPathComponent:lessonID]  error:nil];
             //NSLog(@"所有的音频文件: %@", arrAudio);

@@ -5,34 +5,51 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3E756BD1-8B8C-49D6-95DB-1FAF50BE79A9</string>
+	<string>6AB741A4-A191-4882-A51B-80D718D2E3A9</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ChineseForKids</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>4F853927-83B3-46AF-AA8D-23E128C352A8</key>
+		<key>97ECDB9C-4BD2-4259-B1DF-51943FE367DD</key>
 		<string>https://github.com/yangjunfeng22/ChineseForKids.git</string>
+		<key>AA93E15F-3A85-44DA-8B7D-B0CC9A24CFB2</key>
+		<string>file:///Volumes/Programs/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E5%A4%87%E4%BB%BD/%E8%A5%BF%E6%B8%B8%E6%B1%89%E8%AF%AD%E8%AF%BE%E7%A8%8B/ChineseParadise</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ChineseForKids.xcodeproj/project.xcworkspace</string>
+	<string>ChineseForKids/ChineseForKids.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>4F853927-83B3-46AF-AA8D-23E128C352A8</key>
+		<key>97ECDB9C-4BD2-4259-B1DF-51943FE367DD</key>
 		<string>../..</string>
+		<key>AA93E15F-3A85-44DA-8B7D-B0CC9A24CFB2</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>AA93E15F-3A85-44DA-8B7D-B0CC9A24CFB2</key>
+		<string>file:///Volumes/Programs/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/%E5%A4%87%E4%BB%BD/%E8%A5%BF%E6%B8%B8%E6%B1%89%E8%AF%AD%E8%AF%BE%E7%A8%8B/ChineseParadise</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/yangjunfeng22/ChineseForKids.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>4F853927-83B3-46AF-AA8D-23E128C352A8</string>
+	<string>AA93E15F-3A85-44DA-8B7D-B0CC9A24CFB2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AA93E15F-3A85-44DA-8B7D-B0CC9A24CFB2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>西游汉语课程</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>4F853927-83B3-46AF-AA8D-23E128C352A8</string>
+			<string>97ECDB9C-4BD2-4259-B1DF-51943FE367DD</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ChineseForKids</string>
 		</dict>

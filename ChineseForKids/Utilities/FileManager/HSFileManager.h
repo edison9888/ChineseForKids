@@ -19,6 +19,8 @@
  */
 + (NSString *)DocumetPath;
 
++ (NSString *)cachePath;
+
 /**
  * 获取Bundle目录的路径.
  * @return Bundle目录的路径。
