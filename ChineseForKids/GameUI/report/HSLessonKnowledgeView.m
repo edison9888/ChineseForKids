@@ -50,6 +50,8 @@
     NSInteger curTypeID;
     NSInteger curLessonID;
     
+    NSInteger actPinyinFontSize;
+    
     NSInteger cellIndex;
     NSMutableArray *arrKnowledges;
     
@@ -423,10 +425,10 @@
             NSValue *value   = [dicAChar objectForKey:key];
             CGRect valueRect = [value CGRectValue];
             
-            CGFloat size = (valueRect.origin.y == kChineseRect.origin.y) ? kReportChineseFontSize*0.7f : kReportChineseFontSize*0.5f;
+            CGFloat size = (valueRect.origin.y == kChineseRect.origin.y) ? kReportChineseFontSize*0.7f : actPinyinFontSize;
             //UIFont *font = [HSFontHandleManager resizableSizeFontWithFont:[UIFont fontWithName:kFontName size:size] content:key width:valueRect.size.width minFontSize:6 lineBreakMode:NSLineBreakByCharWrapping];
             
-            //NSLog(@"size : %f", size);
+            NSLog(@"key : %@", key);
             [key drawInRect:valueRect withFont:[UIFont fontWithName:kFontName size:size] lineBreakMode:NSLineBreakByCharWrapping alignment:NSTextAlignmentCenter];
         }
     }
@@ -446,7 +448,7 @@
 
 - (void)drawTranslateDataWithRect:(CGRect)rect
 {
-    [arrShowData removeAllObjects];
+    //[arrShowData removeAllObjects];
     [self drawPinyinDataWithRect:rect];
 }
 
@@ -609,11 +611,29 @@
     [self stopAudio];
     [self initAudioPlayerWithSource:strAudio];
     [self playAudio];
-    
+    /*
     pinyin = translateModel.pinyin;
     english = translateModel.english;
     chinese = translateModel.chinese;
+    */
+    NSArray *arrPinyinS = [translateModel.pinyin componentsSeparatedByString:@"|"];
     
+    BOOL isExistChinese = [translateModel.chinese isEqualToString:@""] ? NO : YES;
+    
+    BOOL isPinyinCountMoreThanOne = [arrPinyinS count] > 1 ? YES : NO;
+    
+    if (isPinyinCountMoreThanOne)
+    {
+        [self decodeDataWithTranslationModel:translateModel];
+    }
+    else
+    {
+        [arrShowData removeAllObjects];
+        
+        pinyin  = isExistChinese ? [arrPinyinS componentsJoinedByString:@""] : @"";
+        chinese = (!isExistChinese) ? translateModel.pinyin : translateModel.chinese;
+    }
+    english = translateModel.english;
     [self setNeedsDisplayInRect:kPinyinRect];
     [self setNeedsDisplayInRect:kChineseRect];
     [self setNeedsDisplayInRect:kEnglishRect];
@@ -755,7 +775,17 @@
     // 计算出一个例词中拼音的个数,相当于同时计算出例词中字的个数.
     NSInteger pinYinCount  = [arrTempPinyin count];
     // 计算出一个拼音所占的宽度
-    CGFloat onePinyinWidth = pinyinAreaWidth/pinYinCount-2;
+    //CGFloat onePinyinWidth = pinyinAreaWidth/pinYinCount-2;
+    
+    // 拼音之间的总的间隔
+    CGFloat totalSpace = pinYinCount * 2.0f;
+    // 除去空格之后拼音总的占据的宽度
+    CGFloat pinyinShowWidth = pinyinAreaWidth - totalSpace;
+    // 计算出所有拼音拼接在一起之后在这有限的宽度内能显示的最大的字体值。
+    CGFloat actFontSize;
+    NSString *totalPinyin = [arrTempPinyin componentsJoinedByString:@""];
+    [totalPinyin sizeWithFont:[UIFont fontWithName:kFontName size:kReportChineseFontSize] minFontSize:6.0f actualFontSize:&actFontSize forWidth:pinyinShowWidth lineBreakMode:NSLineBreakByCharWrapping];
+    actPinyinFontSize = actFontSize;
     
     NSInteger chineseCount = [arrTempChinese count];
     CGFloat oneChineseWidth = chineseAreaWidth/chineseCount;
@@ -765,6 +795,73 @@
     for (int j = 0; j < pinYinCount; j++)
     {
         NSString *strTempPinyin = [arrTempPinyin objectAtIndex:j];
+        CGFloat onePinyinWidth = [strTempPinyin sizeWithFont:[UIFont fontWithName:kFontName size:actFontSize]].width;
+        
+        CGRect pinyinRect  = CGRectMake(pinyinOriginX + (onePinyinWidth+2)*j, pinyinOriginY, onePinyinWidth, pinyinAreaHeight);
+        NSValue *pinyinValue = [NSValue valueWithCGRect:pinyinRect];
+        
+        NSString *strTempChinese = [arrTempChinese objectAtIndex:j];
+        CGRect chineseRect = CGRectMake(chineseOriginX + oneChineseWidth*j, chineseOriginY , oneChineseWidth, chineseAreaHeight);
+        NSValue *chineseValue = [NSValue valueWithCGRect:chineseRect];
+        
+        NSDictionary *dicAChar = [NSDictionary dictionaryWithObjectsAndKeys:pinyinValue, strTempPinyin, chineseValue, strTempChinese, nil];
+        [arrShowData addObject:dicAChar];
+    }
+}
+
+- (void)decodeDataWithTranslationModel:(TranslationModel *)translateModel
+{
+    CGFloat pinyinAreaWidth   = kPinyinRect.size.width;
+    CGFloat pinyinAreaHeight  = kPinyinRect.size.height;
+    
+    CGFloat chineseAreaWidth  = kChineseRect.size.width;
+    CGFloat chineseAreaHeight = kChineseRect.size.height;
+    
+    CGFloat pinyinOriginX  = kPinyinRect.origin.x;
+    CGFloat pinyinOriginY  = kPinyinRect.origin.y;
+    
+    CGFloat chineseOriginX = kChineseRect.origin.x;
+    CGFloat chineseOriginY = kChineseRect.origin.y;
+    // 取出中文
+    NSString *strTempChinese = translateModel.chinese;
+    
+    // 分割拼音
+    NSArray *arrTempPinyin   = [translateModel.pinyin componentsSeparatedByString:@"|"];
+    NSMutableArray *arrTempChinese  = [[NSMutableArray alloc] init];
+    
+    size_t length = [strTempChinese length];
+    for (size_t i = 0; i < length; i++)
+    {
+        //UniChar c = [strTempChinese characterAtIndex:i];
+        NSString *strC = [strTempChinese substringWithRange:NSMakeRange(i, 1)];
+        [arrTempChinese addObject:strC];
+    }
+    
+    // 计算出一个例词中拼音的个数,相当于同时计算出例词中字的个数.
+    NSInteger pinYinCount  = [arrTempPinyin count];
+    // 计算出一个拼音所占的宽度
+    //CGFloat onePinyinWidth = pinyinAreaWidth/pinYinCount-2;
+    
+    // 拼音之间的总的间隔
+    CGFloat totalSpace = pinYinCount * 2.0f;
+    // 除去空格之后拼音总的占据的宽度
+    CGFloat pinyinShowWidth = pinyinAreaWidth - totalSpace;
+    // 计算出所有拼音拼接在一起之后在这有限的宽度内能显示的最大的字体值。
+    CGFloat actFontSize;
+    NSString *totalPinyin = [arrTempPinyin componentsJoinedByString:@""];
+    [totalPinyin sizeWithFont:[UIFont fontWithName:kFontName size:kReportChineseFontSize] minFontSize:6.0f actualFontSize:&actFontSize forWidth:pinyinShowWidth lineBreakMode:NSLineBreakByCharWrapping];
+    actPinyinFontSize = actFontSize;
+    
+    NSInteger chineseCount = [arrTempChinese count];
+    CGFloat oneChineseWidth = chineseAreaWidth/chineseCount;
+    
+    [arrShowData removeAllObjects];
+    // 计算出每一个拼音的位置以及对应的字的位置
+    for (int j = 0; j < pinYinCount; j++)
+    {
+        NSString *strTempPinyin = [arrTempPinyin objectAtIndex:j];
+        CGFloat onePinyinWidth = [strTempPinyin sizeWithFont:[UIFont fontWithName:kFontName size:actFontSize]].width;
+        
         CGRect pinyinRect  = CGRectMake(pinyinOriginX + (onePinyinWidth+2)*j, pinyinOriginY, onePinyinWidth, pinyinAreaHeight);
         NSValue *pinyinValue = [NSValue valueWithCGRect:pinyinRect];
         
