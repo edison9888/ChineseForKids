@@ -217,7 +217,6 @@
     SentenceModel *senModel = (SentenceModel *)[arrKnowledges objectAtIndex:row];
     cell.textLabel.text = senModel.sentence;
     
-    
     return cell;
 }
 

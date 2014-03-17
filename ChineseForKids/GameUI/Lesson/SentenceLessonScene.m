@@ -222,30 +222,6 @@ const int towerOffset = 151;
     lblDropValue.anchorPoint = ccp(0, 0.5);
     lblDropValue.position = ccpAdd(spDropPlank.position, ccp(-spDropPlank.contentSize.width/2.5, 0));
     [self addChild:lblDropValue z:10];
-    
-    /*
-    // 当前得分
-    lblScTitle = [CCLabelTTF labelWithString:@"Score" fontName:kFontNameChil fontSize:kPinyinFontSize*0.8f dimensions:CGSizeMake(kScoreLabel_Width, kScoreLabel_Height - 5) hAlignment:kCCTextAlignmentRight];
-    lblScTitle.position = ccp(self.boundingBox.size.width - kScoreLabel_Width*0.5f, self.boundingBox.size.height - lblScTitle.boundingBox.size.height*0.5f);
-    lblScTitle.color = ccc3(255.0f, 255.0f, 255.0f);
-    [self addChild:lblScTitle z:kRightrTree_z+1];
-    
-    lblScore = [CCLabelTTF labelWithString:@"0" fontName:kFontNameBold fontSize:kPinyinFontSize dimensions:CGSizeMake(kScoreLabel_Width, kScoreLabel_Height) hAlignment:kCCTextAlignmentRight];
-    lblScore.position = ccp(self.boundingBox.size.width - kScoreLabel_Width*0.5f, lblScTitle.position.y-lblScTitle.boundingBox.size.height*0.5f-lblScore.boundingBox.size.height*0.5f);
-    lblScore.color = ccc3(255.0f, 255.0f, 255.0f);
-    [self addChild:lblScore z:kRightrTree_z+1];
-    
-    // 历史最高分
-    lblHScTitle = [CCLabelTTF labelWithString:@"HighScore" fontName:kFontNameChil fontSize:kPinyinFontSize*0.8f dimensions:CGSizeMake(kScoreLabel_Width, kScoreLabel_Height - 5) hAlignment:kCCTextAlignmentRight];
-    lblHScTitle.position = ccp(self.boundingBox.size.width - kScoreLabel_Width*0.5f, lblScore.position.y-lblScore.boundingBox.size.height*0.5f-lblHScTitle.boundingBox.size.height*0.5f);
-    lblHScTitle.color = ccc3(255.0f, 255.0f, 255.0f);
-    [self addChild:lblHScTitle z:kRightrTree_z+1];
-    
-    lblHScore = [CCLabelTTF labelWithString:@"0" fontName:kFontNameBold fontSize:kPinyinFontSize dimensions:CGSizeMake(kScoreLabel_Width, kScoreLabel_Height) hAlignment:kCCTextAlignmentRight];
-    lblHScore.position = ccp(self.boundingBox.size.width - kScoreLabel_Width*0.5f, lblHScTitle.position.y-lblHScTitle.boundingBox.size.height*0.5f-lblHScore.boundingBox.size.height*0.5f);
-    lblHScore.color = ccc3(255.0f, 255.0f, 255.0f);
-    [self addChild:lblHScore z:kRightrTree_z+1];
-     */
 }
 
 #pragma mark - 开启网络更新本课的数据
