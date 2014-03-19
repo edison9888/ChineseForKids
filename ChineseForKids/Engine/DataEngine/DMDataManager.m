@@ -576,7 +576,8 @@ static DMDataManager *dataManager = nil;
     NSManagedObjectContext *localContext = [NSManagedObjectContext contextForCurrentThread];
     
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"humanID == %@", [NSNumber numberWithInteger:humanID]];
-    NSArray *arrData = [GroupModel findAllWithPredicate:predicate inContext:localContext];
+    //NSArray *arrData = [GroupModel findAllWithPredicate:predicate inContext:localContext];
+    NSArray *arrData = [GroupModel findAllSortedBy:@"groupID" ascending:NO withPredicate:predicate inContext:localContext];
     return arrData;
 }
 

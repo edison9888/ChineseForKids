@@ -9,6 +9,7 @@
 #import "LoadingScene.h"
 #import "GlobalDataHelper.h"
 #import "CommonHelper.h"
+#import "FileHelper.h"
 #import "PreLoadDataManager.h"
 #import "SimpleAudioEngine.h"
 #import "SceneManager.h"

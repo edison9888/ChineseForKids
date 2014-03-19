@@ -4,55 +4,120 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>monkeyJump/0026</key>
+            <key>monkeyJump19.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{886,286}}</string>
+                <string>{{300,1740},{498,302}}</string>
+                <key>offset</key>
+                <string>{208,-131}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{484,280},{498,302}}</string>
+                <key>sourceSize</key>
+                <string>{1050,600}</string>
+            </dict>
+            <key>monkeyJump20.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{300,1740},{498,302}}</string>
+                <key>offset</key>
+                <string>{208,-131}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{484,280},{498,302}}</string>
+                <key>sourceSize</key>
+                <string>{1050,600}</string>
+            </dict>
+            <key>monkeyJump21.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,1158},{768,296}}</string>
+                <key>offset</key>
+                <string>{56,-133}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{197,285},{768,296}}</string>
+                <key>sourceSize</key>
+                <string>{1050,600}</string>
+            </dict>
+            <key>monkeyJump22.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{300,1448},{624,290}}</string>
+                <key>offset</key>
+                <string>{128,-136}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{341,291},{624,290}}</string>
+                <key>sourceSize</key>
+                <string>{1050,600}</string>
+            </dict>
+            <key>monkeyJump23.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{300,1158},{702,288}}</string>
+                <key>offset</key>
+                <string>{88,-137}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{262,293},{702,288}}</string>
+                <key>sourceSize</key>
+                <string>{1050,600}</string>
+            </dict>
+            <key>monkeyJump24.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,866},{796,290}}</string>
+                <key>offset</key>
+                <string>{40,-136}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{167,291},{796,290}}</string>
+                <key>sourceSize</key>
+                <string>{1050,600}</string>
+            </dict>
+            <key>monkeyJump25.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,290},{890,286}}</string>
+                <key>offset</key>
+                <string>{-7,-138}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{73,295},{890,286}}</string>
+                <key>sourceSize</key>
+                <string>{1050,600}</string>
+            </dict>
+            <key>monkeyJump26.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{890,286}}</string>
+                <key>offset</key>
+                <string>{-8,-139}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{72,296},{890,286}}</string>
+                <key>sourceSize</key>
+                <string>{1050,600}</string>
+            </dict>
+            <key>monkeyJump27.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,578},{886,286}}</string>
                 <key>offset</key>
                 <string>{-6,-138}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
                 <string>{{76,295},{886,286}}</string>
-                <key>sourceSize</key>
-                <string>{1050,600}</string>
-            </dict>
-            <key>monkeyJump/0034</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,290},{886,286}}</string>
-                <key>offset</key>
-                <string>{-6,-138}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{76,295},{886,286}}</string>
-                <key>sourceSize</key>
-                <string>{1050,600}</string>
-            </dict>
-            <key>monkeyJump/0035</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,868},{884,286}}</string>
-                <key>offset</key>
-                <string>{-4,-138}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{79,295},{884,286}}</string>
-                <key>sourceSize</key>
-                <string>{1050,600}</string>
-            </dict>
-            <key>monkeyJump/0038</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,578},{884,288}}</string>
-                <key>offset</key>
-                <string>{-2,-137}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{81,293},{884,288}}</string>
                 <key>sourceSize</key>
                 <string>{1050,600}</string>
             </dict>
@@ -64,9 +129,9 @@
             <key>realTextureFileName</key>
             <string>translateGameMonkeyJump3-ipadhd.pvr.ccz</string>
             <key>size</key>
-            <string>{890,1156}</string>
+            <string>{1004,2044}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:923d0001a10099f82114d65e634109a4:4/4$</string>
+            <string>$TexturePacker:SmartUpdate:147634d719a1274eebb010f312ff51af:1/1$</string>
             <key>textureFileName</key>
             <string>translateGameMonkeyJump3-ipadhd.pvr.ccz</string>
         </dict>

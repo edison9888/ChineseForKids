@@ -4,198 +4,120 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>monkeyJump/0002</key>
+            <key>monkeyJump10.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,300},{892,286}}</string>
+                <string>{{1402,2},{940,564}}</string>
                 <key>offset</key>
-                <string>{-7,-138}</string>
+                <string>{-35,-5}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
-                <string>{{72,295},{892,286}}</string>
+                <string>{{20,23},{940,564}}</string>
                 <key>sourceSize</key>
                 <string>{1050,600}</string>
             </dict>
-            <key>monkeyJump/0003</key>
+            <key>monkeyJump11.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{894,1164},{888,286}}</string>
+                <string>{{2,580},{940,574}}</string>
                 <key>offset</key>
-                <string>{-6,-138}</string>
+                <string>{-34,-5}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
-                <string>{{75,295},{888,286}}</string>
+                <string>{{21,18},{940,574}}</string>
                 <key>sourceSize</key>
                 <string>{1050,600}</string>
             </dict>
-            <key>monkeyJump/0018</key>
+            <key>monkeyJump12.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{894,1740},{498,302}}</string>
+                <string>{{2,2},{936,576}}</string>
                 <key>offset</key>
-                <string>{208,-131}</string>
+                <string>{-32,-5}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{484,280},{498,302}}</string>
+                <string>{{25,17},{936,576}}</string>
                 <key>sourceSize</key>
                 <string>{1050,600}</string>
             </dict>
-            <key>monkeyJump/0019</key>
+            <key>monkeyJump13.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{894,1740},{498,302}}</string>
+                <string>{{940,2},{1024,460}}</string>
                 <key>offset</key>
-                <string>{208,-131}</string>
+                <string>{11,-63}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
-                <string>{{484,280},{498,302}}</string>
+                <string>{{24,133},{1024,460}}</string>
                 <key>sourceSize</key>
                 <string>{1050,600}</string>
             </dict>
-            <key>monkeyJump/0021</key>
+            <key>monkeyJump14.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,1744},{624,290}}</string>
+                <string>{{578,1028},{1022,452}}</string>
                 <key>offset</key>
-                <string>{128,-136}</string>
+                <string>{12,-59}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{341,291},{624,290}}</string>
+                <string>{{26,133},{1022,452}}</string>
                 <key>sourceSize</key>
                 <string>{1050,600}</string>
             </dict>
-            <key>monkeyJump/0024</key>
+            <key>monkeyJump15.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,880},{890,286}}</string>
+                <string>{{1602,944},{948,424}}</string>
                 <key>offset</key>
-                <string>{-7,-138}</string>
+                <string>{29,-74}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
-                <string>{{73,295},{890,286}}</string>
+                <string>{{80,162},{948,424}}</string>
                 <key>sourceSize</key>
                 <string>{1050,600}</string>
             </dict>
-            <key>monkeyJump/0025</key>
+            <key>monkeyJump16.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,1168},{890,286}}</string>
+                <string>{{578,1482},{946,422}}</string>
                 <key>offset</key>
-                <string>{-8,-139}</string>
+                <string>{30,-72}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{72,296},{890,286}}</string>
+                <string>{{82,161},{946,422}}</string>
                 <key>sourceSize</key>
                 <string>{1050,600}</string>
             </dict>
-            <key>monkeyJump/0027</key>
+            <key>monkeyJump17.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{896,294},{882,286}}</string>
+                <string>{{2,1522},{444,378}}</string>
                 <key>offset</key>
-                <string>{-5,-138}</string>
+                <string>{251,-94}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{79,295},{882,286}}</string>
+                <string>{{554,205},{444,378}}</string>
                 <key>sourceSize</key>
                 <string>{1050,600}</string>
             </dict>
-            <key>monkeyJump/0028</key>
+            <key>monkeyJump18.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{892,296}}</string>
+                <string>{{2,1522},{444,378}}</string>
                 <key>offset</key>
-                <string>{-11,-133}</string>
+                <string>{251,-94}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{68,285},{892,296}}</string>
-                <key>sourceSize</key>
-                <string>{1050,600}</string>
-            </dict>
-            <key>monkeyJump/0029</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,588},{890,290}}</string>
-                <key>offset</key>
-                <string>{-10,-136}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{70,291},{890,290}}</string>
-                <key>sourceSize</key>
-                <string>{1050,600}</string>
-            </dict>
-            <key>monkeyJump/0030</key>
-            <dict>
-                <key>frame</key>
-                <string>{{896,582},{878,288}}</string>
-                <key>offset</key>
-                <string>{-4,-137}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{82,293},{878,288}}</string>
-                <key>sourceSize</key>
-                <string>{1050,600}</string>
-            </dict>
-            <key>monkeyJump/0031</key>
-            <dict>
-                <key>frame</key>
-                <string>{{896,2},{884,290}}</string>
-                <key>offset</key>
-                <string>{-6,-136}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{77,291},{884,290}}</string>
-                <key>sourceSize</key>
-                <string>{1050,600}</string>
-            </dict>
-            <key>monkeyJump/0032</key>
-            <dict>
-                <key>frame</key>
-                <string>{{894,1452},{888,286}}</string>
-                <key>offset</key>
-                <string>{-8,-138}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{73,295},{888,286}}</string>
-                <key>sourceSize</key>
-                <string>{1050,600}</string>
-            </dict>
-            <key>monkeyJump/0033</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,1456},{890,286}}</string>
-                <key>offset</key>
-                <string>{-8,-139}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{72,296},{890,286}}</string>
-                <key>sourceSize</key>
-                <string>{1050,600}</string>
-            </dict>
-            <key>monkeyJump/0039</key>
-            <dict>
-                <key>frame</key>
-                <string>{{894,872},{888,290}}</string>
-                <key>offset</key>
-                <string>{-4,-136}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{77,291},{888,290}}</string>
+                <string>{{554,205},{444,378}}</string>
                 <key>sourceSize</key>
                 <string>{1050,600}</string>
             </dict>
@@ -207,9 +129,9 @@
             <key>realTextureFileName</key>
             <string>translateGameMonkeyJump2-ipadhd.pvr.ccz</string>
             <key>size</key>
-            <string>{1784,2044}</string>
+            <string>{2028,1906}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:923d0001a10099f82114d65e634109a4:3/4$</string>
+            <string>$TexturePacker:SmartUpdate:adcc981999ef085286e29bf67c396211:1/1$</string>
             <key>textureFileName</key>
             <string>translateGameMonkeyJump2-ipadhd.pvr.ccz</string>
         </dict>

@@ -7,28 +7,28 @@
             <key>treesAndRoad1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{736,2},{2048,732}}</string>
+                <string>{{2,2},{2048,748}}</string>
                 <key>offset</key>
-                <string>{0,0}</string>
+                <string>{0,-394}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{2048,732}}</string>
+                <string>{{0,788},{2048,748}}</string>
                 <key>sourceSize</key>
-                <string>{2048,732}</string>
+                <string>{2048,1536}</string>
             </dict>
             <key>treesAndRoad2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{2048,732}}</string>
+                <string>{{752,2},{2048,734}}</string>
                 <key>offset</key>
-                <string>{0,0}</string>
+                <string>{0,-401}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{2048,732}}</string>
+                <string>{{0,802},{2048,734}}</string>
                 <key>sourceSize</key>
-                <string>{2048,732}</string>
+                <string>{2048,1536}</string>
             </dict>
         </dict>
         <key>metadata</key>
@@ -38,9 +38,9 @@
             <key>realTextureFileName</key>
             <string>translateGameTreesAndRoad-ipadhd.pvr.ccz</string>
             <key>size</key>
-            <string>{1470,2052}</string>
+            <string>{1488,2052}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:846ecbee7b62f0ce67f0d788739eacc5:1/1$</string>
+            <string>$TexturePacker:SmartUpdate:522057c346b5f1eadb36fbffccfa3624:1/1$</string>
             <key>textureFileName</key>
             <string>translateGameTreesAndRoad-ipadhd.pvr.ccz</string>
         </dict>

@@ -254,18 +254,6 @@
 		2F20317D18B4503C00C913CD /* wordGameLessonKeepRight-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F20317218B4503C00C913CD /* wordGameLessonKeepRight-ipadhd.pvr.ccz */; };
 		2F20317E18B4503C00C913CD /* wordGameLessonKeepRight-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F20317318B4503C00C913CD /* wordGameLessonKeepRight-ipadhd.plist */; };
 		2F20317F18B4503C00C913CD /* wordGameLessonKeepRight-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F20317318B4503C00C913CD /* wordGameLessonKeepRight-ipadhd.plist */; };
-		2F20318618B4591F00C913CD /* translateGameTreesAndRoad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F20318018B4591F00C913CD /* translateGameTreesAndRoad.pvr.ccz */; };
-		2F20318718B4591F00C913CD /* translateGameTreesAndRoad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F20318018B4591F00C913CD /* translateGameTreesAndRoad.pvr.ccz */; };
-		2F20318818B4591F00C913CD /* translateGameTreesAndRoad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F20318118B4591F00C913CD /* translateGameTreesAndRoad.plist */; };
-		2F20318918B4591F00C913CD /* translateGameTreesAndRoad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F20318118B4591F00C913CD /* translateGameTreesAndRoad.plist */; };
-		2F20318A18B4591F00C913CD /* translateGameTreesAndRoad-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F20318218B4591F00C913CD /* translateGameTreesAndRoad-hd.plist */; };
-		2F20318B18B4591F00C913CD /* translateGameTreesAndRoad-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F20318218B4591F00C913CD /* translateGameTreesAndRoad-hd.plist */; };
-		2F20318C18B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F20318318B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.plist */; };
-		2F20318D18B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F20318318B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.plist */; };
-		2F20318E18B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F20318418B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.pvr.ccz */; };
-		2F20318F18B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F20318418B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.pvr.ccz */; };
-		2F20319018B4591F00C913CD /* translateGameTreesAndRoad-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F20318518B4591F00C913CD /* translateGameTreesAndRoad-hd.pvr.ccz */; };
-		2F20319118B4591F00C913CD /* translateGameTreesAndRoad-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F20318518B4591F00C913CD /* translateGameTreesAndRoad-hd.pvr.ccz */; };
 		2F20319818B483E700C913CD /* typeScene_Tower.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F20319218B483E700C913CD /* typeScene_Tower.plist */; };
 		2F20319918B483E700C913CD /* typeScene_Tower.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F20319218B483E700C913CD /* typeScene_Tower.plist */; };
 		2F20319A18B483E700C913CD /* typeScene_Tower-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F20319318B483E700C913CD /* typeScene_Tower-ipadhd.pvr.ccz */; };
@@ -343,6 +331,128 @@
 		2F67CC5A187EA9FD002F88BD /* LoadingSentenceBkg-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F67CC54187EA9FD002F88BD /* LoadingSentenceBkg-ipadhd.pvr.ccz */; };
 		2F67CC5B187EA9FD002F88BD /* LoadingSentenceBkg-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F67CC55187EA9FD002F88BD /* LoadingSentenceBkg-hd.plist */; };
 		2F67CC5C187EA9FD002F88BD /* LoadingSentenceBkg.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F67CC56187EA9FD002F88BD /* LoadingSentenceBkg.pvr.ccz */; };
+		2F686B8418D936B70071C7A1 /* translateGameMonkeyWrong1-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B7E18D936B70071C7A1 /* translateGameMonkeyWrong1-hd.plist */; };
+		2F686B8518D936B70071C7A1 /* translateGameMonkeyWrong1-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B7E18D936B70071C7A1 /* translateGameMonkeyWrong1-hd.plist */; };
+		2F686B8618D936B70071C7A1 /* translateGameMonkeyWrong1-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B7F18D936B70071C7A1 /* translateGameMonkeyWrong1-hd.pvr.ccz */; };
+		2F686B8718D936B70071C7A1 /* translateGameMonkeyWrong1-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B7F18D936B70071C7A1 /* translateGameMonkeyWrong1-hd.pvr.ccz */; };
+		2F686B8818D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B8018D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.plist */; };
+		2F686B8918D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B8018D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.plist */; };
+		2F686B8A18D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B8118D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz */; };
+		2F686B8B18D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B8118D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz */; };
+		2F686B8C18D936B70071C7A1 /* translateGameMonkeyWrong1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B8218D936B70071C7A1 /* translateGameMonkeyWrong1.plist */; };
+		2F686B8D18D936B70071C7A1 /* translateGameMonkeyWrong1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B8218D936B70071C7A1 /* translateGameMonkeyWrong1.plist */; };
+		2F686B8E18D936B70071C7A1 /* translateGameMonkeyWrong1.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B8318D936B70071C7A1 /* translateGameMonkeyWrong1.pvr.ccz */; };
+		2F686B8F18D936B70071C7A1 /* translateGameMonkeyWrong1.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B8318D936B70071C7A1 /* translateGameMonkeyWrong1.pvr.ccz */; };
+		2F686B9618D937E40071C7A1 /* translateGameMonkeyWrong2.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B9018D937E40071C7A1 /* translateGameMonkeyWrong2.pvr.ccz */; };
+		2F686B9718D937E40071C7A1 /* translateGameMonkeyWrong2.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B9018D937E40071C7A1 /* translateGameMonkeyWrong2.pvr.ccz */; };
+		2F686B9818D937E40071C7A1 /* translateGameMonkeyWrong2-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B9118D937E40071C7A1 /* translateGameMonkeyWrong2-hd.pvr.ccz */; };
+		2F686B9918D937E40071C7A1 /* translateGameMonkeyWrong2-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B9118D937E40071C7A1 /* translateGameMonkeyWrong2-hd.pvr.ccz */; };
+		2F686B9A18D937E40071C7A1 /* translateGameMonkeyWrong2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B9218D937E40071C7A1 /* translateGameMonkeyWrong2.plist */; };
+		2F686B9B18D937E40071C7A1 /* translateGameMonkeyWrong2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B9218D937E40071C7A1 /* translateGameMonkeyWrong2.plist */; };
+		2F686B9C18D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B9318D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz */; };
+		2F686B9D18D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B9318D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz */; };
+		2F686B9E18D937E40071C7A1 /* translateGameMonkeyWrong2-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B9418D937E40071C7A1 /* translateGameMonkeyWrong2-hd.plist */; };
+		2F686B9F18D937E40071C7A1 /* translateGameMonkeyWrong2-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B9418D937E40071C7A1 /* translateGameMonkeyWrong2-hd.plist */; };
+		2F686BA018D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B9518D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.plist */; };
+		2F686BA118D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686B9518D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.plist */; };
+		2F686BA818D938B20071C7A1 /* translateGameMonkeyWrong3-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BA218D938B20071C7A1 /* translateGameMonkeyWrong3-hd.plist */; };
+		2F686BA918D938B20071C7A1 /* translateGameMonkeyWrong3-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BA218D938B20071C7A1 /* translateGameMonkeyWrong3-hd.plist */; };
+		2F686BAA18D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BA318D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz */; };
+		2F686BAB18D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BA318D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz */; };
+		2F686BAC18D938B20071C7A1 /* translateGameMonkeyWrong3-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BA418D938B20071C7A1 /* translateGameMonkeyWrong3-hd.pvr.ccz */; };
+		2F686BAD18D938B20071C7A1 /* translateGameMonkeyWrong3-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BA418D938B20071C7A1 /* translateGameMonkeyWrong3-hd.pvr.ccz */; };
+		2F686BAE18D938B20071C7A1 /* translateGameMonkeyWrong3.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BA518D938B20071C7A1 /* translateGameMonkeyWrong3.pvr.ccz */; };
+		2F686BAF18D938B20071C7A1 /* translateGameMonkeyWrong3.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BA518D938B20071C7A1 /* translateGameMonkeyWrong3.pvr.ccz */; };
+		2F686BB018D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BA618D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.plist */; };
+		2F686BB118D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BA618D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.plist */; };
+		2F686BB218D938B20071C7A1 /* translateGameMonkeyWrong3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BA718D938B20071C7A1 /* translateGameMonkeyWrong3.plist */; };
+		2F686BB318D938B20071C7A1 /* translateGameMonkeyWrong3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BA718D938B20071C7A1 /* translateGameMonkeyWrong3.plist */; };
+		2F686BBA18D939620071C7A1 /* translateGameMonkeyWrong4-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BB418D939620071C7A1 /* translateGameMonkeyWrong4-hd.plist */; };
+		2F686BBB18D939620071C7A1 /* translateGameMonkeyWrong4-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BB418D939620071C7A1 /* translateGameMonkeyWrong4-hd.plist */; };
+		2F686BBC18D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BB518D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.pvr.ccz */; };
+		2F686BBD18D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BB518D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.pvr.ccz */; };
+		2F686BBE18D939620071C7A1 /* translateGameMonkeyWrong4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BB618D939620071C7A1 /* translateGameMonkeyWrong4.plist */; };
+		2F686BBF18D939620071C7A1 /* translateGameMonkeyWrong4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BB618D939620071C7A1 /* translateGameMonkeyWrong4.plist */; };
+		2F686BC018D939620071C7A1 /* translateGameMonkeyWrong4-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BB718D939620071C7A1 /* translateGameMonkeyWrong4-hd.pvr.ccz */; };
+		2F686BC118D939620071C7A1 /* translateGameMonkeyWrong4-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BB718D939620071C7A1 /* translateGameMonkeyWrong4-hd.pvr.ccz */; };
+		2F686BC218D939620071C7A1 /* translateGameMonkeyWrong4.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BB818D939620071C7A1 /* translateGameMonkeyWrong4.pvr.ccz */; };
+		2F686BC318D939620071C7A1 /* translateGameMonkeyWrong4.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BB818D939620071C7A1 /* translateGameMonkeyWrong4.pvr.ccz */; };
+		2F686BC418D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BB918D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.plist */; };
+		2F686BC518D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BB918D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.plist */; };
+		2F686BCC18D93D580071C7A1 /* translateGameMonkeyJump1.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BC618D93D580071C7A1 /* translateGameMonkeyJump1.pvr.ccz */; };
+		2F686BCD18D93D580071C7A1 /* translateGameMonkeyJump1.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BC618D93D580071C7A1 /* translateGameMonkeyJump1.pvr.ccz */; };
+		2F686BCE18D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BC718D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz */; };
+		2F686BCF18D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BC718D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz */; };
+		2F686BD018D93D580071C7A1 /* translateGameMonkeyJump1-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BC818D93D580071C7A1 /* translateGameMonkeyJump1-hd.plist */; };
+		2F686BD118D93D580071C7A1 /* translateGameMonkeyJump1-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BC818D93D580071C7A1 /* translateGameMonkeyJump1-hd.plist */; };
+		2F686BD218D93D580071C7A1 /* translateGameMonkeyJump1-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BC918D93D580071C7A1 /* translateGameMonkeyJump1-hd.pvr.ccz */; };
+		2F686BD318D93D580071C7A1 /* translateGameMonkeyJump1-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BC918D93D580071C7A1 /* translateGameMonkeyJump1-hd.pvr.ccz */; };
+		2F686BD418D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BCA18D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.plist */; };
+		2F686BD518D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BCA18D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.plist */; };
+		2F686BD618D93D580071C7A1 /* translateGameMonkeyJump1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BCB18D93D580071C7A1 /* translateGameMonkeyJump1.plist */; };
+		2F686BD718D93D580071C7A1 /* translateGameMonkeyJump1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BCB18D93D580071C7A1 /* translateGameMonkeyJump1.plist */; };
+		2F686BDE18D93E490071C7A1 /* translateGameMonkeyJump2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BD818D93E490071C7A1 /* translateGameMonkeyJump2.plist */; };
+		2F686BDF18D93E490071C7A1 /* translateGameMonkeyJump2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BD818D93E490071C7A1 /* translateGameMonkeyJump2.plist */; };
+		2F686BE018D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BD918D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.plist */; };
+		2F686BE118D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BD918D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.plist */; };
+		2F686BE218D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BDA18D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz */; };
+		2F686BE318D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BDA18D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz */; };
+		2F686BE418D93E490071C7A1 /* translateGameMonkeyJump2-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BDB18D93E490071C7A1 /* translateGameMonkeyJump2-hd.plist */; };
+		2F686BE518D93E490071C7A1 /* translateGameMonkeyJump2-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BDB18D93E490071C7A1 /* translateGameMonkeyJump2-hd.plist */; };
+		2F686BE618D93E490071C7A1 /* translateGameMonkeyJump2-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BDC18D93E490071C7A1 /* translateGameMonkeyJump2-hd.pvr.ccz */; };
+		2F686BE718D93E490071C7A1 /* translateGameMonkeyJump2-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BDC18D93E490071C7A1 /* translateGameMonkeyJump2-hd.pvr.ccz */; };
+		2F686BE818D93E490071C7A1 /* translateGameMonkeyJump2.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BDD18D93E490071C7A1 /* translateGameMonkeyJump2.pvr.ccz */; };
+		2F686BE918D93E490071C7A1 /* translateGameMonkeyJump2.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BDD18D93E490071C7A1 /* translateGameMonkeyJump2.pvr.ccz */; };
+		2F686BF018D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BEA18D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.plist */; };
+		2F686BF118D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BEA18D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.plist */; };
+		2F686BF218D93EDE0071C7A1 /* translateGameMonkeyJump3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BEB18D93EDE0071C7A1 /* translateGameMonkeyJump3.plist */; };
+		2F686BF318D93EDE0071C7A1 /* translateGameMonkeyJump3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BEB18D93EDE0071C7A1 /* translateGameMonkeyJump3.plist */; };
+		2F686BF418D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BEC18D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.plist */; };
+		2F686BF518D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BEC18D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.plist */; };
+		2F686BF618D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BED18D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz */; };
+		2F686BF718D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BED18D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz */; };
+		2F686BF818D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BEE18D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.pvr.ccz */; };
+		2F686BF918D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BEE18D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.pvr.ccz */; };
+		2F686BFA18D93EDE0071C7A1 /* translateGameMonkeyJump3.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BEF18D93EDE0071C7A1 /* translateGameMonkeyJump3.pvr.ccz */; };
+		2F686BFB18D93EDE0071C7A1 /* translateGameMonkeyJump3.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BEF18D93EDE0071C7A1 /* translateGameMonkeyJump3.pvr.ccz */; };
+		2F686C0218D93F590071C7A1 /* translateGameMonkeyJump4-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BFC18D93F590071C7A1 /* translateGameMonkeyJump4-hd.plist */; };
+		2F686C0318D93F590071C7A1 /* translateGameMonkeyJump4-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BFC18D93F590071C7A1 /* translateGameMonkeyJump4-hd.plist */; };
+		2F686C0418D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BFD18D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.plist */; };
+		2F686C0518D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BFD18D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.plist */; };
+		2F686C0618D93F590071C7A1 /* translateGameMonkeyJump4-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BFE18D93F590071C7A1 /* translateGameMonkeyJump4-hd.pvr.ccz */; };
+		2F686C0718D93F590071C7A1 /* translateGameMonkeyJump4-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BFE18D93F590071C7A1 /* translateGameMonkeyJump4-hd.pvr.ccz */; };
+		2F686C0818D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BFF18D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.pvr.ccz */; };
+		2F686C0918D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686BFF18D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.pvr.ccz */; };
+		2F686C0A18D93F590071C7A1 /* translateGameMonkeyJump4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C0018D93F590071C7A1 /* translateGameMonkeyJump4.plist */; };
+		2F686C0B18D93F590071C7A1 /* translateGameMonkeyJump4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C0018D93F590071C7A1 /* translateGameMonkeyJump4.plist */; };
+		2F686C0C18D93F590071C7A1 /* translateGameMonkeyJump4.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C0118D93F590071C7A1 /* translateGameMonkeyJump4.pvr.ccz */; };
+		2F686C0D18D93F590071C7A1 /* translateGameMonkeyJump4.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C0118D93F590071C7A1 /* translateGameMonkeyJump4.pvr.ccz */; };
+		2F686C1418D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C0E18D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.plist */; };
+		2F686C1518D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C0E18D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.plist */; };
+		2F686C1618D93FD60071C7A1 /* translateGameMonkeyJump5-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C0F18D93FD60071C7A1 /* translateGameMonkeyJump5-hd.plist */; };
+		2F686C1718D93FD60071C7A1 /* translateGameMonkeyJump5-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C0F18D93FD60071C7A1 /* translateGameMonkeyJump5-hd.plist */; };
+		2F686C1818D93FD60071C7A1 /* translateGameMonkeyJump5.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C1018D93FD60071C7A1 /* translateGameMonkeyJump5.pvr.ccz */; };
+		2F686C1918D93FD60071C7A1 /* translateGameMonkeyJump5.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C1018D93FD60071C7A1 /* translateGameMonkeyJump5.pvr.ccz */; };
+		2F686C1A18D93FD60071C7A1 /* translateGameMonkeyJump5-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C1118D93FD60071C7A1 /* translateGameMonkeyJump5-hd.pvr.ccz */; };
+		2F686C1B18D93FD60071C7A1 /* translateGameMonkeyJump5-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C1118D93FD60071C7A1 /* translateGameMonkeyJump5-hd.pvr.ccz */; };
+		2F686C1C18D93FD60071C7A1 /* translateGameMonkeyJump5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C1218D93FD60071C7A1 /* translateGameMonkeyJump5.plist */; };
+		2F686C1D18D93FD60071C7A1 /* translateGameMonkeyJump5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C1218D93FD60071C7A1 /* translateGameMonkeyJump5.plist */; };
+		2F686C1E18D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C1318D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.pvr.ccz */; };
+		2F686C1F18D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C1318D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.pvr.ccz */; };
+		2F686C2218D97CED0071C7A1 /* HSTKnowledgeCustomHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F686C2118D97CED0071C7A1 /* HSTKnowledgeCustomHeaderView.m */; };
+		2F686C2318D97CED0071C7A1 /* HSTKnowledgeCustomHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F686C2118D97CED0071C7A1 /* HSTKnowledgeCustomHeaderView.m */; };
+		2F686C2B18D9A2890071C7A1 /* translateGameTreesAndRoad-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C2518D9A2890071C7A1 /* translateGameTreesAndRoad-hd.plist */; };
+		2F686C2C18D9A2890071C7A1 /* translateGameTreesAndRoad-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C2518D9A2890071C7A1 /* translateGameTreesAndRoad-hd.plist */; };
+		2F686C2D18D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C2618D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.plist */; };
+		2F686C2E18D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C2618D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.plist */; };
+		2F686C2F18D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C2718D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.pvr.ccz */; };
+		2F686C3018D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C2718D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.pvr.ccz */; };
+		2F686C3118D9A2890071C7A1 /* translateGameTreesAndRoad-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C2818D9A2890071C7A1 /* translateGameTreesAndRoad-hd.pvr.ccz */; };
+		2F686C3218D9A2890071C7A1 /* translateGameTreesAndRoad-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C2818D9A2890071C7A1 /* translateGameTreesAndRoad-hd.pvr.ccz */; };
+		2F686C3318D9A2890071C7A1 /* translateGameTreesAndRoad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C2918D9A2890071C7A1 /* translateGameTreesAndRoad.pvr.ccz */; };
+		2F686C3418D9A2890071C7A1 /* translateGameTreesAndRoad.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C2918D9A2890071C7A1 /* translateGameTreesAndRoad.pvr.ccz */; };
+		2F686C3518D9A2890071C7A1 /* translateGameTreesAndRoad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C2A18D9A2890071C7A1 /* translateGameTreesAndRoad.plist */; };
+		2F686C3618D9A2890071C7A1 /* translateGameTreesAndRoad.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F686C2A18D9A2890071C7A1 /* translateGameTreesAndRoad.plist */; };
 		2F7031F718923D3200226022 /* CrashLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7031F618923D3200226022 /* CrashLogHelper.m */; };
 		2F7031F818923D3200226022 /* CrashLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7031F618923D3200226022 /* CrashLogHelper.m */; };
 		2F7032071894EF4300226022 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F7031FD1894EF4300226022 /* ioapi.c */; };
@@ -1371,90 +1481,6 @@
 		2FCAD934185B117400306F6C /* cool.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FCAD931185B117400306F6C /* cool.mp3 */; };
 		2FCAD935185B117400306F6C /* excellent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FCAD932185B117400306F6C /* excellent.mp3 */; };
 		2FCAD936185B117400306F6C /* good.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FCAD933185B117400306F6C /* good.mp3 */; };
-		2FD2BBC118C705130029FFD1 /* translateGameMonkeyJump0-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBB518C705130029FFD1 /* translateGameMonkeyJump0-hd.plist */; };
-		2FD2BBC218C705130029FFD1 /* translateGameMonkeyJump0-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBB518C705130029FFD1 /* translateGameMonkeyJump0-hd.plist */; };
-		2FD2BBC318C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBB618C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.plist */; };
-		2FD2BBC418C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBB618C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.plist */; };
-		2FD2BBC518C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBB718C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz */; };
-		2FD2BBC618C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBB718C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz */; };
-		2FD2BBC718C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBB818C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.pvr.ccz */; };
-		2FD2BBC818C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBB818C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.pvr.ccz */; };
-		2FD2BBC918C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBB918C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz */; };
-		2FD2BBCA18C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBB918C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz */; };
-		2FD2BBCB18C705130029FFD1 /* translateGameMonkeyJump0-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBBA18C705130029FFD1 /* translateGameMonkeyJump0-hd.pvr.ccz */; };
-		2FD2BBCC18C705130029FFD1 /* translateGameMonkeyJump0-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBBA18C705130029FFD1 /* translateGameMonkeyJump0-hd.pvr.ccz */; };
-		2FD2BBCD18C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBBB18C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.plist */; };
-		2FD2BBCE18C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBBB18C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.plist */; };
-		2FD2BBCF18C705130029FFD1 /* translateGameMonkeyJump0.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBBC18C705130029FFD1 /* translateGameMonkeyJump0.pvr.ccz */; };
-		2FD2BBD018C705130029FFD1 /* translateGameMonkeyJump0.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBBC18C705130029FFD1 /* translateGameMonkeyJump0.pvr.ccz */; };
-		2FD2BBD118C705130029FFD1 /* translateGameMonkeyJump0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBBD18C705130029FFD1 /* translateGameMonkeyJump0.plist */; };
-		2FD2BBD218C705130029FFD1 /* translateGameMonkeyJump0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBBD18C705130029FFD1 /* translateGameMonkeyJump0.plist */; };
-		2FD2BBD318C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBBE18C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz */; };
-		2FD2BBD418C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBBE18C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz */; };
-		2FD2BBD518C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBBF18C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.plist */; };
-		2FD2BBD618C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBBF18C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.plist */; };
-		2FD2BBD718C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBC018C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.plist */; };
-		2FD2BBD818C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBC018C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.plist */; };
-		2FD2BBE518C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBD918C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.plist */; };
-		2FD2BBE618C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBD918C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.plist */; };
-		2FD2BBE718C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBDA18C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz */; };
-		2FD2BBE818C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBDA18C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz */; };
-		2FD2BBE918C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBDB18C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz */; };
-		2FD2BBEA18C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBDB18C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz */; };
-		2FD2BBEB18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBDC18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz */; };
-		2FD2BBEC18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBDC18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz */; };
-		2FD2BBED18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBDD18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.plist */; };
-		2FD2BBEE18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBDD18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.plist */; };
-		2FD2BBEF18C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBDE18C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.pvr.ccz */; };
-		2FD2BBF018C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBDE18C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.pvr.ccz */; };
-		2FD2BBF118C7096E0029FFD1 /* translateGameMonkeyWrong0.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBDF18C7096E0029FFD1 /* translateGameMonkeyWrong0.pvr.ccz */; };
-		2FD2BBF218C7096E0029FFD1 /* translateGameMonkeyWrong0.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBDF18C7096E0029FFD1 /* translateGameMonkeyWrong0.pvr.ccz */; };
-		2FD2BBF318C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBE018C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.plist */; };
-		2FD2BBF418C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBE018C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.plist */; };
-		2FD2BBF518C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBE118C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.pvr.ccz */; };
-		2FD2BBF618C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBE118C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.pvr.ccz */; };
-		2FD2BBF718C7096E0029FFD1 /* translateGameMonkeyWrong0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBE218C7096E0029FFD1 /* translateGameMonkeyWrong0.plist */; };
-		2FD2BBF818C7096E0029FFD1 /* translateGameMonkeyWrong0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBE218C7096E0029FFD1 /* translateGameMonkeyWrong0.plist */; };
-		2FD2BBF918C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBE318C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.plist */; };
-		2FD2BBFA18C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBE318C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.plist */; };
-		2FD2BBFB18C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBE418C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.plist */; };
-		2FD2BBFC18C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BBE418C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.plist */; };
-		2FD2BC4518C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3318C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.plist */; };
-		2FD2BC4618C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3318C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.plist */; };
-		2FD2BC4718C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3418C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.plist */; };
-		2FD2BC4818C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3418C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.plist */; };
-		2FD2BC4918C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3518C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.pvr.ccz */; };
-		2FD2BC4A18C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3518C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.pvr.ccz */; };
-		2FD2BC4B18C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3618C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.pvr.ccz */; };
-		2FD2BC4C18C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3618C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.pvr.ccz */; };
-		2FD2BC4D18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3718C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.plist */; };
-		2FD2BC4E18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3718C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.plist */; };
-		2FD2BC4F18C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3818C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.plist */; };
-		2FD2BC5018C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3818C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.plist */; };
-		2FD2BC5118C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3918C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.pvr.ccz */; };
-		2FD2BC5218C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3918C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.pvr.ccz */; };
-		2FD2BC5318C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3A18C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.plist */; };
-		2FD2BC5418C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3A18C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.plist */; };
-		2FD2BC5518C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3B18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.pvr.ccz */; };
-		2FD2BC5618C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3B18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.pvr.ccz */; };
-		2FD2BC5718C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3C18C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.pvr.ccz */; };
-		2FD2BC5818C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3C18C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.pvr.ccz */; };
-		2FD2BC5918C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3D18C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.pvr.ccz */; };
-		2FD2BC5A18C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3D18C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.pvr.ccz */; };
-		2FD2BC5B18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3E18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.pvr.ccz */; };
-		2FD2BC5C18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3E18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.pvr.ccz */; };
-		2FD2BC5D18C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3F18C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.plist */; };
-		2FD2BC5E18C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC3F18C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.plist */; };
-		2FD2BC5F18C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC4018C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.plist */; };
-		2FD2BC6018C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC4018C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.plist */; };
-		2FD2BC6118C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC4118C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.plist */; };
-		2FD2BC6218C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC4118C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.plist */; };
-		2FD2BC6318C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC4218C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.pvr.ccz */; };
-		2FD2BC6418C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC4218C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.pvr.ccz */; };
-		2FD2BC6518C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC4318C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.pvr.ccz */; };
-		2FD2BC6618C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC4318C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.pvr.ccz */; };
-		2FD2BC6718C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC4418C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.plist */; };
-		2FD2BC6818C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC4418C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.plist */; };
 		2FD2BC7918C81B200029FFD1 /* transWrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC7818C81B200029FFD1 /* transWrong.wav */; };
 		2FD2BC7A18C81B200029FFD1 /* transWrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC7818C81B200029FFD1 /* transWrong.wav */; };
 		2FD2BC7C18C81B8D0029FFD1 /* workKeepRight.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FD2BC7B18C81B8D0029FFD1 /* workKeepRight.wav */; };
@@ -1912,12 +1938,6 @@
 		2F20317118B4503C00C913CD /* wordGameLessonKeepRight.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = wordGameLessonKeepRight.pvr.ccz; sourceTree = "<group>"; };
 		2F20317218B4503C00C913CD /* wordGameLessonKeepRight-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wordGameLessonKeepRight-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
 		2F20317318B4503C00C913CD /* wordGameLessonKeepRight-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wordGameLessonKeepRight-ipadhd.plist"; sourceTree = "<group>"; };
-		2F20318018B4591F00C913CD /* translateGameTreesAndRoad.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameTreesAndRoad.pvr.ccz; sourceTree = "<group>"; };
-		2F20318118B4591F00C913CD /* translateGameTreesAndRoad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameTreesAndRoad.plist; sourceTree = "<group>"; };
-		2F20318218B4591F00C913CD /* translateGameTreesAndRoad-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameTreesAndRoad-hd.plist"; sourceTree = "<group>"; };
-		2F20318318B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameTreesAndRoad-ipadhd.plist"; sourceTree = "<group>"; };
-		2F20318418B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameTreesAndRoad-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2F20318518B4591F00C913CD /* translateGameTreesAndRoad-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameTreesAndRoad-hd.pvr.ccz"; sourceTree = "<group>"; };
 		2F20319218B483E700C913CD /* typeScene_Tower.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = typeScene_Tower.plist; sourceTree = "<group>"; };
 		2F20319318B483E700C913CD /* typeScene_Tower-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "typeScene_Tower-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
 		2F20319418B483E700C913CD /* typeScene_Tower.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = typeScene_Tower.pvr.ccz; sourceTree = "<group>"; };
@@ -1996,6 +2016,68 @@
 		2F67CC54187EA9FD002F88BD /* LoadingSentenceBkg-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LoadingSentenceBkg-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
 		2F67CC55187EA9FD002F88BD /* LoadingSentenceBkg-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LoadingSentenceBkg-hd.plist"; sourceTree = "<group>"; };
 		2F67CC56187EA9FD002F88BD /* LoadingSentenceBkg.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = LoadingSentenceBkg.pvr.ccz; sourceTree = "<group>"; };
+		2F686B7E18D936B70071C7A1 /* translateGameMonkeyWrong1-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyWrong1-hd.plist"; sourceTree = "<group>"; };
+		2F686B7F18D936B70071C7A1 /* translateGameMonkeyWrong1-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyWrong1-hd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686B8018D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyWrong1-ipadhd.plist"; sourceTree = "<group>"; };
+		2F686B8118D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyWrong1-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686B8218D936B70071C7A1 /* translateGameMonkeyWrong1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameMonkeyWrong1.plist; sourceTree = "<group>"; };
+		2F686B8318D936B70071C7A1 /* translateGameMonkeyWrong1.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameMonkeyWrong1.pvr.ccz; sourceTree = "<group>"; };
+		2F686B9018D937E40071C7A1 /* translateGameMonkeyWrong2.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameMonkeyWrong2.pvr.ccz; sourceTree = "<group>"; };
+		2F686B9118D937E40071C7A1 /* translateGameMonkeyWrong2-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyWrong2-hd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686B9218D937E40071C7A1 /* translateGameMonkeyWrong2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameMonkeyWrong2.plist; sourceTree = "<group>"; };
+		2F686B9318D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyWrong2-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686B9418D937E40071C7A1 /* translateGameMonkeyWrong2-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyWrong2-hd.plist"; sourceTree = "<group>"; };
+		2F686B9518D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyWrong2-ipadhd.plist"; sourceTree = "<group>"; };
+		2F686BA218D938B20071C7A1 /* translateGameMonkeyWrong3-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyWrong3-hd.plist"; sourceTree = "<group>"; };
+		2F686BA318D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyWrong3-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686BA418D938B20071C7A1 /* translateGameMonkeyWrong3-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyWrong3-hd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686BA518D938B20071C7A1 /* translateGameMonkeyWrong3.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameMonkeyWrong3.pvr.ccz; sourceTree = "<group>"; };
+		2F686BA618D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyWrong3-ipadhd.plist"; sourceTree = "<group>"; };
+		2F686BA718D938B20071C7A1 /* translateGameMonkeyWrong3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameMonkeyWrong3.plist; sourceTree = "<group>"; };
+		2F686BB418D939620071C7A1 /* translateGameMonkeyWrong4-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyWrong4-hd.plist"; sourceTree = "<group>"; };
+		2F686BB518D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyWrong4-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686BB618D939620071C7A1 /* translateGameMonkeyWrong4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameMonkeyWrong4.plist; sourceTree = "<group>"; };
+		2F686BB718D939620071C7A1 /* translateGameMonkeyWrong4-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyWrong4-hd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686BB818D939620071C7A1 /* translateGameMonkeyWrong4.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameMonkeyWrong4.pvr.ccz; sourceTree = "<group>"; };
+		2F686BB918D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyWrong4-ipadhd.plist"; sourceTree = "<group>"; };
+		2F686BC618D93D580071C7A1 /* translateGameMonkeyJump1.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameMonkeyJump1.pvr.ccz; sourceTree = "<group>"; };
+		2F686BC718D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump1-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686BC818D93D580071C7A1 /* translateGameMonkeyJump1-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump1-hd.plist"; sourceTree = "<group>"; };
+		2F686BC918D93D580071C7A1 /* translateGameMonkeyJump1-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump1-hd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686BCA18D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump1-ipadhd.plist"; sourceTree = "<group>"; };
+		2F686BCB18D93D580071C7A1 /* translateGameMonkeyJump1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameMonkeyJump1.plist; sourceTree = "<group>"; };
+		2F686BD818D93E490071C7A1 /* translateGameMonkeyJump2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameMonkeyJump2.plist; sourceTree = "<group>"; };
+		2F686BD918D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump2-ipadhd.plist"; sourceTree = "<group>"; };
+		2F686BDA18D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump2-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686BDB18D93E490071C7A1 /* translateGameMonkeyJump2-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump2-hd.plist"; sourceTree = "<group>"; };
+		2F686BDC18D93E490071C7A1 /* translateGameMonkeyJump2-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump2-hd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686BDD18D93E490071C7A1 /* translateGameMonkeyJump2.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameMonkeyJump2.pvr.ccz; sourceTree = "<group>"; };
+		2F686BEA18D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump3-hd.plist"; sourceTree = "<group>"; };
+		2F686BEB18D93EDE0071C7A1 /* translateGameMonkeyJump3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameMonkeyJump3.plist; sourceTree = "<group>"; };
+		2F686BEC18D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump3-ipadhd.plist"; sourceTree = "<group>"; };
+		2F686BED18D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump3-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686BEE18D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump3-hd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686BEF18D93EDE0071C7A1 /* translateGameMonkeyJump3.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameMonkeyJump3.pvr.ccz; sourceTree = "<group>"; };
+		2F686BFC18D93F590071C7A1 /* translateGameMonkeyJump4-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump4-hd.plist"; sourceTree = "<group>"; };
+		2F686BFD18D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump4-ipadhd.plist"; sourceTree = "<group>"; };
+		2F686BFE18D93F590071C7A1 /* translateGameMonkeyJump4-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump4-hd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686BFF18D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump4-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686C0018D93F590071C7A1 /* translateGameMonkeyJump4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameMonkeyJump4.plist; sourceTree = "<group>"; };
+		2F686C0118D93F590071C7A1 /* translateGameMonkeyJump4.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameMonkeyJump4.pvr.ccz; sourceTree = "<group>"; };
+		2F686C0E18D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump5-ipadhd.plist"; sourceTree = "<group>"; };
+		2F686C0F18D93FD60071C7A1 /* translateGameMonkeyJump5-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump5-hd.plist"; sourceTree = "<group>"; };
+		2F686C1018D93FD60071C7A1 /* translateGameMonkeyJump5.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameMonkeyJump5.pvr.ccz; sourceTree = "<group>"; };
+		2F686C1118D93FD60071C7A1 /* translateGameMonkeyJump5-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump5-hd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686C1218D93FD60071C7A1 /* translateGameMonkeyJump5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameMonkeyJump5.plist; sourceTree = "<group>"; };
+		2F686C1318D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump5-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686C2018D97CED0071C7A1 /* HSTKnowledgeCustomHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSTKnowledgeCustomHeaderView.h; sourceTree = "<group>"; };
+		2F686C2118D97CED0071C7A1 /* HSTKnowledgeCustomHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSTKnowledgeCustomHeaderView.m; sourceTree = "<group>"; };
+		2F686C2518D9A2890071C7A1 /* translateGameTreesAndRoad-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameTreesAndRoad-hd.plist"; sourceTree = "<group>"; };
+		2F686C2618D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameTreesAndRoad-ipadhd.plist"; sourceTree = "<group>"; };
+		2F686C2718D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameTreesAndRoad-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686C2818D9A2890071C7A1 /* translateGameTreesAndRoad-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameTreesAndRoad-hd.pvr.ccz"; sourceTree = "<group>"; };
+		2F686C2918D9A2890071C7A1 /* translateGameTreesAndRoad.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameTreesAndRoad.pvr.ccz; sourceTree = "<group>"; };
+		2F686C2A18D9A2890071C7A1 /* translateGameTreesAndRoad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameTreesAndRoad.plist; sourceTree = "<group>"; };
 		2F7031F518923D3200226022 /* CrashLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashLogHelper.h; sourceTree = "<group>"; };
 		2F7031F618923D3200226022 /* CrashLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashLogHelper.m; sourceTree = "<group>"; };
 		2F7031FC1894EF4300226022 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
@@ -2396,48 +2478,6 @@
 		2FCAD931185B117400306F6C /* cool.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cool.mp3; sourceTree = "<group>"; };
 		2FCAD932185B117400306F6C /* excellent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = excellent.mp3; sourceTree = "<group>"; };
 		2FCAD933185B117400306F6C /* good.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = good.mp3; sourceTree = "<group>"; };
-		2FD2BBB518C705130029FFD1 /* translateGameMonkeyJump0-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump0-hd.plist"; sourceTree = "<group>"; };
-		2FD2BBB618C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump0-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BBB718C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump3-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BBB818C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump0-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BBB918C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump1-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BBBA18C705130029FFD1 /* translateGameMonkeyJump0-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump0-hd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BBBB18C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump1-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BBBC18C705130029FFD1 /* translateGameMonkeyJump0.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameMonkeyJump0.pvr.ccz; sourceTree = "<group>"; };
-		2FD2BBBD18C705130029FFD1 /* translateGameMonkeyJump0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameMonkeyJump0.plist; sourceTree = "<group>"; };
-		2FD2BBBE18C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyJump2-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BBBF18C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump3-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BBC018C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyJump2-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BBD918C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyWrong0-hd.plist"; sourceTree = "<group>"; };
-		2FD2BBDA18C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyWrong1-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BBDB18C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyWrong3-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BBDC18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyWrong2-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BBDD18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyWrong2-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BBDE18C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyWrong0-hd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BBDF18C7096E0029FFD1 /* translateGameMonkeyWrong0.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameMonkeyWrong0.pvr.ccz; sourceTree = "<group>"; };
-		2FD2BBE018C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyWrong0-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BBE118C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyWrong0-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BBE218C7096E0029FFD1 /* translateGameMonkeyWrong0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameMonkeyWrong0.plist; sourceTree = "<group>"; };
-		2FD2BBE318C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyWrong3-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BBE418C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyWrong1-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BC3318C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyKeepRight2-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BC3418C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyKeepRight0-hd.plist"; sourceTree = "<group>"; };
-		2FD2BC3518C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyKeepRight1-hd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BC3618C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyKeepRight2-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BC3718C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyKeepRight0-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BC3818C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyKeepRight1-hd.plist"; sourceTree = "<group>"; };
-		2FD2BC3918C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyKeepRight5-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BC3A18C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyKeepRight4-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BC3B18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyKeepRight0-hd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BC3C18C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyKeepRight1-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BC3D18C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyKeepRight4-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BC3E18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyKeepRight0-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BC3F18C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyKeepRight3-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BC4018C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyKeepRight5-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BC4118C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "translateGameMonkeyKeepRight1-ipadhd.plist"; sourceTree = "<group>"; };
-		2FD2BC4218C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "translateGameMonkeyKeepRight3-ipadhd.pvr.ccz"; sourceTree = "<group>"; };
-		2FD2BC4318C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = translateGameMonkeyKeepRight0.pvr.ccz; sourceTree = "<group>"; };
-		2FD2BC4418C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = translateGameMonkeyKeepRight0.plist; sourceTree = "<group>"; };
 		2FD2BC7818C81B200029FFD1 /* transWrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = transWrong.wav; sourceTree = "<group>"; };
 		2FD2BC7B18C81B8D0029FFD1 /* workKeepRight.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = workKeepRight.wav; sourceTree = "<group>"; };
 		2FE197D4184C7BBE0060EFD3 /* 西游汉语乐园.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "西游汉语乐园.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3394,6 +3434,8 @@
 				2F025153184F065700E77976 /* HSLessonKnowledgeView.m */,
 				2FB0D92718C6B86000225E15 /* HSTLessonKnowledgeView.h */,
 				2FB0D92818C6B86000225E15 /* HSTLessonKnowledgeView.m */,
+				2F686C2018D97CED0071C7A1 /* HSTKnowledgeCustomHeaderView.h */,
+				2F686C2118D97CED0071C7A1 /* HSTKnowledgeCustomHeaderView.m */,
 			);
 			path = report;
 			sourceTree = "<group>";
@@ -3584,6 +3626,67 @@
 			path = UMeng;
 			sourceTree = "<group>";
 		};
+		2F686B7D18D936B70071C7A1 /* iSpriteAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				2F686C0E18D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.plist */,
+				2F686C0F18D93FD60071C7A1 /* translateGameMonkeyJump5-hd.plist */,
+				2F686C1018D93FD60071C7A1 /* translateGameMonkeyJump5.pvr.ccz */,
+				2F686C1118D93FD60071C7A1 /* translateGameMonkeyJump5-hd.pvr.ccz */,
+				2F686C1218D93FD60071C7A1 /* translateGameMonkeyJump5.plist */,
+				2F686C1318D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.pvr.ccz */,
+				2F686BFC18D93F590071C7A1 /* translateGameMonkeyJump4-hd.plist */,
+				2F686BFD18D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.plist */,
+				2F686BFE18D93F590071C7A1 /* translateGameMonkeyJump4-hd.pvr.ccz */,
+				2F686BFF18D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.pvr.ccz */,
+				2F686C0018D93F590071C7A1 /* translateGameMonkeyJump4.plist */,
+				2F686C0118D93F590071C7A1 /* translateGameMonkeyJump4.pvr.ccz */,
+				2F686BEA18D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.plist */,
+				2F686BEB18D93EDE0071C7A1 /* translateGameMonkeyJump3.plist */,
+				2F686BEC18D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.plist */,
+				2F686BED18D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz */,
+				2F686BEE18D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.pvr.ccz */,
+				2F686BEF18D93EDE0071C7A1 /* translateGameMonkeyJump3.pvr.ccz */,
+				2F686BD818D93E490071C7A1 /* translateGameMonkeyJump2.plist */,
+				2F686BD918D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.plist */,
+				2F686BDA18D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz */,
+				2F686BDB18D93E490071C7A1 /* translateGameMonkeyJump2-hd.plist */,
+				2F686BDC18D93E490071C7A1 /* translateGameMonkeyJump2-hd.pvr.ccz */,
+				2F686BDD18D93E490071C7A1 /* translateGameMonkeyJump2.pvr.ccz */,
+				2F686BC618D93D580071C7A1 /* translateGameMonkeyJump1.pvr.ccz */,
+				2F686BC718D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz */,
+				2F686BC818D93D580071C7A1 /* translateGameMonkeyJump1-hd.plist */,
+				2F686BC918D93D580071C7A1 /* translateGameMonkeyJump1-hd.pvr.ccz */,
+				2F686BCA18D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.plist */,
+				2F686BCB18D93D580071C7A1 /* translateGameMonkeyJump1.plist */,
+				2F686B7E18D936B70071C7A1 /* translateGameMonkeyWrong1-hd.plist */,
+				2F686B7F18D936B70071C7A1 /* translateGameMonkeyWrong1-hd.pvr.ccz */,
+				2F686B8018D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.plist */,
+				2F686B8118D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz */,
+				2F686B8218D936B70071C7A1 /* translateGameMonkeyWrong1.plist */,
+				2F686B8318D936B70071C7A1 /* translateGameMonkeyWrong1.pvr.ccz */,
+				2F686B9018D937E40071C7A1 /* translateGameMonkeyWrong2.pvr.ccz */,
+				2F686B9118D937E40071C7A1 /* translateGameMonkeyWrong2-hd.pvr.ccz */,
+				2F686B9218D937E40071C7A1 /* translateGameMonkeyWrong2.plist */,
+				2F686B9318D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz */,
+				2F686B9418D937E40071C7A1 /* translateGameMonkeyWrong2-hd.plist */,
+				2F686B9518D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.plist */,
+				2F686BA218D938B20071C7A1 /* translateGameMonkeyWrong3-hd.plist */,
+				2F686BA318D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz */,
+				2F686BA418D938B20071C7A1 /* translateGameMonkeyWrong3-hd.pvr.ccz */,
+				2F686BA518D938B20071C7A1 /* translateGameMonkeyWrong3.pvr.ccz */,
+				2F686BA618D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.plist */,
+				2F686BA718D938B20071C7A1 /* translateGameMonkeyWrong3.plist */,
+				2F686BB418D939620071C7A1 /* translateGameMonkeyWrong4-hd.plist */,
+				2F686BB518D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.pvr.ccz */,
+				2F686BB618D939620071C7A1 /* translateGameMonkeyWrong4.plist */,
+				2F686BB718D939620071C7A1 /* translateGameMonkeyWrong4-hd.pvr.ccz */,
+				2F686BB818D939620071C7A1 /* translateGameMonkeyWrong4.pvr.ccz */,
+				2F686BB918D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.plist */,
+			);
+			path = iSpriteAnimation;
+			sourceTree = "<group>";
+		};
 		2F7031F418923D3200226022 /* CrashLogHelper */ = {
 			isa = PBXGroup;
 			children = (
@@ -3635,55 +3738,6 @@
 				2F9DEF9D185EEDB5002EC4B0 /* SpriteCard.m */,
 			);
 			path = TranslationLessonAccessory;
-			sourceTree = "<group>";
-		};
-		2FBE570618BCA07500DBC794 /* iSpriteAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				2FD2BBB518C705130029FFD1 /* translateGameMonkeyJump0-hd.plist */,
-				2FD2BBB618C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.plist */,
-				2FD2BBB718C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz */,
-				2FD2BBB818C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.pvr.ccz */,
-				2FD2BBB918C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz */,
-				2FD2BBBA18C705130029FFD1 /* translateGameMonkeyJump0-hd.pvr.ccz */,
-				2FD2BBBB18C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.plist */,
-				2FD2BBBC18C705130029FFD1 /* translateGameMonkeyJump0.pvr.ccz */,
-				2FD2BBBD18C705130029FFD1 /* translateGameMonkeyJump0.plist */,
-				2FD2BBBE18C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz */,
-				2FD2BBBF18C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.plist */,
-				2FD2BBC018C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.plist */,
-				2FD2BBD918C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.plist */,
-				2FD2BBDA18C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz */,
-				2FD2BBDB18C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz */,
-				2FD2BBDC18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz */,
-				2FD2BBDD18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.plist */,
-				2FD2BBDE18C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.pvr.ccz */,
-				2FD2BBDF18C7096E0029FFD1 /* translateGameMonkeyWrong0.pvr.ccz */,
-				2FD2BBE018C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.plist */,
-				2FD2BBE118C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.pvr.ccz */,
-				2FD2BBE218C7096E0029FFD1 /* translateGameMonkeyWrong0.plist */,
-				2FD2BBE318C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.plist */,
-				2FD2BBE418C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.plist */,
-				2FD2BC3318C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.plist */,
-				2FD2BC3418C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.plist */,
-				2FD2BC3518C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.pvr.ccz */,
-				2FD2BC3618C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.pvr.ccz */,
-				2FD2BC3718C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.plist */,
-				2FD2BC3818C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.plist */,
-				2FD2BC3918C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.pvr.ccz */,
-				2FD2BC3A18C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.plist */,
-				2FD2BC3B18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.pvr.ccz */,
-				2FD2BC3C18C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.pvr.ccz */,
-				2FD2BC3D18C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.pvr.ccz */,
-				2FD2BC3E18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.pvr.ccz */,
-				2FD2BC3F18C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.plist */,
-				2FD2BC4018C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.plist */,
-				2FD2BC4118C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.plist */,
-				2FD2BC4218C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.pvr.ccz */,
-				2FD2BC4318C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.pvr.ccz */,
-				2FD2BC4418C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.plist */,
-			);
-			path = iSpriteAnimation;
 			sourceTree = "<group>";
 		};
 		2FCAD4661856A81000306F6C /* Navigation */ = {
@@ -3964,7 +4018,7 @@
 		2FCAD6541856C54200306F6C /* iTranslateLesson */ = {
 			isa = PBXGroup;
 			children = (
-				2FBE570618BCA07500DBC794 /* iSpriteAnimation */,
+				2F686B7D18D936B70071C7A1 /* iSpriteAnimation */,
 				2F2030EC18B344BD00C913CD /* translateGameBkg-hd.plist */,
 				2F2030ED18B344BD00C913CD /* translateGameBkg-ipadhd.pvr.ccz */,
 				2F2030EE18B344BD00C913CD /* translateGameBkg-ipadhd.plist */,
@@ -3977,12 +4031,12 @@
 				2F20311318B347CE00C913CD /* translateGameScene.plist */,
 				2F20311418B347CE00C913CD /* translateGameScene-hd.pvr.ccz */,
 				2F20311518B347CE00C913CD /* translateGameScene-ipadhd.pvr.ccz */,
-				2F20318018B4591F00C913CD /* translateGameTreesAndRoad.pvr.ccz */,
-				2F20318118B4591F00C913CD /* translateGameTreesAndRoad.plist */,
-				2F20318218B4591F00C913CD /* translateGameTreesAndRoad-hd.plist */,
-				2F20318318B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.plist */,
-				2F20318418B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.pvr.ccz */,
-				2F20318518B4591F00C913CD /* translateGameTreesAndRoad-hd.pvr.ccz */,
+				2F686C2518D9A2890071C7A1 /* translateGameTreesAndRoad-hd.plist */,
+				2F686C2618D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.plist */,
+				2F686C2718D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.pvr.ccz */,
+				2F686C2818D9A2890071C7A1 /* translateGameTreesAndRoad-hd.pvr.ccz */,
+				2F686C2918D9A2890071C7A1 /* translateGameTreesAndRoad.pvr.ccz */,
+				2F686C2A18D9A2890071C7A1 /* translateGameTreesAndRoad.plist */,
 				2F20313418B34ACE00C913CD /* translateGameMountains-ipadhd.plist */,
 				2F20313518B34ACE00C913CD /* translateGameMountains-hd.pvr.ccz */,
 				2F20313618B34ACE00C913CD /* translateGameMountains-hd.plist */,
@@ -5288,6 +5342,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = yang;
+				TargetAttributes = {
+					2FE197D3184C7BBE0060EFD3 = {
+						DevelopmentTeam = R746ZWWAP4;
+					};
+				};
 			};
 			buildConfigurationList = 2FE197CF184C7BBE0060EFD3 /* Build configuration list for PBXProject "ChineseForKids" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -5318,33 +5377,28 @@
 				2F7FB040188651E000F2BD0A /* LoginCloud-hd.plist in Resources */,
 				2F7FB041188651E000F2BD0A /* orderwordbg.mp3 in Resources */,
 				2F7FB042188651E000F2BD0A /* GameNavigationClouds-ipadhd.pvr.ccz in Resources */,
-				2FD2BC6818C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.plist in Resources */,
 				2F2030FB18B344BD00C913CD /* translateGameBkg-hd.pvr.ccz in Resources */,
-				2FD2BC4C18C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.pvr.ccz in Resources */,
-				2F20318918B4591F00C913CD /* translateGameTreesAndRoad.plist in Resources */,
-				2FD2BBF018C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.pvr.ccz in Resources */,
 				2F7FB043188651E000F2BD0A /* MainNavigationMap_WaterWave.plist in Resources */,
 				2F7FB044188651E000F2BD0A /* LoadingBackground.plist in Resources */,
 				2F7FB045188651E000F2BD0A /* LoadingAnimation-ipadhd.plist in Resources */,
-				2FD2BBE818C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz in Resources */,
 				2F7FB046188651E000F2BD0A /* loginBorder@2x.png in Resources */,
 				2F7FB047188651E000F2BD0A /* Icon.png in Resources */,
 				2F7FB048188651E000F2BD0A /* MainNavigationMap_WaterWave-ipadhd.pvr.ccz in Resources */,
 				2F7FB049188651E000F2BD0A /* monkeySomersault-ipadhd.plist in Resources */,
 				2F7FB04A188651E000F2BD0A /* aboutUsBorder_EN@2x.png in Resources */,
-				2FD2BC6418C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.pvr.ccz in Resources */,
 				2F7FB04C188651E000F2BD0A /* sentenceGameMonkteam-ipadhd.plist in Resources */,
 				2F7FB04D188651E000F2BD0A /* 小云，你好！.mp3 in Resources */,
 				2F7FB04E188651E000F2BD0A /* LoadingAnimation-ipadhd.pvr.ccz in Resources */,
 				2F7FB050188651E000F2BD0A /* LoadingTypeAnimation-hd.pvr.ccz in Resources */,
+				2F686B8D18D936B70071C7A1 /* translateGameMonkeyWrong1.plist in Resources */,
 				2F2031A318B483E700C913CD /* typeScene_Tower-hd.plist in Resources */,
 				2F2030F718B344BD00C913CD /* translateGameBkg-ipadhd.plist in Resources */,
 				2F7FB052188651E000F2BD0A /* LoadingTransBkg-hd.plist in Resources */,
-				2FD2BC5E18C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.plist in Resources */,
 				2F7FB053188651E000F2BD0A /* monkeyRun-hd.pvr.ccz in Resources */,
 				2F7FB054188651E000F2BD0A /* levelBackground.plist in Resources */,
 				2F7FB055188651E000F2BD0A /* sentenceGameMonkteam-hd.plist in Resources */,
 				2F7FB056188651E000F2BD0A /* MainNavigationMap_Sky.plist in Resources */,
+				2F686C1518D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.plist in Resources */,
 				2F7FB057188651E000F2BD0A /* LoadingTransBkg.pvr.ccz in Resources */,
 				2F7FB058188651E000F2BD0A /* wordimage-1-1-6.mp3 in Resources */,
 				2F7FB059188651E000F2BD0A /* moveTree-ipadhd.pvr.ccz in Resources */,
@@ -5352,22 +5406,22 @@
 				2F20313B18B34ACE00C913CD /* translateGameMountains-ipadhd.plist in Resources */,
 				2F7FB05A188651E000F2BD0A /* libraryBorder@2x.png in Resources */,
 				2F7FB05B188651E000F2BD0A /* preloadWordLessonScene.plist in Resources */,
+				2F686BC318D939620071C7A1 /* translateGameMonkeyWrong4.pvr.ccz in Resources */,
 				2F7FB05C188651E000F2BD0A /* wordGameLessonPigStand-ipadhd.pvr.ccz in Resources */,
 				2F7FB05D188651E000F2BD0A /* catchmonster.mp3 in Resources */,
 				2F7FB05E188651E000F2BD0A /* Icon-Small.png in Resources */,
-				2F20318718B4591F00C913CD /* translateGameTreesAndRoad.pvr.ccz in Resources */,
 				2F20307518B3066000C913CD /* wordGameLessonEatBun-hd.pvr.ccz in Resources */,
 				2F2E20F718BF304500B316CA /* knowledgebkg@2x.png in Resources */,
 				2F7FB060188651E000F2BD0A /* ShareSDKiPadDefaultShareViewUI.bundle in Resources */,
 				2F7FB061188651E000F2BD0A /* btnRegist@2x.png in Resources */,
 				2F7FB062188651E000F2BD0A /* typeScene_Pig.plist in Resources */,
 				2F7FB063188651E000F2BD0A /* wordimage-1-1-17.mp3 in Resources */,
+				2F686C2E18D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.plist in Resources */,
 				2F7FB067188651E000F2BD0A /* sentenceGameTower-hd.pvr.ccz in Resources */,
 				2F2030E718B33DE600C913CD /* wordGameLessonBkg-hd.plist in Resources */,
 				2F7FB068188651E000F2BD0A /* LoginCloud-ipadhd.plist in Resources */,
 				2F7FB069188651E000F2BD0A /* landUnit5@2x.png in Resources */,
 				2F7FB06A188651E000F2BD0A /* landUnitLocked4@2x.png in Resources */,
-				2FD2BBF418C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.plist in Resources */,
 				2F7FB06B188651E000F2BD0A /* LoginBackground-hd.plist in Resources */,
 				2F7FB06C188651E000F2BD0A /* 你叫我小云。.mp3 in Resources */,
 				2F7FB06E188651E000F2BD0A /* GameNavigationClouds-hd.pvr.ccz in Resources */,
@@ -5375,61 +5429,65 @@
 				2F20309118B3092700C913CD /* wordGameLessonLostBun.plist in Resources */,
 				2F7FB071188651E000F2BD0A /* Icon76.png in Resources */,
 				2F7FB072188651E000F2BD0A /* 我叫大卫。.mp3 in Resources */,
-				2FD2BBD818C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.plist in Resources */,
 				2F7FB073188651E000F2BD0A /* wordGameLessonGas.pvr.ccz in Resources */,
 				2F7FB074188651E000F2BD0A /* LoadingAnimation-hd.pvr.ccz in Resources */,
 				2F7FB075188651E000F2BD0A /* sentenceGameLessonBkg-hd.pvr.ccz in Resources */,
 				2F7FB076188651E000F2BD0A /* GameNavigationBkg-ipadhd.plist in Resources */,
 				2F7FB078188651E000F2BD0A /* wordimage-1-1-4.mp3 in Resources */,
 				2F7FB079188651E000F2BD0A /* MainNavigationMap_Accessory.pvr.ccz in Resources */,
-				2FD2BBCE18C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.plist in Resources */,
 				2F20315B18B3509B00C913CD /* translateGameMonkeyChase-ipadhd.plist in Resources */,
 				2F7FB07B188651E000F2BD0A /* 小云好！.mp3 in Resources */,
-				2F20318D18B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.plist in Resources */,
-				2FD2BC5618C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.pvr.ccz in Resources */,
 				2F7FB07C188651E000F2BD0A /* wordGameLessonPigStand-hd.pvr.ccz in Resources */,
 				2F20307D18B3066000C913CD /* wordGameLessonEatBun-hd.plist in Resources */,
 				2F7FB07D188651E000F2BD0A /* GameNavigationBigCloud-ipadhd.plist in Resources */,
+				2F686B8518D936B70071C7A1 /* translateGameMonkeyWrong1-hd.plist in Resources */,
+				2F686BDF18D93E490071C7A1 /* translateGameMonkeyJump2.plist in Resources */,
 				2F7FB07E188651E000F2BD0A /* GameNavigationBkg.plist in Resources */,
 				2F7FB07F188651E000F2BD0A /* sentenceGameTower-hd.plist in Resources */,
 				2F7FB080188651E000F2BD0A /* bookCoverPh@2x.png in Resources */,
+				2F686BF718D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz in Resources */,
 				2F7FB081188651E000F2BD0A /* typeScene_Huaguoshan-hd.pvr.ccz in Resources */,
+				2F686BF118D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.plist in Resources */,
 				2F7FB082188651E000F2BD0A /* GameNavigationBkg-ipadhd.pvr.ccz in Resources */,
 				2F7FB083188651E000F2BD0A /* ShareSDKiPhoneSimpleShareViewUI.bundle in Resources */,
 				2F7FB084188651E000F2BD0A /* wordGameLessonPigStand-hd.plist in Resources */,
 				2F7FB085188651E000F2BD0A /* LoadingSentenceBkg-ipadhd.plist in Resources */,
 				2F20311B18B347CE00C913CD /* translateGameScene-ipadhd.plist in Resources */,
 				2F7FB087188651E000F2BD0A /* sentenceGameClouds-hd.plist in Resources */,
-				2FD2BC5818C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.pvr.ccz in Resources */,
 				2F7FB088188651E000F2BD0A /* typeScene_blueSky-hd.pvr.ccz in Resources */,
+				2F686C0918D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.pvr.ccz in Resources */,
 				2F7FB089188651E000F2BD0A /* GameNavigationBkg-hd.pvr.ccz in Resources */,
-				2FD2BBF818C7096E0029FFD1 /* translateGameMonkeyWrong0.plist in Resources */,
 				2F7FB08B188651E000F2BD0A /* wordimage-1-1-13.mp3 in Resources */,
 				2F7FB08C188651E000F2BD0A /* pigLostBun.mp3 in Resources */,
 				2F7FB08D188651E000F2BD0A /* wordGameLessonPigStand-ipadhd.plist in Resources */,
 				2F7FB08E188651E000F2BD0A /* levelBackground-ipadhd.plist in Resources */,
 				2F7FB08F188651E000F2BD0A /* monkeyRun.plist in Resources */,
 				2F7FB090188651E000F2BD0A /* ChangeLog in Resources */,
+				2F686C1718D93FD60071C7A1 /* translateGameMonkeyJump5-hd.plist in Resources */,
+				2F686BFB18D93EDE0071C7A1 /* translateGameMonkeyJump3.pvr.ccz in Resources */,
 				2F7FB091188651E000F2BD0A /* LoginBackground.plist in Resources */,
 				2F20316918B3513000C913CD /* translateGameMonsterFly-ipadhd.pvr.ccz in Resources */,
 				2F20316518B3513000C913CD /* translateGameMonsterFly-hd.plist in Resources */,
 				2F7FB092188651E000F2BD0A /* monkeySomersault-hd.pvr.ccz in Resources */,
+				2F686BA118D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.plist in Resources */,
 				2F20317F18B4503C00C913CD /* wordGameLessonKeepRight-ipadhd.plist in Resources */,
 				2F2E20FA18BF304F00B316CA /* knowledgeTablebkg@2x.png in Resources */,
 				2F7FB093188651E000F2BD0A /* MainNavigationMap_Accessory-hd.pvr.ccz in Resources */,
 				2F7FB094188651E000F2BD0A /* learnRedCircleProgress@2x.png in Resources */,
 				2F7FB095188651E000F2BD0A /* groupCover@2x.png in Resources */,
 				2F20319D18B483E700C913CD /* typeScene_Tower.pvr.ccz in Resources */,
+				2F686BE318D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz in Resources */,
 				2F7FB097188651E000F2BD0A /* monkeyrun.mp3 in Resources */,
 				2F7FB098188651E000F2BD0A /* wordimage-1-1-15.mp3 in Resources */,
+				2F686BD318D93D580071C7A1 /* translateGameMonkeyJump1-hd.pvr.ccz in Resources */,
 				2F7FB099188651E000F2BD0A /* LoadingTypeAnimation-ipadhd.plist in Resources */,
 				2F7FB09A188651E000F2BD0A /* scratch.mp3 in Resources */,
 				2F20315118B3509B00C913CD /* translateGameMonkeyChase-hd.plist in Resources */,
 				2F7FB09B188651E000F2BD0A /* LoadingAnimation.pvr.ccz in Resources */,
 				2F7FB09C188651E000F2BD0A /* typeScene_blueSky-ipadhd.plist in Resources */,
-				2F20319118B4591F00C913CD /* translateGameTreesAndRoad-hd.pvr.ccz in Resources */,
 				2F7FB09D188651E000F2BD0A /* levelOneSceneAccessory-hd.plist in Resources */,
 				2F7FB09E188651E000F2BD0A /* WordXMLData in Resources */,
+				2F686BE918D93E490071C7A1 /* translateGameMonkeyJump2.pvr.ccz in Resources */,
 				2F7FB09F188651E000F2BD0A /* Icon-Small@2x.png in Resources */,
 				2F7FB0A1188651E000F2BD0A /* good.mp3 in Resources */,
 				2F2030F518B344BD00C913CD /* translateGameBkg-ipadhd.pvr.ccz in Resources */,
@@ -5440,16 +5498,16 @@
 				2F7FB0A7188651E000F2BD0A /* sentenceGameTower.pvr.ccz in Resources */,
 				2F7FB0A8188651E000F2BD0A /* 你叫我大卫。.mp3 in Resources */,
 				2F7FB0A9188651E000F2BD0A /* typeScene_Huaguoshan.plist in Resources */,
+				2F686BBF18D939620071C7A1 /* translateGameMonkeyWrong4.plist in Resources */,
 				2F7FB0AA188651E000F2BD0A /* LoadingTransBkg-ipadhd.pvr.ccz in Resources */,
 				2F7FB0AB188651E000F2BD0A /* InstapaperResource.bundle in Resources */,
 				2F7FB0AC188651E000F2BD0A /* LoginBackground-ipadhd.plist in Resources */,
-				2F20318B18B4591F00C913CD /* translateGameTreesAndRoad-hd.plist in Resources */,
 				2F7FB0AD188651E000F2BD0A /* LoginBackground.pvr.ccz in Resources */,
-				2FD2BBE618C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.plist in Resources */,
 				2F20316B18B3513000C913CD /* translateGameMonsterFly-ipadhd.plist in Resources */,
 				2F7FB0AE188651E000F2BD0A /* MainNavigationMap_Sea-ipadhd.plist in Resources */,
 				2F2030A318B3287600C913CD /* wordGameLessonAccessory-hd.pvr.ccz in Resources */,
-				2FD2BBEA18C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz in Resources */,
+				2F686B8F18D936B70071C7A1 /* translateGameMonkeyWrong1.pvr.ccz in Resources */,
+				2F686BF918D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.pvr.ccz in Resources */,
 				2F7FB0AF188651E000F2BD0A /* sentenceGameLessonBkg-hd.plist in Resources */,
 				2F7FB0B0188651E000F2BD0A /* btnChoise@2x.png in Resources */,
 				2F20309D18B3287600C913CD /* wordGameLessonAccessory-ipadhd.pvr.ccz in Resources */,
@@ -5468,27 +5526,29 @@
 				2F7FB0BC188651E000F2BD0A /* moveTree-hd.plist in Resources */,
 				2F7FB0BD188651E000F2BD0A /* monkeyRun-ipadhd.plist in Resources */,
 				2F7FB0BE188651E000F2BD0A /* lessonUnLocked@2x.png in Resources */,
-				2FD2BC4A18C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.pvr.ccz in Resources */,
 				2F2031AD18B4874000C913CD /* typeScene_Mountains-hd.pvr.ccz in Resources */,
-				2FD2BC6218C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.plist in Resources */,
 				2F7FB0BF188651E000F2BD0A /* Default-Landscape~ipad-ipadhd.png in Resources */,
 				2F7FB0C0188651E000F2BD0A /* LoadingBackground-ipadhd.plist in Resources */,
 				2F7FB0C2188651E000F2BD0A /* 你好！.mp3 in Resources */,
 				2F7FB0C3188651E000F2BD0A /* wordimage-1-1-2.mp3 in Resources */,
 				2F20314318B34ACE00C913CD /* translateGameMountains-ipadhd.pvr.ccz in Resources */,
+				2F686B9718D937E40071C7A1 /* translateGameMonkeyWrong2.pvr.ccz in Resources */,
 				2F7FB0C4188651E000F2BD0A /* MainNavigationMap_LandWave-ipadhd.pvr.ccz in Resources */,
 				2F7FB0C6188651E000F2BD0A /* GameNavigationBigCloud.pvr.ccz in Resources */,
 				2F7FB0C7188651E000F2BD0A /* levelBackground-ipadhd.pvr.ccz in Resources */,
+				2F686C0B18D93F590071C7A1 /* translateGameMonkeyJump4.plist in Resources */,
 				2F7FB0C8188651E000F2BD0A /* Default-Landscape~ipad.png in Resources */,
 				2F2030F918B344BD00C913CD /* translateGameBkg.plist in Resources */,
-				2FD2BBCC18C705130029FFD1 /* translateGameMonkeyJump0-hd.pvr.ccz in Resources */,
 				2F20316318B3513000C913CD /* translateGameMonsterFly.plist in Resources */,
 				2F7FB0C9188651E000F2BD0A /* LoadingTypeAnimation.pvr.ccz in Resources */,
 				2F7FB0CA188651E000F2BD0A /* landUnitLocked6@2x.png in Resources */,
 				2F7FB0CB188651E000F2BD0A /* sentenceGameClouds-ipadhd.plist in Resources */,
 				2F7FB0CC188651E000F2BD0A /* gameScore-hd.pvr.ccz in Resources */,
+				2F686BE518D93E490071C7A1 /* translateGameMonkeyJump2-hd.plist in Resources */,
 				2F7FB0CD188651E000F2BD0A /* typeScene_GameNode.plist in Resources */,
 				2F7FB0CE188651E000F2BD0A /* wordimage-1-1-5.mp3 in Resources */,
+				2F686C0518D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.plist in Resources */,
+				2F686BD518D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.plist in Resources */,
 				2F7FB0D0188651E000F2BD0A /* LoadingWordBkg.pvr.ccz in Resources */,
 				2F7FB0D1188651E000F2BD0A /* wordimage-1-1-8.mp3 in Resources */,
 				2F2031AB18B4874000C913CD /* typeScene_Mountains-ipadhd.pvr.ccz in Resources */,
@@ -5497,7 +5557,9 @@
 				2F7FB0D6188651E000F2BD0A /* monkeySomersault.pvr.ccz in Resources */,
 				2F7FB0D7188651E000F2BD0A /* MainNavigationMap_WaterWave-hd.pvr.ccz in Resources */,
 				2F7FB0D9188651E000F2BD0A /* bookCover@2x.png in Resources */,
+				2F686BE118D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.plist in Resources */,
 				2F7FB0DA188651E000F2BD0A /* sentenceGameTower.plist in Resources */,
+				2F686C1B18D93FD60071C7A1 /* translateGameMonkeyJump5-hd.pvr.ccz in Resources */,
 				2F7FB0DB188651E000F2BD0A /* monkeyFly-hd.pvr.ccz in Resources */,
 				2F7FB0DD188651E000F2BD0A /* LoadingWordBkg.plist in Resources */,
 				2F7FB0DE188651E000F2BD0A /* monkeySomersault-hd.plist in Resources */,
@@ -5510,12 +5572,13 @@
 				2F7FB0E8188651E000F2BD0A /* GameNavigationClouds.plist in Resources */,
 				2F7FB0EB188651E000F2BD0A /* LoadingTypeBkg-hd.pvr.ccz in Resources */,
 				2F7FB0EC188651E000F2BD0A /* levelOneSceneAccessory-ipadhd.plist in Resources */,
-				2FD2BBD418C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz in Resources */,
+				2F686BB318D938B20071C7A1 /* translateGameMonkeyWrong3.plist in Resources */,
+				2F686BA918D938B20071C7A1 /* translateGameMonkeyWrong3-hd.plist in Resources */,
 				2F7FB0ED188651E000F2BD0A /* GooglePlus.bundle in Resources */,
 				2F20316718B3513000C913CD /* translateGameMonsterFly-hd.pvr.ccz in Resources */,
+				2F686BAB18D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz in Resources */,
 				2F7FB0EE188651E000F2BD0A /* LoadingTypeAnimation-ipadhd.pvr.ccz in Resources */,
 				2F7FB0F0188651E000F2BD0A /* typeScene_GameNode-ipadhd.pvr.ccz in Resources */,
-				2FD2BC5018C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.plist in Resources */,
 				2F7FB0F1188651E000F2BD0A /* Icon152.png in Resources */,
 				2F7FB0F2188651E000F2BD0A /* MainNavigationMap_Accessory-ipadhd.pvr.ccz in Resources */,
 				2F7FB0F3188651E000F2BD0A /* stars3@2x.png in Resources */,
@@ -5530,22 +5593,25 @@
 				2F7FB0FC188651E000F2BD0A /* MainNavigationMap_Sky-hd.plist in Resources */,
 				2F20315318B3509B00C913CD /* translateGameMonkeyChase.plist in Resources */,
 				2F7FB0FE188651E000F2BD0A /* sentenceGameLessonBkg.pvr.ccz in Resources */,
+				2F686C0718D93F590071C7A1 /* translateGameMonkeyJump4-hd.pvr.ccz in Resources */,
 				2F8BE09218C468CC0089C522 /* share@2x.jpg in Resources */,
+				2F686BCD18D93D580071C7A1 /* translateGameMonkeyJump1.pvr.ccz in Resources */,
 				2F7FB0FF188651E000F2BD0A /* knowledgebkg1@2x.png in Resources */,
-				2FD2BBF218C7096E0029FFD1 /* translateGameMonkeyWrong0.pvr.ccz in Resources */,
 				2F7FB100188651E000F2BD0A /* gameScore.pvr.ccz in Resources */,
 				2F20308718B3092700C913CD /* wordGameLessonLostBun-ipadhd.png in Resources */,
 				2F7FB103188651E000F2BD0A /* preloadTranslateNavigationMap.plist in Resources */,
 				2F20307B18B3066000C913CD /* wordGameLessonEatBun-ipadhd.pvr.ccz in Resources */,
 				2F7FB104188651E000F2BD0A /* levelOneSceneAccessory.pvr.ccz in Resources */,
 				2F20314518B34ACE00C913CD /* translateGameMountains.plist in Resources */,
+				2F686BAD18D938B20071C7A1 /* translateGameMonkeyWrong3-hd.pvr.ccz in Resources */,
 				2F7FB105188651E000F2BD0A /* typeScene_Huaguoshan-ipadhd.pvr.ccz in Resources */,
+				2F686C0318D93F590071C7A1 /* translateGameMonkeyJump4-hd.plist in Resources */,
 				2F7FB106188651E000F2BD0A /* typeScene_Huaguoshan-ipadhd.plist in Resources */,
 				2F20308D18B3092700C913CD /* wordGameLessonLostBun-ipadhd.plist in Resources */,
 				2F7FB225188CF8FA00F2BD0A /* gameBase-hd.plist in Resources */,
-				2FD2BC5A18C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.pvr.ccz in Resources */,
 				2F7FB10A188651E000F2BD0A /* dropplank.mp3 in Resources */,
 				2F20311918B347CE00C913CD /* translateGameScene.pvr.ccz in Resources */,
+				2F686B9F18D937E40071C7A1 /* translateGameMonkeyWrong2-hd.plist in Resources */,
 				2F20319918B483E700C913CD /* typeScene_Tower.plist in Resources */,
 				2F7FB10B188651E000F2BD0A /* landUnit3@2x.png in Resources */,
 				2F7FB10D188651E000F2BD0A /* 我叫大卫，你叫小云。.mp3 in Resources */,
@@ -5555,15 +5621,18 @@
 				2F7FB111188651E000F2BD0A /* moveTreeRootAndStone.pvr.ccz in Resources */,
 				2F7FB112188651E000F2BD0A /* learnProgressBlackStar@2x.png in Resources */,
 				2F7FB114188651E000F2BD0A /* landUnitLocked5@2x.png in Resources */,
+				2F686C1F18D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.pvr.ccz in Resources */,
 				2F7FB116188651E000F2BD0A /* btnForgetPwd@2x.png in Resources */,
+				2F686BF518D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.plist in Resources */,
 				2F20319B18B483E700C913CD /* typeScene_Tower-ipadhd.pvr.ccz in Resources */,
 				2F2030E318B33DE600C913CD /* wordGameLessonBkg.pvr.ccz in Resources */,
 				2F20317D18B4503C00C913CD /* wordGameLessonKeepRight-ipadhd.pvr.ccz in Resources */,
 				2F7FB117188651E000F2BD0A /* ShareSDKLocalizable.strings in Resources */,
 				2F7FB118188651E000F2BD0A /* isLand1@2x.png in Resources */,
 				2F7FB119188651E000F2BD0A /* getReward.mp3 in Resources */,
+				2F686C1D18D93FD60071C7A1 /* translateGameMonkeyJump5.plist in Resources */,
 				2F7FB11A188651E000F2BD0A /* MainNavigationMap_WaterWave-hd.plist in Resources */,
-				2FD2BBD618C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.plist in Resources */,
+				2F686B9918D937E40071C7A1 /* translateGameMonkeyWrong2-hd.pvr.ccz in Resources */,
 				2F7FB11B188651E000F2BD0A /* btnReturn@2x.png in Resources */,
 				2F7FB11C188651E000F2BD0A /* MainNavigationMap_LandWave-ipadhd.plist in Resources */,
 				2F7FB11D188651E000F2BD0A /* MainNavigationMap_LandWave-hd.pvr.ccz in Resources */,
@@ -5571,40 +5640,37 @@
 				2F7FB120188651E000F2BD0A /* sentenceGameLessonBkg.plist in Resources */,
 				2F7FB121188651E000F2BD0A /* sentenceGameMonkteam-hd.pvr.ccz in Resources */,
 				2F7FB122188651E000F2BD0A /* monkeySomersault.plist in Resources */,
-				2FD2BBC218C705130029FFD1 /* translateGameMonkeyJump0-hd.plist in Resources */,
 				2F7FB123188651E000F2BD0A /* MainNavigationMap_Sea.plist in Resources */,
 				2F7FB124188651E000F2BD0A /* typeScene_Pig-ipadhd.pvr.ccz in Resources */,
 				2F7FB126188651E000F2BD0A /* monkeyRun.pvr.ccz in Resources */,
 				2F7FB128188651E000F2BD0A /* typeScene_GameNode-ipadhd.plist in Resources */,
 				2F7FB129188651E000F2BD0A /* audio@2x.png in Resources */,
 				2F7FB12A188651E000F2BD0A /* typeScene_Pig.pvr.ccz in Resources */,
+				2F686BCF18D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz in Resources */,
 				2F7FB12C188651E000F2BD0A /* LoadingWordBkg-ipadhd.pvr.ccz in Resources */,
+				2F686C3618D9A2890071C7A1 /* translateGameTreesAndRoad.plist in Resources */,
 				2F7FB12D188651E000F2BD0A /* reStart@2x.png in Resources */,
 				2F7FB12E188651E000F2BD0A /* LoadingTransBkg-ipadhd.plist in Resources */,
 				2F7FB12F188651E000F2BD0A /* preloadCommonNavigationMap.plist in Resources */,
 				2F7FB130188651E000F2BD0A /* cool.mp3 in Resources */,
+				2F686B8718D936B70071C7A1 /* translateGameMonkeyWrong1-hd.pvr.ccz in Resources */,
 				2F7FB131188651E000F2BD0A /* wordGameLessonPigStand.plist in Resources */,
+				2F686BBB18D939620071C7A1 /* translateGameMonkeyWrong4-hd.plist in Resources */,
 				2F7FB132188651E000F2BD0A /* completeplank.mp3 in Resources */,
-				2FD2BBEC18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz in Resources */,
 				2F7FB134188651E000F2BD0A /* wordimage-1-1-1.mp3 in Resources */,
 				2F7FB135188651E000F2BD0A /* LoadingBackground.pvr.ccz in Resources */,
 				2F7FB136188651E000F2BD0A /* LoadingSentenceBkg-hd.plist in Resources */,
 				2F7FB137188651E000F2BD0A /* caculateScore.mp3 in Resources */,
 				2F7FB138188651E000F2BD0A /* settingBorder@2x.png in Resources */,
 				2F7FB139188651E000F2BD0A /* typeScene_Huaguoshan-hd.plist in Resources */,
-				2FD2BBD218C705130029FFD1 /* translateGameMonkeyJump0.plist in Resources */,
-				2F20318F18B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.pvr.ccz in Resources */,
-				2FD2BBFC18C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.plist in Resources */,
-				2FD2BBF618C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.pvr.ccz in Resources */,
-				2FD2BC6618C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.pvr.ccz in Resources */,
 				2F7FB13A188651E000F2BD0A /* preloadPinyinLessonScene.plist in Resources */,
 				2F7FB13B188651E000F2BD0A /* typeScene_blueSky.plist in Resources */,
 				2F20311D18B347CE00C913CD /* translateGameScene.plist in Resources */,
 				2F20313F18B34ACE00C913CD /* translateGameMountains-hd.plist in Resources */,
+				2F686BF318D93EDE0071C7A1 /* translateGameMonkeyJump3.plist in Resources */,
 				2F7FB13D188651E000F2BD0A /* LoadingSentenceBkg-hd.pvr.ccz in Resources */,
 				2F7FB13F188651E000F2BD0A /* GameNavigationClouds.pvr.ccz in Resources */,
 				2F7FB140188651E000F2BD0A /* fCloud@2x.png in Resources */,
-				2FD2BC4E18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.plist in Resources */,
 				2F7FB141188651E000F2BD0A /* monkeyFly.pvr.ccz in Resources */,
 				2F7FB142188651E000F2BD0A /* MainNavigationMap_LandWave.plist in Resources */,
 				2F2030E518B33DE600C913CD /* wordGameLessonBkg-ipadhd.plist in Resources */,
@@ -5614,6 +5680,7 @@
 				2F7FB147188651E000F2BD0A /* 迷你简少儿.ttf in Resources */,
 				2F7FB148188651E000F2BD0A /* aboutUsBorder_CN@2x.png in Resources */,
 				2F7FB149188651E000F2BD0A /* levelOneSceneAccessory-ipadhd.pvr.ccz in Resources */,
+				2F686BC118D939620071C7A1 /* translateGameMonkeyWrong4-hd.pvr.ccz in Resources */,
 				2F7FB14A188651E000F2BD0A /* LoadingTypeAnimation-hd.plist in Resources */,
 				2F7FB14B188651E000F2BD0A /* wordGameLessonGas.plist in Resources */,
 				2F7FB14D188651E000F2BD0A /* LoadingTypeBkg.plist in Resources */,
@@ -5628,19 +5695,20 @@
 				2F7FB158188651E000F2BD0A /* GameNavigationBigCloud-hd.pvr.ccz in Resources */,
 				2F7FB21F188CF8FA00F2BD0A /* gameBase-hd.pvr.ccz in Resources */,
 				2F7FB159188651E000F2BD0A /* MainNavigationMap_Accessory-ipadhd.plist in Resources */,
-				2FD2BC5218C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.pvr.ccz in Resources */,
+				2F686BD718D93D580071C7A1 /* translateGameMonkeyJump1.plist in Resources */,
 				2F7FB15A188651E000F2BD0A /* sentenceGameClouds.pvr.ccz in Resources */,
 				2F20317918B4503C00C913CD /* wordGameLessonKeepRight-hd.pvr.ccz in Resources */,
 				2F7FB15B188651E000F2BD0A /* LoginCloud-hd.pvr.ccz in Resources */,
-				2FD2BC5418C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.plist in Resources */,
 				2F7FB15D188651E000F2BD0A /* rubimagebg.mp3 in Resources */,
 				2F20309B18B3287600C913CD /* wordGameLessonAccessory-hd.plist in Resources */,
+				2F686BE718D93E490071C7A1 /* translateGameMonkeyJump2-hd.pvr.ccz in Resources */,
 				2F7FB15E188651E000F2BD0A /* LoadingWordBkg-hd.plist in Resources */,
 				2F2031B518B4874000C913CD /* typeScene_Mountains.pvr.ccz in Resources */,
 				2F7FB160188651E000F2BD0A /* preloadSentenceLessonScene.plist in Resources */,
 				2F7FB161188651E000F2BD0A /* moveTreeRootAndStone-hd.pvr.ccz in Resources */,
 				2F20315518B3509B00C913CD /* translateGameMonkeyChase-hd.pvr.ccz in Resources */,
 				2F2030E918B33DE600C913CD /* wordGameLessonBkg.plist in Resources */,
+				2F686C1918D93FD60071C7A1 /* translateGameMonkeyJump5.pvr.ccz in Resources */,
 				2F20308918B3092700C913CD /* wordGameLessonLostBun-hd.png in Resources */,
 				2F7FB163188651E000F2BD0A /* LoadingTypeBkg.pvr.ccz in Resources */,
 				2F7FB165188651E000F2BD0A /* preloadWordNavigationMap.plist in Resources */,
@@ -5655,10 +5723,9 @@
 				2F7FB170188651E000F2BD0A /* levelLocked@2x.png in Resources */,
 				2F7FB171188651E000F2BD0A /* MainNavigationMap_Sky-ipadhd.pvr.ccz in Resources */,
 				2F2030EB18B33DE600C913CD /* wordGameLessonBkg-hd.pvr.ccz in Resources */,
-				2FD2BBEE18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.plist in Resources */,
-				2FD2BC4818C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.plist in Resources */,
 				2F7FB221188CF8FA00F2BD0A /* gameBase.plist in Resources */,
 				2F7FB173188651E000F2BD0A /* LoginCloud-ipadhd.pvr.ccz in Resources */,
+				2F686BBD18D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.pvr.ccz in Resources */,
 				2F7FB174188651E000F2BD0A /* LoginCloud.pvr.ccz in Resources */,
 				2F7FB176188651E000F2BD0A /* ShareSDKiPadSimpleShareViewUI.bundle in Resources */,
 				2F7FB177188651E000F2BD0A /* wordimage-1-1-11.mp3 in Resources */,
@@ -5667,18 +5734,18 @@
 				2F2030FD18B344BD00C913CD /* translateGameBkg.pvr.ccz in Resources */,
 				2F7FB17A188651E000F2BD0A /* monkeyFly-ipadhd.plist in Resources */,
 				2F7FB17C188651E000F2BD0A /* btnDetermine@2x.png in Resources */,
+				2F686BC518D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.plist in Resources */,
 				2F7FB17F188651E000F2BD0A /* wordimage-1-1-14.mp3 in Resources */,
-				2FD2BBFA18C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.plist in Resources */,
 				2F7FB181188651E000F2BD0A /* 小云，我叫大卫。.mp3 in Resources */,
 				2F7FB182188651E000F2BD0A /* moveTree.plist in Resources */,
 				2F7FB183188651E000F2BD0A /* MainNavigationMap_Sky-ipadhd.plist in Resources */,
-				2FD2BC6018C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.plist in Resources */,
 				2F7FB184188651E000F2BD0A /* SentenceXMLData in Resources */,
 				2F2031A118B483E700C913CD /* typeScene_Tower-hd.pvr.ccz in Resources */,
 				2F7FB185188651E000F2BD0A /* stars0@2x.png in Resources */,
 				2F7FB186188651E000F2BD0A /* LoadingTransBkg-hd.pvr.ccz in Resources */,
 				2F7FB187188651E000F2BD0A /* sentenceGameClouds-hd.pvr.ccz in Resources */,
 				2F2031B318B4874000C913CD /* typeScene_Mountains-ipadhd.plist in Resources */,
+				2F686BD118D93D580071C7A1 /* translateGameMonkeyJump1-hd.plist in Resources */,
 				2F20314118B34ACE00C913CD /* translateGameMountains.pvr.ccz in Resources */,
 				2F20315918B3509B00C913CD /* translateGameMonkeyChase-ipadhd.pvr.ccz in Resources */,
 				2F7FB189188651E000F2BD0A /* MainNavigationMap_Sea-hd.pvr.ccz in Resources */,
@@ -5686,6 +5753,7 @@
 				2F7FB223188CF8FA00F2BD0A /* gameBase-ipadhd.pvr.ccz in Resources */,
 				2F7FB18B188651E000F2BD0A /* btnAboutUs@2x.png in Resources */,
 				2F7FB229188CF8FA00F2BD0A /* gameBase.pvr.ccz in Resources */,
+				2F686B9B18D937E40071C7A1 /* translateGameMonkeyWrong2.plist in Resources */,
 				2F7FB18C188651E000F2BD0A /* groupCoverPh@2x.png in Resources */,
 				2F7FB18D188651E000F2BD0A /* selectWrongTone.caf in Resources */,
 				2F7FB18E188651E000F2BD0A /* Icon@2x.png in Resources */,
@@ -5716,10 +5784,12 @@
 				2F7FB1AC188651E000F2BD0A /* cardclick.mp3 in Resources */,
 				2F7FB1AE188651E000F2BD0A /* levelOneSceneAccessory.plist in Resources */,
 				2F7FB1AF188651E000F2BD0A /* LoadingTypeAnimation.plist in Resources */,
+				2F686BAF18D938B20071C7A1 /* translateGameMonkeyWrong3.pvr.ccz in Resources */,
 				2F7FB1B0188651E000F2BD0A /* levelBackground.pvr.ccz in Resources */,
 				2F2030E118B33DE600C913CD /* wordGameLessonBkg-ipadhd.pvr.ccz in Resources */,
 				2F7FB1B1188651E000F2BD0A /* typeScene_Pig-hd.pvr.ccz in Resources */,
 				2F7FB1B2188651E000F2BD0A /* gameScore.plist in Resources */,
+				2F686C0D18D93F590071C7A1 /* translateGameMonkeyJump4.pvr.ccz in Resources */,
 				2F7FB1B3188651E000F2BD0A /* typeScene_blueSky.pvr.ccz in Resources */,
 				2F7FB1B4188651E000F2BD0A /* 大卫好！.mp3 in Resources */,
 				2F7FB1B5188651E000F2BD0A /* carddisappear.mp3 in Resources */,
@@ -5731,6 +5801,7 @@
 				2F20308F18B3092700C913CD /* wordGameLessonLostBun-hd.plist in Resources */,
 				2F7FB1BB188651E000F2BD0A /* landUnit2@2x.png in Resources */,
 				2F7FB1BC188651E000F2BD0A /* Resource.bundle in Resources */,
+				2F686C3018D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.pvr.ccz in Resources */,
 				2F7FB1BE188651E000F2BD0A /* GameNavigationClouds-ipadhd.plist in Resources */,
 				2F7FB1BF188651E000F2BD0A /* monkeyFly.plist in Resources */,
 				2F7FB1C0188651E000F2BD0A /* gameScore-hd.plist in Resources */,
@@ -5738,18 +5809,19 @@
 				2F7FB1C2188651E000F2BD0A /* MainNavigationMap_Sea-ipadhd.pvr.ccz in Resources */,
 				2F7FB1C3188651E000F2BD0A /* plankdestroy.mp3 in Resources */,
 				2F20312118B347CE00C913CD /* translateGameScene-ipadhd.pvr.ccz in Resources */,
+				2F686C2C18D9A2890071C7A1 /* translateGameTreesAndRoad-hd.plist in Resources */,
+				2F686B9D18D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz in Resources */,
 				2F7FB1C4188651E000F2BD0A /* sentenceGameClouds-ipadhd.pvr.ccz in Resources */,
 				2F7FB1C5188651E000F2BD0A /* MainNavigationMap_Sea-hd.plist in Resources */,
 				2F7FB1C7188651E000F2BD0A /* stars2@2x.png in Resources */,
 				2F20309918B3287600C913CD /* wordGameLessonAccessory.pvr.ccz in Resources */,
 				2F7FB1C8188651E000F2BD0A /* 你好，我叫大卫。.mp3 in Resources */,
+				2F686B8918D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.plist in Resources */,
 				2F7FB1CA188651E000F2BD0A /* levelOneSceneAccessory-hd.pvr.ccz in Resources */,
 				2F7FB1CB188651E000F2BD0A /* LoadingWordBkg-ipadhd.plist in Resources */,
 				2F20317518B4503C00C913CD /* wordGameLessonKeepRight-hd.plist in Resources */,
-				2FD2BBD018C705130029FFD1 /* translateGameMonkeyJump0.pvr.ccz in Resources */,
 				2F7FB1CD188651E000F2BD0A /* sentenceGameMonkteam.plist in Resources */,
 				2F20309F18B3287600C913CD /* wordGameLessonAccessory.plist in Resources */,
-				2FD2BC5C18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.pvr.ccz in Resources */,
 				2F7FB1CE188651E000F2BD0A /* Icon-Small-50.png in Resources */,
 				2F7FB1D0188651E000F2BD0A /* 我叫你大卫。.mp3 in Resources */,
 				2F7FB1D1188651E000F2BD0A /* moveTreeRootAndStone-ipadhd.pvr.ccz in Resources */,
@@ -5765,7 +5837,6 @@
 				2F7FB1DC188651E000F2BD0A /* btnUnChoise@2x.png in Resources */,
 				2F20307F18B3066000C913CD /* wordGameLessonEatBun.plist in Resources */,
 				2F7FB1DD188651E000F2BD0A /* PinyinXMLData in Resources */,
-				2FD2BBC818C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.pvr.ccz in Resources */,
 				2F20319F18B483E700C913CD /* typeScene_Tower-ipadhd.plist in Resources */,
 				2F7FB1DE188651E000F2BD0A /* preloadSentenceNavigationMap.plist in Resources */,
 				2F2031B118B4874000C913CD /* typeScene_Mountains-hd.plist in Resources */,
@@ -5773,6 +5844,7 @@
 				2F7FB1E1188651E000F2BD0A /* sentenceGameMonkteam.pvr.ccz in Resources */,
 				2F7FB1E3188651E000F2BD0A /* btnShare@2x.png in Resources */,
 				2F7FB1E4188651E000F2BD0A /* 大卫，你好！.mp3 in Resources */,
+				2F686C3218D9A2890071C7A1 /* translateGameTreesAndRoad-hd.pvr.ccz in Resources */,
 				2F7FB1E5188651E000F2BD0A /* sentenceGameClouds.plist in Resources */,
 				2FD2BC7D18C81B8D0029FFD1 /* workKeepRight.wav in Resources */,
 				2F7FB1E6188651E000F2BD0A /* MainNavigationMap_Sea.pvr.ccz in Resources */,
@@ -5784,17 +5856,16 @@
 				2F7FB1ED188651E000F2BD0A /* moveTreeRootAndStone-hd.plist in Resources */,
 				2F7FB1EE188651E000F2BD0A /* 我叫你小云。.mp3 in Resources */,
 				2F2030A118B3287600C913CD /* wordGameLessonAccessory-ipadhd.plist in Resources */,
-				2FD2BC4618C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.plist in Resources */,
 				2F7FB1EF188651E000F2BD0A /* levelUnLocked@2x.png in Resources */,
 				2F7FB1F0188651E000F2BD0A /* LoadingAnimation.plist in Resources */,
 				2F20311F18B347CE00C913CD /* translateGameScene-hd.pvr.ccz in Resources */,
-				2FD2BBC618C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz in Resources */,
 				2F7FB1F1188651E000F2BD0A /* typeScene_blueSky-hd.plist in Resources */,
 				2F7FB1F2188651E000F2BD0A /* cellHighBkg@2x.png in Resources */,
 				2F7FB1F3188651E000F2BD0A /* nextLevel@2x.png in Resources */,
 				2F7FB1F4188651E000F2BD0A /* MainNavigationMap_Accessory-hd.plist in Resources */,
 				2F7FB1F5188651E000F2BD0A /* 你好，小云！.mp3 in Resources */,
 				2F7FB1F6188651E000F2BD0A /* wordimage-1-1-16.mp3 in Resources */,
+				2F686C3418D9A2890071C7A1 /* translateGameTreesAndRoad.pvr.ccz in Resources */,
 				2F7FB1F7188651E000F2BD0A /* sentenceGameTower-ipadhd.plist in Resources */,
 				2F20311718B347CE00C913CD /* translateGameScene-hd.plist in Resources */,
 				2F7FB1F8188651E000F2BD0A /* LoadingBackground-ipadhd.pvr.ccz in Resources */,
@@ -5803,9 +5874,7 @@
 				2F7FB1FB188651E000F2BD0A /* pigLaugh.mp3 in Resources */,
 				2F7FB1FD188651E000F2BD0A /* GameNavigationBigCloud.plist in Resources */,
 				2F7FB1FF188651E000F2BD0A /* typeScene_Huaguoshan.pvr.ccz in Resources */,
-				2FD2BBC418C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.plist in Resources */,
 				2F7FB200188651E000F2BD0A /* sentenceGameLessonBkg-ipadhd.pvr.ccz in Resources */,
-				2FD2BBCA18C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz in Resources */,
 				2F7FB201188651E000F2BD0A /* levelBackground-hd.plist in Resources */,
 				2F7FB202188651E000F2BD0A /* LoadingBackground-hd.pvr.ccz in Resources */,
 				2F7FB203188651E000F2BD0A /* cellSeperatorLine@2x.png in Resources */,
@@ -5813,7 +5882,9 @@
 				2F20307718B3066000C913CD /* wordGameLessonEatBun-ipadhd.plist in Resources */,
 				2F7FB205188651E000F2BD0A /* wordimagebg.mp3 in Resources */,
 				2F7FB206188651E000F2BD0A /* wordGameLessonGas-ipadhd.plist in Resources */,
+				2F686B8B18D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz in Resources */,
 				2F7FB208188651E000F2BD0A /* landUnit1@2x.png in Resources */,
+				2F686BB118D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.plist in Resources */,
 				2F7FB209188651E000F2BD0A /* typeScene_Pig-hd.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5823,26 +5894,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F0250DF184C912600E77976 /* LoginCloud-hd.plist in Resources */,
-				2FD2BBC318C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.plist in Resources */,
 				2FCAD7EE18594D4000306F6C /* orderwordbg.mp3 in Resources */,
 				2F2C4C151862965A0027B1DC /* GameNavigationClouds-ipadhd.pvr.ccz in Resources */,
 				2FCAD4DD1856ACFF00306F6C /* MainNavigationMap_WaterWave.plist in Resources */,
 				2F2030FA18B344BD00C913CD /* translateGameBkg-hd.pvr.ccz in Resources */,
-				2F20318818B4591F00C913CD /* translateGameTreesAndRoad.plist in Resources */,
 				2F025139184F056F00E77976 /* LoadingBackground.plist in Resources */,
 				2FB0D81E18C5AE6F00225E15 /* Default-568h@2x.png in Resources */,
 				2F025131184F056F00E77976 /* LoadingAnimation-ipadhd.plist in Resources */,
-				2FD2BBC518C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz in Resources */,
 				2F0250DE184C912600E77976 /* loginBorder@2x.png in Resources */,
 				2F0250BA184C904B00E77976 /* Icon.png in Resources */,
 				2FCAD4DC1856ACFF00306F6C /* MainNavigationMap_WaterWave-ipadhd.pvr.ccz in Resources */,
+				2F686C1818D93FD60071C7A1 /* translateGameMonkeyJump5.pvr.ccz in Resources */,
 				2FCAD69B1856C5B900306F6C /* monkeySomersault-ipadhd.plist in Resources */,
 				2FCAD4E01856ACFF00306F6C /* aboutUsBorder_EN@2x.png in Resources */,
-				2FD2BC5318C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.plist in Resources */,
+				2F686B8418D936B70071C7A1 /* translateGameMonkeyWrong1-hd.plist in Resources */,
 				2F9DEF6E185EAB6B002EC4B0 /* sentenceGameMonkteam-ipadhd.plist in Resources */,
 				2F025132184F056F00E77976 /* LoadingAnimation-ipadhd.pvr.ccz in Resources */,
 				2F985E091875319B00B608AB /* LoadingTypeAnimation-hd.pvr.ccz in Resources */,
 				2F985DF11875118F00B608AB /* LoadingTransBkg-hd.plist in Resources */,
+				2F686B9A18D937E40071C7A1 /* translateGameMonkeyWrong2.plist in Resources */,
 				2F2031A218B483E700C913CD /* typeScene_Tower-hd.plist in Resources */,
 				2F2030F618B344BD00C913CD /* translateGameBkg-ipadhd.plist in Resources */,
 				2FCAD6941856C5B900306F6C /* monkeyRun-hd.pvr.ccz in Resources */,
@@ -5853,15 +5923,16 @@
 				2FCAD6A21856C5B900306F6C /* moveTree-ipadhd.pvr.ccz in Resources */,
 				2F025165184F473F00E77976 /* libraryBorder@2x.png in Resources */,
 				2F2031AE18B4874000C913CD /* typeScene_Mountains.plist in Resources */,
+				2F686BF618D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.pvr.ccz in Resources */,
 				2F20313A18B34ACE00C913CD /* translateGameMountains-ipadhd.plist in Resources */,
 				2FCAD8B71859588B00306F6C /* preloadWordLessonScene.plist in Resources */,
 				2FCAD9071859B45200306F6C /* wordGameLessonPigStand-ipadhd.pvr.ccz in Resources */,
 				2FCAD7F818594DB800306F6C /* catchmonster.mp3 in Resources */,
 				2F0250B8184C904B00E77976 /* Icon-Small.png in Resources */,
 				2FE19AC6184C80410060EFD3 /* ShareSDKiPadDefaultShareViewUI.bundle in Resources */,
-				2F20318618B4591F00C913CD /* translateGameTreesAndRoad.pvr.ccz in Resources */,
 				2F20307418B3066000C913CD /* wordGameLessonEatBun-hd.pvr.ccz in Resources */,
 				2F0250D6184C912600E77976 /* btnRegist@2x.png in Resources */,
+				2F686BBA18D939620071C7A1 /* translateGameMonkeyWrong4-hd.plist in Resources */,
 				2FCAD7B018586C6F00306F6C /* typeScene_Pig.plist in Resources */,
 				2F9DEF93185EB14B002EC4B0 /* sentenceGameTower-hd.pvr.ccz in Resources */,
 				2F0250E1184C912600E77976 /* LoginCloud-ipadhd.plist in Resources */,
@@ -5869,21 +5940,22 @@
 				2FCAD4B41856ACFF00306F6C /* landUnit5@2x.png in Resources */,
 				2FCAD4B81856ACFF00306F6C /* landUnitLocked4@2x.png in Resources */,
 				2FD2BC7C18C81B8D0029FFD1 /* workKeepRight.wav in Resources */,
-				2FD2BC4518C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.plist in Resources */,
 				2F0250D8184C912600E77976 /* LoginBackground-hd.plist in Resources */,
-				2FD2BC5D18C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.plist in Resources */,
+				2F686C1A18D93FD60071C7A1 /* translateGameMonkeyJump5-hd.pvr.ccz in Resources */,
 				2F2C4C131862965A0027B1DC /* GameNavigationClouds-hd.pvr.ccz in Resources */,
 				2FCAD6F61856FA9F00306F6C /* learnProgressRedStar@2x.png in Resources */,
 				2F0250BC184C904B00E77976 /* Icon76.png in Resources */,
 				2F20309018B3092700C913CD /* wordGameLessonLostBun.plist in Resources */,
+				2F686B9818D937E40071C7A1 /* translateGameMonkeyWrong2-hd.pvr.ccz in Resources */,
+				2F686BD218D93D580071C7A1 /* translateGameMonkeyJump1-hd.pvr.ccz in Resources */,
 				2FCAD8E71859B1FD00306F6C /* wordGameLessonGas.pvr.ccz in Resources */,
+				2F686B8A18D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz in Resources */,
 				2F025130184F056F00E77976 /* LoadingAnimation-hd.pvr.ccz in Resources */,
 				2F9DEF59185EA525002EC4B0 /* sentenceGameLessonBkg-hd.pvr.ccz in Resources */,
 				2F2C4C0E1862965A0027B1DC /* GameNavigationBkg-ipadhd.plist in Resources */,
 				2FCAD4C61856ACFF00306F6C /* MainNavigationMap_Accessory.pvr.ccz in Resources */,
 				2F20315A18B3509B00C913CD /* translateGameMonkeyChase-ipadhd.plist in Resources */,
 				2FCAD90A1859B45200306F6C /* wordGameLessonPigStand-hd.pvr.ccz in Resources */,
-				2F20318C18B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.plist in Resources */,
 				2F2C4CAD1862F3CF0027B1DC /* GameNavigationBigCloud-ipadhd.plist in Resources */,
 				2F20307C18B3066000C913CD /* wordGameLessonEatBun-hd.plist in Resources */,
 				2F2C4C101862965A0027B1DC /* GameNavigationBkg.plist in Resources */,
@@ -5891,29 +5963,30 @@
 				2F985DDD1872BE9700B608AB /* bookCoverPh@2x.png in Resources */,
 				2FCAD79518586AF400306F6C /* typeScene_Huaguoshan-hd.pvr.ccz in Resources */,
 				2F2C4C0F1862965A0027B1DC /* GameNavigationBkg-ipadhd.pvr.ccz in Resources */,
-				2FD2BBCB18C705130029FFD1 /* translateGameMonkeyJump0-hd.pvr.ccz in Resources */,
 				2FE19ACD184C80420060EFD3 /* ShareSDKiPhoneSimpleShareViewUI.bundle in Resources */,
 				2FCAD90C1859B45200306F6C /* wordGameLessonPigStand-hd.plist in Resources */,
+				2F686BF218D93EDE0071C7A1 /* translateGameMonkeyJump3.plist in Resources */,
 				2F67CC58187EA9FD002F88BD /* LoadingSentenceBkg-ipadhd.plist in Resources */,
 				2F20311A18B347CE00C913CD /* translateGameScene-ipadhd.plist in Resources */,
-				2FD2BBCF18C705130029FFD1 /* translateGameMonkeyJump0.pvr.ccz in Resources */,
 				2F9DEF62185EA725002EC4B0 /* sentenceGameClouds-hd.plist in Resources */,
+				2F686B9E18D937E40071C7A1 /* translateGameMonkeyWrong2-hd.plist in Resources */,
 				2F0251C41851A29600E77976 /* typeScene_blueSky-hd.pvr.ccz in Resources */,
 				2F2C4C0D1862965A0027B1DC /* GameNavigationBkg-hd.pvr.ccz in Resources */,
 				2FCAD7E418594CE500306F6C /* pigLostBun.mp3 in Resources */,
+				2F686BFA18D93EDE0071C7A1 /* translateGameMonkeyJump3.pvr.ccz in Resources */,
 				2FCAD9091859B45200306F6C /* wordGameLessonPigStand-ipadhd.plist in Resources */,
-				2FD2BBC118C705130029FFD1 /* translateGameMonkeyJump0-hd.plist in Resources */,
 				2FCAD6831856C5B900306F6C /* levelBackground-ipadhd.plist in Resources */,
 				2FCAD6971856C5B900306F6C /* monkeyRun.plist in Resources */,
+				2F686BF018D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.plist in Resources */,
 				2FE1995C184C7BC10060EFD3 /* ChangeLog in Resources */,
 				2F0250DC184C912600E77976 /* LoginBackground.plist in Resources */,
 				2FCAD69A1856C5B900306F6C /* monkeySomersault-hd.pvr.ccz in Resources */,
 				2F20316818B3513000C913CD /* translateGameMonsterFly-ipadhd.pvr.ccz in Resources */,
 				2F20316418B3513000C913CD /* translateGameMonsterFly-hd.plist in Resources */,
+				2F686B8C18D936B70071C7A1 /* translateGameMonkeyWrong1.plist in Resources */,
 				2FCAD4C21856ACFF00306F6C /* MainNavigationMap_Accessory-hd.pvr.ccz in Resources */,
 				2F20317E18B4503C00C913CD /* wordGameLessonKeepRight-ipadhd.plist in Resources */,
 				2FCAD6F71856FA9F00306F6C /* learnRedCircleProgress@2x.png in Resources */,
-				2FD2BBCD18C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.plist in Resources */,
 				2F7FB2131887B13000F2BD0A /* btnBack@2x.png in Resources */,
 				2F985DD61871694B00B608AB /* groupCover@2x.png in Resources */,
 				2F20319C18B483E700C913CD /* typeScene_Tower.pvr.ccz in Resources */,
@@ -5923,33 +5996,34 @@
 				2F20315018B3509B00C913CD /* translateGameMonkeyChase-hd.plist in Resources */,
 				2F025134184F056F00E77976 /* LoadingAnimation.pvr.ccz in Resources */,
 				2F0251C81851A29600E77976 /* typeScene_blueSky-ipadhd.plist in Resources */,
-				2F20319018B4591F00C913CD /* translateGameTreesAndRoad-hd.pvr.ccz in Resources */,
 				2FCAD6871856C5B900306F6C /* levelOneSceneAccessory-hd.plist in Resources */,
 				2FCAD7FC18594ECA00306F6C /* WordXMLData in Resources */,
 				2F0250B9184C904B00E77976 /* Icon-Small@2x.png in Resources */,
-				2FD2BBF518C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.pvr.ccz in Resources */,
 				2FCAD936185B117400306F6C /* good.mp3 in Resources */,
 				2F2030F418B344BD00C913CD /* translateGameBkg-ipadhd.pvr.ccz in Resources */,
 				2FE19ACB184C80420060EFD3 /* ShareSDKiPhoneDefaultShareViewUI.bundle in Resources */,
+				2F686C2B18D9A2890071C7A1 /* translateGameTreesAndRoad-hd.plist in Resources */,
 				2F0250D5184C912600E77976 /* btnLogin@2x.png in Resources */,
 				2F9DEF97185EB14B002EC4B0 /* sentenceGameTower.pvr.ccz in Resources */,
-				2FD2BC6118C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.plist in Resources */,
 				2FCAD79A18586AF400306F6C /* typeScene_Huaguoshan.plist in Resources */,
 				2F985DF21875118F00B608AB /* LoadingTransBkg-ipadhd.pvr.ccz in Resources */,
 				2FE19AA2184C80410060EFD3 /* InstapaperResource.bundle in Resources */,
 				2F0250DA184C912600E77976 /* LoginBackground-ipadhd.plist in Resources */,
-				2F20318A18B4591F00C913CD /* translateGameTreesAndRoad-hd.plist in Resources */,
 				2F0250DD184C912600E77976 /* LoginBackground.pvr.ccz in Resources */,
 				2F20316A18B3513000C913CD /* translateGameMonsterFly-ipadhd.plist in Resources */,
+				2F686BC418D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.plist in Resources */,
 				2FCAD4CF1856ACFF00306F6C /* MainNavigationMap_Sea-ipadhd.plist in Resources */,
 				2F2030A218B3287600C913CD /* wordGameLessonAccessory-hd.pvr.ccz in Resources */,
 				2F9DEF5A185EA525002EC4B0 /* sentenceGameLessonBkg-hd.plist in Resources */,
 				2FCAD4E21856ACFF00306F6C /* btnChoise@2x.png in Resources */,
 				2F20309C18B3287600C913CD /* wordGameLessonAccessory-ipadhd.pvr.ccz in Resources */,
 				2F2C4CAA1862F3CF0027B1DC /* GameNavigationBigCloud-ipadhd.pvr.ccz in Resources */,
+				2F686C0818D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.pvr.ccz in Resources */,
+				2F686BE218D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz in Resources */,
+				2F686BDE18D93E490071C7A1 /* translateGameMonkeyJump2.plist in Resources */,
 				2F20313C18B34ACE00C913CD /* translateGameMountains-hd.pvr.ccz in Resources */,
 				2F2C4D15186C14B40027B1DC /* InfoPlist.strings in Resources */,
-				2FD2BBF918C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.plist in Resources */,
+				2F686C0C18D93F590071C7A1 /* translateGameMonkeyJump4.pvr.ccz in Resources */,
 				2FCAD4D41856ACFF00306F6C /* MainNavigationMap_Sky-hd.pvr.ccz in Resources */,
 				2F7FB226188CF8FA00F2BD0A /* gameBase-ipadhd.plist in Resources */,
 				2F0250E3184C912600E77976 /* LoginCloud.plist in Resources */,
@@ -5969,15 +6043,17 @@
 				2FCAD6841856C5B900306F6C /* levelBackground-ipadhd.pvr.ccz in Resources */,
 				2F0250B4184C904B00E77976 /* Default-Landscape~ipad.png in Resources */,
 				2F2030F818B344BD00C913CD /* translateGameBkg.plist in Resources */,
-				2FD2BBFB18C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.plist in Resources */,
 				2F20316218B3513000C913CD /* translateGameMonsterFly.plist in Resources */,
 				2F985E0D1875319B00B608AB /* LoadingTypeAnimation.pvr.ccz in Resources */,
+				2F686BD418D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.plist in Resources */,
 				2FCAD4BA1856ACFF00306F6C /* landUnitLocked6@2x.png in Resources */,
 				2F9DEF64185EA725002EC4B0 /* sentenceGameClouds-ipadhd.plist in Resources */,
 				2FCAD6EF1856FA9F00306F6C /* gameScore-hd.pvr.ccz in Resources */,
 				2FCAD782185867CE00306F6C /* typeScene_GameNode.plist in Resources */,
 				2F985E141875378500B608AB /* LoadingWordBkg.pvr.ccz in Resources */,
 				2F2031AA18B4874000C913CD /* typeScene_Mountains-ipadhd.pvr.ccz in Resources */,
+				2F686B8618D936B70071C7A1 /* translateGameMonkeyWrong1-hd.pvr.ccz in Resources */,
+				2F686BD018D93D580071C7A1 /* translateGameMonkeyJump1-hd.plist in Resources */,
 				2F2C4D0B186972620027B1DC /* isLand3@2x.png in Resources */,
 				2FCAD4B51856ACFF00306F6C /* landUnit6@2x.png in Resources */,
 				2FCAD69E1856C5B900306F6C /* monkeySomersault.pvr.ccz in Resources */,
@@ -5992,12 +6068,16 @@
 				2F20315618B3509B00C913CD /* translateGameMonkeyChase.pvr.ccz in Resources */,
 				2FCAD4DE1856ACFF00306F6C /* MainNavigationMap_WaterWave.pvr.ccz in Resources */,
 				2FCAD77E185867CE00306F6C /* typeScene_GameNode.pvr.ccz in Resources */,
+				2F686BA818D938B20071C7A1 /* translateGameMonkeyWrong3-hd.plist in Resources */,
+				2F686C1C18D93FD60071C7A1 /* translateGameMonkeyJump5.plist in Resources */,
 				2FCAD6F81856FA9F00306F6C /* linerLearnProgressBkg@2x.png in Resources */,
-				2FD2BBC718C705130029FFD1 /* translateGameMonkeyJump0-ipadhd.pvr.ccz in Resources */,
+				2F686C0418D93F590071C7A1 /* translateGameMonkeyJump4-ipadhd.plist in Resources */,
 				2F2C4C161862965A0027B1DC /* GameNavigationClouds.plist in Resources */,
 				2F985DFC187515E400B608AB /* LoadingTypeBkg-hd.pvr.ccz in Resources */,
 				2FCAD6891856C5B900306F6C /* levelOneSceneAccessory-ipadhd.plist in Resources */,
 				2FE19ABC184C80410060EFD3 /* GooglePlus.bundle in Resources */,
+				2F686BE418D93E490071C7A1 /* translateGameMonkeyJump2-hd.plist in Resources */,
+				2F686C0618D93F590071C7A1 /* translateGameMonkeyJump4-hd.pvr.ccz in Resources */,
 				2F20316618B3513000C913CD /* translateGameMonsterFly-hd.pvr.ccz in Resources */,
 				2F985E0B1875319B00B608AB /* LoadingTypeAnimation-ipadhd.pvr.ccz in Resources */,
 				2FCAD780185867CE00306F6C /* typeScene_GameNode-ipadhd.pvr.ccz in Resources */,
@@ -6007,7 +6087,9 @@
 				2FCAD6A71856C5B900306F6C /* moveTreeRootAndStone-ipadhd.plist in Resources */,
 				2FCAD8011859509000306F6C /* TranslateXMLData in Resources */,
 				2FCAD6F11856FA9F00306F6C /* gameScore-ipadhd.pvr.ccz in Resources */,
+				2F686C3118D9A2890071C7A1 /* translateGameTreesAndRoad-hd.pvr.ccz in Resources */,
 				2FCAD7D418594CA600306F6C /* clockTick.caf in Resources */,
+				2F686C0A18D93F590071C7A1 /* translateGameMonkeyJump4.plist in Resources */,
 				2F9DEF94185EB14B002EC4B0 /* sentenceGameTower-ipadhd.pvr.ccz in Resources */,
 				2F985DD41871693E00B608AB /* groupBack@2x.png in Resources */,
 				2FCAD68D1856C5B900306F6C /* monkeyFly-hd.plist in Resources */,
@@ -6015,6 +6097,7 @@
 				2FCAD4D31856ACFF00306F6C /* MainNavigationMap_Sky-hd.plist in Resources */,
 				2F20315218B3509B00C913CD /* translateGameMonkeyChase.plist in Resources */,
 				2F9DEF5B185EA525002EC4B0 /* sentenceGameLessonBkg.pvr.ccz in Resources */,
+				2F686C1E18D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.pvr.ccz in Resources */,
 				2FCAD6F41856FA9F00306F6C /* knowledgebkg1@2x.png in Resources */,
 				2FCAD6F31856FA9F00306F6C /* gameScore.pvr.ccz in Resources */,
 				2F20308618B3092700C913CD /* wordGameLessonLostBun-ipadhd.png in Resources */,
@@ -6028,15 +6111,13 @@
 				2F7FB224188CF8FA00F2BD0A /* gameBase-hd.plist in Resources */,
 				2FCAD7ED18594D4000306F6C /* dropplank.mp3 in Resources */,
 				2F20311818B347CE00C913CD /* translateGameScene.pvr.ccz in Resources */,
+				2F686B8E18D936B70071C7A1 /* translateGameMonkeyWrong1.pvr.ccz in Resources */,
 				2F20319818B483E700C913CD /* typeScene_Tower.plist in Resources */,
+				2F686BE818D93E490071C7A1 /* translateGameMonkeyJump2.pvr.ccz in Resources */,
 				2FCAD4B21856ACFF00306F6C /* landUnit3@2x.png in Resources */,
 				2FCAD4B61856ACFF00306F6C /* landUnitLocked2@2x.png in Resources */,
-				2FD2BBE518C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.plist in Resources */,
 				2FCAD6961856C5B900306F6C /* monkeyRun-ipadhd.pvr.ccz in Resources */,
-				2FD2BBF718C7096E0029FFD1 /* translateGameMonkeyWrong0.plist in Resources */,
 				2FCAD6AA1856C5B900306F6C /* moveTreeRootAndStone.pvr.ccz in Resources */,
-				2FD2BC4D18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.plist in Resources */,
-				2FD2BC6718C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.plist in Resources */,
 				2FCAD6F51856FA9F00306F6C /* learnProgressBlackStar@2x.png in Resources */,
 				2FCAD4B91856ACFF00306F6C /* landUnitLocked5@2x.png in Resources */,
 				2F0250D4184C912600E77976 /* btnForgetPwd@2x.png in Resources */,
@@ -6059,10 +6140,11 @@
 				2FCAD6981856C5B900306F6C /* monkeyRun.pvr.ccz in Resources */,
 				2FCAD781185867CE00306F6C /* typeScene_GameNode-ipadhd.plist in Resources */,
 				2FCAD6E91856FA9F00306F6C /* audio@2x.png in Resources */,
-				2FD2BBD118C705130029FFD1 /* translateGameMonkeyJump0.plist in Resources */,
 				2FCAD7AE18586C6F00306F6C /* typeScene_Pig.pvr.ccz in Resources */,
 				2F985E171875378500B608AB /* LoadingWordBkg-ipadhd.pvr.ccz in Resources */,
+				2F686BC218D939620071C7A1 /* translateGameMonkeyWrong4.pvr.ccz in Resources */,
 				2FCAD6FA1856FA9F00306F6C /* reStart@2x.png in Resources */,
+				2F686BE018D93E490071C7A1 /* translateGameMonkeyJump2-ipadhd.plist in Resources */,
 				2F985DF51875118F00B608AB /* LoadingTransBkg-ipadhd.plist in Resources */,
 				2F2C4C2A1862965A0027B1DC /* preloadCommonNavigationMap.plist in Resources */,
 				2FCAD934185B117400306F6C /* cool.mp3 in Resources */,
@@ -6073,8 +6155,6 @@
 				2FCAD7D318594CA600306F6C /* caculateScore.mp3 in Resources */,
 				2FCAD4E61856ACFF00306F6C /* settingBorder@2x.png in Resources */,
 				2FCAD79618586AF400306F6C /* typeScene_Huaguoshan-hd.plist in Resources */,
-				2FD2BC5518C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.pvr.ccz in Resources */,
-				2F20318E18B4591F00C913CD /* translateGameTreesAndRoad-ipadhd.pvr.ccz in Resources */,
 				2FCAD6AB1856C5B900306F6C /* preloadPinyinLessonScene.plist in Resources */,
 				2F0251C61851A29600E77976 /* typeScene_blueSky.plist in Resources */,
 				2F20311C18B347CE00C913CD /* translateGameScene.plist in Resources */,
@@ -6092,12 +6172,12 @@
 				2FCAD4DF1856ACFF00306F6C /* aboutUsBorder_CN@2x.png in Resources */,
 				2FCAD68A1856C5B900306F6C /* levelOneSceneAccessory-ipadhd.pvr.ccz in Resources */,
 				2F985E0C1875319B00B608AB /* LoadingTypeAnimation-hd.plist in Resources */,
+				2F686BBC18D939620071C7A1 /* translateGameMonkeyWrong4-ipadhd.pvr.ccz in Resources */,
 				2FCAD8E81859B1FD00306F6C /* wordGameLessonGas.plist in Resources */,
 				2F985E01187515E400B608AB /* LoadingTypeBkg.plist in Resources */,
 				2F985E161875378500B608AB /* LoadingWordBkg-hd.pvr.ccz in Resources */,
 				2F2C4CB81863D9500027B1DC /* stars1@2x.png in Resources */,
 				2FCAD4E31856ACFF00306F6C /* btnClose@2x.png in Resources */,
-				2FD2BBEF18C7096E0029FFD1 /* translateGameMonkeyWrong0-hd.pvr.ccz in Resources */,
 				2FCAD7D518594CA600306F6C /* keepRight.caf in Resources */,
 				2F20307818B3066000C913CD /* wordGameLessonEatBun.pvr.ccz in Resources */,
 				2F985DFD187515E400B608AB /* LoadingTypeBkg-ipadhd.plist in Resources */,
@@ -6107,17 +6187,17 @@
 				2FCAD4C31856ACFF00306F6C /* MainNavigationMap_Accessory-ipadhd.plist in Resources */,
 				2F9DEF65185EA725002EC4B0 /* sentenceGameClouds.pvr.ccz in Resources */,
 				2F20317818B4503C00C913CD /* wordGameLessonKeepRight-hd.pvr.ccz in Resources */,
-				2FD2BBD318C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.pvr.ccz in Resources */,
 				2F0250E0184C912600E77976 /* LoginCloud-hd.pvr.ccz in Resources */,
 				2FCAD7E518594CE500306F6C /* rubimagebg.mp3 in Resources */,
-				2FD2BC6318C71E2E0029FFD1 /* translateGameMonkeyKeepRight3-ipadhd.pvr.ccz in Resources */,
 				2F20309A18B3287600C913CD /* wordGameLessonAccessory-hd.plist in Resources */,
 				2F985E151875378500B608AB /* LoadingWordBkg-hd.plist in Resources */,
 				2F2031B418B4874000C913CD /* typeScene_Mountains.pvr.ccz in Resources */,
 				2FCAD8A41859585800306F6C /* preloadSentenceLessonScene.plist in Resources */,
 				2FCAD6A61856C5B900306F6C /* moveTreeRootAndStone-hd.pvr.ccz in Resources */,
+				2F686BE618D93E490071C7A1 /* translateGameMonkeyJump2-hd.pvr.ccz in Resources */,
 				2F20315418B3509B00C913CD /* translateGameMonkeyChase-hd.pvr.ccz in Resources */,
 				2F2030E818B33DE600C913CD /* wordGameLessonBkg.plist in Resources */,
+				2F686BF818D93EDE0071C7A1 /* translateGameMonkeyJump3-hd.pvr.ccz in Resources */,
 				2F20308818B3092700C913CD /* wordGameLessonLostBun-hd.png in Resources */,
 				2F985DFE187515E400B608AB /* LoadingTypeBkg.pvr.ccz in Resources */,
 				2FCAD55B1856AD6400306F6C /* preloadWordNavigationMap.plist in Resources */,
@@ -6127,17 +6207,15 @@
 				2FCAD6A91856C5B900306F6C /* moveTreeRootAndStone.plist in Resources */,
 				2FCAD7D818594CA600306F6C /* selectRightTone.caf in Resources */,
 				2FCAD4E41856ACFF00306F6C /* btnSetting@2x.png in Resources */,
-				2FD2BBD518C705130029FFD1 /* translateGameMonkeyJump3-ipadhd.plist in Resources */,
-				2FD2BC4B18C71E2E0029FFD1 /* translateGameMonkeyKeepRight2-ipadhd.pvr.ccz in Resources */,
 				2F2C4C121862965A0027B1DC /* GameNavigationClouds-hd.plist in Resources */,
 				2F20308A18B3092700C913CD /* wordGameLessonLostBun.png in Resources */,
+				2F686BF418D93EDE0071C7A1 /* translateGameMonkeyJump3-ipadhd.plist in Resources */,
 				2FCAD4BB1856ACFF00306F6C /* levelLocked@2x.png in Resources */,
 				2FCAD4D61856ACFF00306F6C /* MainNavigationMap_Sky-ipadhd.pvr.ccz in Resources */,
 				2F2030EA18B33DE600C913CD /* wordGameLessonBkg-hd.pvr.ccz in Resources */,
 				2F7FB220188CF8FA00F2BD0A /* gameBase.plist in Resources */,
 				2F0250E2184C912600E77976 /* LoginCloud-ipadhd.pvr.ccz in Resources */,
 				2F0250E4184C912600E77976 /* LoginCloud.pvr.ccz in Resources */,
-				2FD2BBE718C7096E0029FFD1 /* translateGameMonkeyWrong1-ipadhd.pvr.ccz in Resources */,
 				2FE19AC8184C80410060EFD3 /* ShareSDKiPadSimpleShareViewUI.bundle in Resources */,
 				2F67CC57187EA9FD002F88BD /* LoadingSentenceBkg.plist in Resources */,
 				2F9DEF71185EAB6B002EC4B0 /* sentenceGameMonkteam-ipadhd.pvr.ccz in Resources */,
@@ -6148,7 +6226,6 @@
 				2FCAD4D51856ACFF00306F6C /* MainNavigationMap_Sky-ipadhd.plist in Resources */,
 				2FCAD7FF18594F9400306F6C /* SentenceXMLData in Resources */,
 				2F2031A018B483E700C913CD /* typeScene_Tower-hd.pvr.ccz in Resources */,
-				2FD2BC5918C71E2E0029FFD1 /* translateGameMonkeyKeepRight4-ipadhd.pvr.ccz in Resources */,
 				2F2C4CB71863D9500027B1DC /* stars0@2x.png in Resources */,
 				2F985DF31875118F00B608AB /* LoadingTransBkg-hd.pvr.ccz in Resources */,
 				2F9DEF63185EA725002EC4B0 /* sentenceGameClouds-hd.pvr.ccz in Resources */,
@@ -6156,34 +6233,30 @@
 				2F20314018B34ACE00C913CD /* translateGameMountains.pvr.ccz in Resources */,
 				2F20315818B3509B00C913CD /* translateGameMonkeyChase-ipadhd.pvr.ccz in Resources */,
 				2FCAD4CE1856ACFF00306F6C /* MainNavigationMap_Sea-hd.pvr.ccz in Resources */,
-				2FD2BC4918C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.pvr.ccz in Resources */,
 				2F67CC5A187EA9FD002F88BD /* LoadingSentenceBkg-ipadhd.pvr.ccz in Resources */,
 				2F7FB222188CF8FA00F2BD0A /* gameBase-ipadhd.pvr.ccz in Resources */,
 				2FCAD4E11856ACFF00306F6C /* btnAboutUs@2x.png in Resources */,
+				2F686BA018D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.plist in Resources */,
 				2F7FB228188CF8FA00F2BD0A /* gameBase.pvr.ccz in Resources */,
 				2F985DDC1872BE9700B608AB /* groupCoverPh@2x.png in Resources */,
 				2FCAD7D918594CA600306F6C /* selectWrongTone.caf in Resources */,
 				2F0250BD184C904B00E77976 /* Icon@2x.png in Resources */,
 				2FCAD7E118594CE500306F6C /* countDown.mp3 in Resources */,
-				2FD2BBD718C705130029FFD1 /* translateGameMonkeyJump2-ipadhd.plist in Resources */,
 				2FCAD6821856C5B900306F6C /* levelBackground-hd.pvr.ccz in Resources */,
 				2FCAD9081859B45200306F6C /* wordGameLessonPigStand.pvr.ccz in Resources */,
 				2F0250BE184C904B00E77976 /* iTunesArtwork in Resources */,
 				2FCAD6901856C5B900306F6C /* monkeyFly-ipadhd.pvr.ccz in Resources */,
 				2FCAD4C71856ACFF00306F6C /* MainNavigationMap_LandWave-hd.plist in Resources */,
 				2F2C4C0C1862965A0027B1DC /* GameNavigationBkg-hd.plist in Resources */,
-				2FD2BC5118C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.pvr.ccz in Resources */,
 				2FCAD4C51856ACFF00306F6C /* MainNavigationMap_Accessory.plist in Resources */,
 				2FCAD8E51859B1FD00306F6C /* wordGameLessonGas-ipadhd.pvr.ccz in Resources */,
 				2F0251C31851A29600E77976 /* typeScene_blueSky-ipadhd.pvr.ccz in Resources */,
-				2FD2BBF318C7096E0029FFD1 /* translateGameMonkeyWrong0-ipadhd.plist in Resources */,
 				2FCAD4B31856ACFF00306F6C /* landUnit4@2x.png in Resources */,
+				2F686C1618D93FD60071C7A1 /* translateGameMonkeyJump5-hd.plist in Resources */,
 				2F2C4C111862965A0027B1DC /* GameNavigationBkg.pvr.ccz in Resources */,
 				2F20317618B4503C00C913CD /* wordGameLessonKeepRight.plist in Resources */,
 				2FCAD6F01856FA9F00306F6C /* gameScore-ipadhd.plist in Resources */,
-				2FD2BC5B18C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-ipadhd.pvr.ccz in Resources */,
 				2FCAD77F185867CE00306F6C /* typeScene_GameNode-hd.plist in Resources */,
-				2FD2BC4F18C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-hd.plist in Resources */,
 				2FCAD69C1856C5B900306F6C /* monkeySomersault-ipadhd.pvr.ccz in Resources */,
 				2FCAD6A41856C5B900306F6C /* moveTree.pvr.ccz in Resources */,
 				2F025164184F473F00E77976 /* bookshelf@2x.png in Resources */,
@@ -6191,19 +6264,18 @@
 				2F025135184F056F00E77976 /* LoadingBackground-hd.plist in Resources */,
 				2FCAD7F618594DB800306F6C /* cardclick.mp3 in Resources */,
 				2FCAD68B1856C5B900306F6C /* levelOneSceneAccessory.plist in Resources */,
+				2F686C0218D93F590071C7A1 /* translateGameMonkeyJump4-hd.plist in Resources */,
 				2F985E0A1875319B00B608AB /* LoadingTypeAnimation.plist in Resources */,
 				2FCAD6861856C5B900306F6C /* levelBackground.pvr.ccz in Resources */,
 				2F2030E018B33DE600C913CD /* wordGameLessonBkg-ipadhd.pvr.ccz in Resources */,
 				2FCAD7AD18586C6F00306F6C /* typeScene_Pig-hd.pvr.ccz in Resources */,
-				2FD2BC6518C71E2E0029FFD1 /* translateGameMonkeyKeepRight0.pvr.ccz in Resources */,
 				2FCAD6F21856FA9F00306F6C /* gameScore.plist in Resources */,
 				2F0251C71851A29600E77976 /* typeScene_blueSky.pvr.ccz in Resources */,
 				2FCAD7F718594DB800306F6C /* carddisappear.mp3 in Resources */,
+				2F686BAE18D938B20071C7A1 /* translateGameMonkeyWrong3.pvr.ccz in Resources */,
 				2F985E00187515E400B608AB /* LoadingTypeBkg-hd.plist in Resources */,
+				2F686BBE18D939620071C7A1 /* translateGameMonkeyWrong4.plist in Resources */,
 				2FCAD7D718594CA600306F6C /* peachCorrect.caf in Resources */,
-				2FD2BC4718C71E2E0029FFD1 /* translateGameMonkeyKeepRight0-hd.plist in Resources */,
-				2FD2BBED18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.plist in Resources */,
-				2FD2BBF118C7096E0029FFD1 /* translateGameMonkeyWrong0.pvr.ccz in Resources */,
 				2FCAD4CC1856ACFF00306F6C /* MainNavigationMap_LandWave.pvr.ccz in Resources */,
 				2FCAD6A11856C5B900306F6C /* moveTree-ipadhd.plist in Resources */,
 				2F7FB21618891EDC00F2BD0A /* lessonNodePosition.plist in Resources */,
@@ -6212,20 +6284,25 @@
 				2FE19AB9184C80410060EFD3 /* Resource.bundle in Resources */,
 				2F2C4C141862965A0027B1DC /* GameNavigationClouds-ipadhd.plist in Resources */,
 				2FCAD6911856C5B900306F6C /* monkeyFly.plist in Resources */,
+				2F686C3318D9A2890071C7A1 /* translateGameTreesAndRoad.pvr.ccz in Resources */,
 				2FCAD6EE1856FA9F00306F6C /* gameScore-hd.plist in Resources */,
 				2F67CC5C187EA9FD002F88BD /* LoadingSentenceBkg.pvr.ccz in Resources */,
 				2FCAD4D01856ACFF00306F6C /* MainNavigationMap_Sea-ipadhd.pvr.ccz in Resources */,
-				2FD2BBC918C705130029FFD1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz in Resources */,
 				2FCAD7EF18594D4000306F6C /* plankdestroy.mp3 in Resources */,
 				2F20312018B347CE00C913CD /* translateGameScene-ipadhd.pvr.ccz in Resources */,
+				2F686BD618D93D580071C7A1 /* translateGameMonkeyJump1.plist in Resources */,
+				2F686B8818D936B70071C7A1 /* translateGameMonkeyWrong1-ipadhd.plist in Resources */,
 				2F9DEF66185EA725002EC4B0 /* sentenceGameClouds-ipadhd.pvr.ccz in Resources */,
 				2FCAD4CD1856ACFF00306F6C /* MainNavigationMap_Sea-hd.plist in Resources */,
+				2F686C3518D9A2890071C7A1 /* translateGameTreesAndRoad.plist in Resources */,
 				2F2C4CB91863D9500027B1DC /* stars2@2x.png in Resources */,
 				2F20309818B3287600C913CD /* wordGameLessonAccessory.pvr.ccz in Resources */,
 				2FCAD6881856C5B900306F6C /* levelOneSceneAccessory-hd.pvr.ccz in Resources */,
+				2F686C2D18D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.plist in Resources */,
+				2F686BAC18D938B20071C7A1 /* translateGameMonkeyWrong3-hd.pvr.ccz in Resources */,
 				2F985E181875378500B608AB /* LoadingWordBkg-ipadhd.plist in Resources */,
 				2F20317418B4503C00C913CD /* wordGameLessonKeepRight-hd.plist in Resources */,
-				2FD2BC5718C71E2E0029FFD1 /* translateGameMonkeyKeepRight1-ipadhd.pvr.ccz in Resources */,
+				2F686BB018D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.plist in Resources */,
 				2F9DEF6F185EAB6B002EC4B0 /* sentenceGameMonkteam.plist in Resources */,
 				2F20309E18B3287600C913CD /* wordGameLessonAccessory.plist in Resources */,
 				2F0250B7184C904B00E77976 /* Icon-Small-50.png in Resources */,
@@ -6233,7 +6310,6 @@
 				2FCAD6EA1856FA9F00306F6C /* backToMainMap@2x.png in Resources */,
 				2FE19ABF184C80410060EFD3 /* PinterestSDKResources.bundle in Resources */,
 				2FCAD935185B117400306F6C /* excellent.mp3 in Resources */,
-				2FD2BBEB18C7096E0029FFD1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz in Resources */,
 				2F9DEF57185EA525002EC4B0 /* sentenceGameLessonBkg-ipadhd.plist in Resources */,
 				2F2C4D0A186972620027B1DC /* isLand2@2x.png in Resources */,
 				2F2C4D1B186C1A680027B1DC /* Localization.strings in Resources */,
@@ -6241,10 +6317,12 @@
 				2FCAD8E41859B1FD00306F6C /* wordGameLessonGas-hd.pvr.ccz in Resources */,
 				2F0250B5184C904B00E77976 /* Default~ipad.png in Resources */,
 				2FCAD4E51856ACFF00306F6C /* btnUnChoise@2x.png in Resources */,
+				2F686B9C18D937E40071C7A1 /* translateGameMonkeyWrong2-ipadhd.pvr.ccz in Resources */,
 				2F20307E18B3066000C913CD /* wordGameLessonEatBun.plist in Resources */,
 				2FCAD7391857176B00306F6C /* PinyinXMLData in Resources */,
 				2F8BE09118C468CC0089C522 /* share@2x.jpg in Resources */,
 				2F2E20F918BF304F00B316CA /* knowledgeTablebkg@2x.png in Resources */,
+				2F686B9618D937E40071C7A1 /* translateGameMonkeyWrong2.pvr.ccz in Resources */,
 				2F20319E18B483E700C913CD /* typeScene_Tower-ipadhd.plist in Resources */,
 				2FCAD5CF1856ADB600306F6C /* preloadSentenceNavigationMap.plist in Resources */,
 				2F2031B018B4874000C913CD /* typeScene_Mountains-hd.plist in Resources */,
@@ -6253,13 +6331,14 @@
 				2FCAD6EB1856FA9F00306F6C /* btnShare@2x.png in Resources */,
 				2F9DEF67185EA725002EC4B0 /* sentenceGameClouds.plist in Resources */,
 				2FCAD4D21856ACFF00306F6C /* MainNavigationMap_Sea.pvr.ccz in Resources */,
+				2F686C1418D93FD60071C7A1 /* translateGameMonkeyJump5-ipadhd.plist in Resources */,
 				2F2C4CAE1862F3CF0027B1DC /* GameNavigationBigCloud-hd.plist in Resources */,
 				2F0250D9184C912600E77976 /* LoginBackground-hd.pvr.ccz in Resources */,
 				2F0251BC1851A10D00E77976 /* preloadTypeScene.plist in Resources */,
 				2FCAD6931856C5B900306F6C /* monkeyRun-hd.plist in Resources */,
 				2FCAD7D618594CA600306F6C /* levelBackgroundAudio.mp3 in Resources */,
+				2F686BC018D939620071C7A1 /* translateGameMonkeyWrong4-hd.pvr.ccz in Resources */,
 				2FCAD6A51856C5B900306F6C /* moveTreeRootAndStone-hd.plist in Resources */,
-				2FD2BBE918C7096E0029FFD1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz in Resources */,
 				2F2030A018B3287600C913CD /* wordGameLessonAccessory-ipadhd.plist in Resources */,
 				2FCAD4BC1856ACFF00306F6C /* levelUnLocked@2x.png in Resources */,
 				2F025133184F056F00E77976 /* LoadingAnimation.plist in Resources */,
@@ -6268,18 +6347,22 @@
 				2FCAD6EC1856FA9F00306F6C /* cellHighBkg@2x.png in Resources */,
 				2FCAD6F91856FA9F00306F6C /* nextLevel@2x.png in Resources */,
 				2FCAD4C11856ACFF00306F6C /* MainNavigationMap_Accessory-hd.plist in Resources */,
+				2F686C2F18D9A2890071C7A1 /* translateGameTreesAndRoad-ipadhd.pvr.ccz in Resources */,
 				2F9DEF96185EB14B002EC4B0 /* sentenceGameTower-ipadhd.plist in Resources */,
+				2F686BAA18D938B20071C7A1 /* translateGameMonkeyWrong3-ipadhd.pvr.ccz in Resources */,
 				2F20311618B347CE00C913CD /* translateGameScene-hd.plist in Resources */,
 				2F025138184F056F00E77976 /* LoadingBackground-ipadhd.pvr.ccz in Resources */,
-				2FD2BC5F18C71E2E0029FFD1 /* translateGameMonkeyKeepRight5-ipadhd.plist in Resources */,
 				2FCAD89A1859580C00306F6C /* preloadTranslateLessonScene.plist in Resources */,
 				2FCAD7E318594CE500306F6C /* pigLaugh.mp3 in Resources */,
+				2F686BB218D938B20071C7A1 /* translateGameMonkeyWrong3.plist in Resources */,
 				2FD2BC7918C81B200029FFD1 /* transWrong.wav in Resources */,
 				2F2C4CAB1862F3CF0027B1DC /* GameNavigationBigCloud.plist in Resources */,
 				2FCAD79918586AF400306F6C /* typeScene_Huaguoshan.pvr.ccz in Resources */,
 				2F9DEF58185EA525002EC4B0 /* sentenceGameLessonBkg-ipadhd.pvr.ccz in Resources */,
+				2F686BCE18D93D580071C7A1 /* translateGameMonkeyJump1-ipadhd.pvr.ccz in Resources */,
 				2FCAD6811856C5B900306F6C /* levelBackground-hd.plist in Resources */,
 				2F025136184F056F00E77976 /* LoadingBackground-hd.pvr.ccz in Resources */,
+				2F686BCC18D93D580071C7A1 /* translateGameMonkeyJump1.pvr.ccz in Resources */,
 				2FCAD6ED1856FA9F00306F6C /* cellSeperatorLine@2x.png in Resources */,
 				2F20316C18B3513000C913CD /* translateGameMonsterFly.pvr.ccz in Resources */,
 				2F20307618B3066000C913CD /* wordGameLessonEatBun-ipadhd.plist in Resources */,
@@ -6338,6 +6421,7 @@
 				2F7FAEFB188651E000F2BD0A /* Contents.m in Sources */,
 				2F7FAEFC188651E000F2BD0A /* CCNode+Debug.m in Sources */,
 				2F7FAEFD188651E000F2BD0A /* LoadingScene.m in Sources */,
+				2F686C2318D97CED0071C7A1 /* HSTKnowledgeCustomHeaderView.m in Sources */,
 				2F7FAEFE188651E000F2BD0A /* ccFPSImages.m in Sources */,
 				2F7FAEFF188651E000F2BD0A /* CMPopTipView.m in Sources */,
 				2F7FAF00188651E000F2BD0A /* SentenceXMLDataParser.m in Sources */,
@@ -6622,6 +6706,7 @@
 				2FCAD6CF1856DF1000306F6C /* Contents.m in Sources */,
 				2FE19876184C7BC00060EFD3 /* CCNode+Debug.m in Sources */,
 				2F025149184F05FA00E77976 /* LoadingScene.m in Sources */,
+				2F686C2218D97CED0071C7A1 /* HSTKnowledgeCustomHeaderView.m in Sources */,
 				2FE19851184C7BBF0060EFD3 /* ccFPSImages.m in Sources */,
 				2F985DD21871443500B608AB /* CMPopTipView.m in Sources */,
 				2FCAD91C185ABC9900306F6C /* SentenceXMLDataParser.m in Sources */,
@@ -7065,6 +7150,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"ChineseForKids/ThirdLibraries/ShareSDK_v2.6.0/Connection\"",
@@ -7097,6 +7184,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "西游汉语乐园";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -7106,6 +7194,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"ChineseForKids/ThirdLibraries/ShareSDK_v2.6.0/Connection\"",
@@ -7137,6 +7227,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "西游汉语乐园";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

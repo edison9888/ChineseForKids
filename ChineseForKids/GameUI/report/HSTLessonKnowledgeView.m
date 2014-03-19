@@ -8,6 +8,7 @@
 
 #import <AVFoundation/AVFoundation.h>
 #import "HSTLessonKnowledgeView.h"
+#import "HSTKnowledgeCustomHeaderView.h"
 #import "GlobalDataHelper.h"
 #import "GameManager.h"
 #import "SentencePatternModel.h"
@@ -17,7 +18,9 @@
 
 @implementation HSTLessonKnowledgeView
 {
+    NSMutableDictionary *dicKnowledges;
     NSMutableArray *arrKnowledges;
+    NSMutableArray *arrSenPattern;
     
     UIImage *imgBackground;
     UIImage *imgTableBkg;
@@ -57,7 +60,9 @@
     self = [super init];
     if (self)
     {
+        dicKnowledges = [[NSMutableDictionary alloc] init];
         arrKnowledges = [[NSMutableArray alloc] init];
+        arrSenPattern = [[NSMutableArray alloc] init];
         
         imgBackground = [UIImage imageNamed:@"knowledgebkg.png"];
         imgTableBkg = [UIImage imageNamed:@"knowledgeTablebkg.png"];
@@ -97,8 +102,8 @@
     tbvProgress.backgroundView  = [[UIView alloc] init];
     tbvProgress.backgroundColor = [UIColor clearColor];
     // 去除group形态下cell的边框线。
-    tbvProgress.separatorStyle = UITableViewCellSeparatorStyleNone;
-    tbvProgress.separatorColor = [UIColor clearColor];
+    tbvProgress.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    tbvProgress.separatorColor = [UIColor colorWithWhite:0.0f alpha:0.3f];
     [self addSubview:tbvProgress];
     
     // 退出
@@ -112,12 +117,17 @@
 - (void)loadKnowledgeDataWithUserID:(NSString *)userID humanID:(NSInteger)humanID groupID:(NSInteger)groupID bookID:(NSInteger)bookID typeID:(NSInteger)typeID lessonID:(NSInteger)lessonID
 {
     NSArray *arrData = [[GameManager sharedManager] loadDataWithUserID:userID humanID:humanID groupID:groupID bookID:bookID typeID:typeID lessonID:lessonID];
+    [arrSenPattern setArray:arrData];
+    
+    [arrKnowledges removeAllObjects];
     for (int i = 0; i < [arrData count]; i++)
     {
         SentencePatternModel *senPatternModel = (SentencePatternModel *)[arrData objectAtIndex:i];
         
         NSArray *arrSen = [[GameManager sharedManager] loadSentenceDataWithUserID:userID humanID:humanID groupID:groupID bookID:bookID typeID:typeID lessonID:lessonID senPatternID:senPatternModel.knowledgeIDValue];
-        [arrKnowledges addObjectsFromArray:arrSen];
+        NSString *senPatternID = [[NSString alloc] initWithFormat:@"%d", senPatternModel.knowledgeIDValue];
+        
+        [dicKnowledges setObject:arrSen forKey:senPatternID];
     }
 }
 
@@ -193,12 +203,15 @@
 #pragma mark - UITableView Dadasource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return [arrSenPattern count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [arrKnowledges count];
+    SentencePatternModel *senPatternModel = (SentencePatternModel *)[arrSenPattern objectAtIndex:section];
+    NSString *strTSenPID = [[NSString alloc] initWithFormat:@"%d", senPatternModel.knowledgeIDValue];
+    NSArray *arrTKnowledges = [dicKnowledges objectForKey:strTSenPID];
+    return [arrTKnowledges count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -208,13 +221,25 @@
     if (nil == cell)
     {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ProgressCell];
+        
         cell.selectionStyle  = UITableViewCellSelectionStyleGray;
         cell.backgroundColor = [UIColor clearColor];
         cell.selectedBackgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cellHighBkg.png"]];
+        
+        UIImage *imgAudio = [UIImage imageNamed:@"audio.png"];
+        UIImageView *imgvAudio = [[UIImageView alloc] initWithImage:imgAudio];
+        imgvAudio.backgroundColor = [UIColor clearColor];
+        cell.accessoryView = imgvAudio;
     }
     
     NSInteger row = [indexPath row];
-    SentenceModel *senModel = (SentenceModel *)[arrKnowledges objectAtIndex:row];
+    NSInteger section = [indexPath section];
+    
+    SentencePatternModel *senPatternModel = (SentencePatternModel *)[arrSenPattern objectAtIndex:section];
+    NSString *strTSenPID = [[NSString alloc] initWithFormat:@"%d", senPatternModel.knowledgeIDValue];
+    NSArray *arrTKnowledges = [dicKnowledges objectForKey:strTSenPID];
+    
+    SentenceModel *senModel = (SentenceModel *)[arrTKnowledges objectAtIndex:row];
     cell.textLabel.text = senModel.sentence;
     
     return cell;
@@ -224,8 +249,13 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSInteger row = [indexPath row];
+    NSInteger section = [indexPath section];
     
-    SentenceModel *senModel = (SentenceModel *)[arrKnowledges objectAtIndex:row];
+    SentencePatternModel *senPatternModel = (SentencePatternModel *)[arrSenPattern objectAtIndex:section];
+    NSString *strTSenPID = [[NSString alloc] initWithFormat:@"%d", senPatternModel.knowledgeIDValue];
+    NSArray *arrTKnowledges = [dicKnowledges objectForKey:strTSenPID];
+    
+    SentenceModel *senModel = (SentenceModel *)[arrTKnowledges objectAtIndex:row];
     
     strAudio = senModel.audio;
     [self stopAudio];
@@ -236,6 +266,21 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return tableView.sectionHeaderHeight*3.0f;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    SentencePatternModel *senPatternModel = (SentencePatternModel *)[arrSenPattern objectAtIndex:section];
+    HSTKnowledgeCustomHeaderView *tKnowledgeView = [[HSTKnowledgeCustomHeaderView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, tableView.bounds.size.width, tableView.sectionHeaderHeight)];
+    tKnowledgeView.titleText = senPatternModel.sentencePattern;
+    tKnowledgeView.percent   = senPatternModel.progressValue;
+    
+    return tKnowledgeView;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return tableView.rowHeight*1.5f;
 }
 
 #pragma mark - Memory Manager
@@ -260,6 +305,9 @@
     
     [arrKnowledges removeAllObjects];
     arrKnowledges = nil;
+    
+    [arrSenPattern removeAllObjects];
+    arrSenPattern = nil;
     
     imgBackground = nil;
     imgCircleBkg  = nil;

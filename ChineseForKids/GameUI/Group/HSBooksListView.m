@@ -169,6 +169,8 @@
         CGFloat y = kLIBRARY_SHELF_HEIGHT / 14;
         [btnBook setFrame:CGRectMake(x, y, width, heigh)];
         [svBookList addSubview:btnBook];
+        
+        break;
     }
 }
 

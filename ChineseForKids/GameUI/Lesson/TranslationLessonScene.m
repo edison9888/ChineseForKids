@@ -397,33 +397,6 @@
 #pragma mark - Sprite Animation Manager
 - (void)updateMonsterAnimation
 {
-    /*
-    CGSize boundSize = [self boundingBox].size;
-    CGFloat monsterHeight = 25+spMonster.contentSize.height*0.5;
-    
-    //妖怪奔跑动画
-    CCSequence *actionMonster=[CCSequence actions:
-                               [CCMoveTo actionWithDuration:5 position:ccp(-spMonster.contentSize.width-monkeySpec-spMonkey.contentSize.width, monsterHeight)]
-                               ,[CCFlipX actionWithFlipX:YES],
-                               [CCScaleTo actionWithDuration:0 scale:1],
-                               [CCMoveTo actionWithDuration:0 position:ccp(-spMonster.contentSize.width,monsterHeight)],
-                               [CCMoveTo actionWithDuration:3 position:ccp(boundSize.width+monkeySpec+spMonkey.contentSize.width+spMonster.contentSize.width, monsterHeight)],
-                               [CCScaleTo actionWithDuration:0 scale:0.5],
-                               [CCFlipX actionWithFlipX:NO], nil];
-    [spMonster runAction:[CCRepeatForever actionWithAction:actionMonster]];
-    
-    NSMutableArray *monsterFrames=[NSMutableArray arrayWithCapacity:2];
-    
-    for(int i=1;i<=2;i++){
-        NSString *frameName=[NSString stringWithFormat:@"monster%d.png",i];
-        CCSpriteFrame *frame=[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:frameName];
-        [monsterFrames addObject:frame];
-    }
-    
-    CCAnimation *animationMonster=[CCAnimation animationWithSpriteFrames:monsterFrames delay:0.3];
-    [spMonster runAction:[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:animationMonster]]];
-     */
-    
     NSMutableArray *arrAnimation = [NSMutableArray arrayWithCapacity:6];
     for(int i = 0; i <= 19; i++)
     {
@@ -439,34 +412,7 @@
 
 - (void)updateMonkeyAnimation
 {
-    /*
-    CGSize boundSize = [self boundingBox].size;
-    CGFloat monkeyHeight=25+spMonkey.contentSize.height*0.5;
-    
-    //猴子奔跑动画
-    CCSequence *actionMonkey=[CCSequence actions:
-                              [CCMoveTo actionWithDuration:5 position:ccp(-spMonkey.contentSize.width,monkeyHeight)],
-                              [CCMoveTo actionWithDuration:0 position:ccp(-spMonkey.contentSize.width-monkeySpec-spMonster.contentSize.width, monkeyHeight)],[CCFlipX actionWithFlipX:YES],
-                              [CCScaleTo actionWithDuration:0 scale:1],
-                              [CCMoveTo actionWithDuration:3 position:ccp(boundSize.width, monkeyHeight)],
-                              [CCMoveTo actionWithDuration:0 position:ccp(boundSize.width+monkeySpec+spMonster.contentSize.width*2,monkeyHeight)],
-                              [CCScaleTo actionWithDuration:0 scale:0.5],[CCFlipX actionWithFlipX:NO], nil];
-    
-    
-    [spMonkey runAction:[CCRepeatForever actionWithAction:actionMonkey]];
-    
-    NSMutableArray *monkeyFrames=[NSMutableArray arrayWithCapacity:2];
-    
-    for(int i=1;i<=2;i++){
-        NSString *frameName=[NSString stringWithFormat:@"monkey%d.png",i];
-        CCSpriteFrame *frame=[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:frameName];
-        [monkeyFrames addObject:frame];
-    }
-    
-    CCAnimation *animationMonkey=[CCAnimation animationWithSpriteFrames:monkeyFrames delay:0.05];
-    [spMonkey runAction:[CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:animationMonkey]]];
-     */
-    
+
     NSMutableArray *arrAnimation = [NSMutableArray arrayWithCapacity:6];
     for(int i = 0; i <= 7; i++)
     {
@@ -485,39 +431,9 @@
     [self hideMonkeyAndMonster];
     
     NSMutableArray *arrAnimation = [NSMutableArray arrayWithCapacity:6];
-    for(int i = 0; i <= 39; i++)
+    for(int i = 1; i <= 40; i++)
     {
-        NSString *frameName=[NSString stringWithFormat:@"monkeyJump/%04d",i];
-        CCSpriteFrame *frame=[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:frameName];
-        [arrAnimation addObject:frame];
-    }
-    
-    CCCallBlockN *callBlockN = [CCCallBlockN actionWithBlock:^(CCNode *node){
-        [self showMonkeyAndMonster];
-        
-        [spSelect removeFromParentAndCleanup:YES];
-        spSelect = nil;
-    }];
-    CCAnimation *animation = [CCAnimation animationWithSpriteFrames:arrAnimation delay:0.04];
-    CCSequence *sequence = [CCSequence actions:[CCAnimate actionWithAnimation:animation], callBlockN, nil];
-    if (!spSelect)
-    {
-        spSelect = [CCSprite spriteWithSpriteFrameName:@"monkeyJump/0000"];
-        spSelect.position = ccp(self.boundingBox.size.width*0.5f+8, self.boundingBox.size.height*0.216f);
-        [self addChild:spSelect z:2];
-        
-        [spSelect runAction:sequence];
-    }
-}
-
-- (void)updateMonkeyWrongAnimation
-{
-    [self hideMonkeyAndMonster];
-    
-    NSMutableArray *arrAnimation = [NSMutableArray arrayWithCapacity:6];
-    for(int i = 0; i <= 31; i++)
-    {
-        NSString *frameName=[NSString stringWithFormat:@"monkeyWrong/%04d",i];
+        NSString *frameName=[NSString stringWithFormat:@"monkeyJump%d.png",i];
         CCSpriteFrame *frame=[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:frameName];
         [arrAnimation addObject:frame];
     }
@@ -532,7 +448,37 @@
     CCSequence *sequence = [CCSequence actions:[CCAnimate actionWithAnimation:animation], callBlockN, nil];
     if (!spSelect)
     {
-        spSelect = [CCSprite spriteWithSpriteFrameName:@"monkeyWrong/0000"];
+        spSelect = [CCSprite spriteWithSpriteFrameName:@"monkeyJump1.png"];
+        spSelect.position = ccp(self.boundingBox.size.width*0.5f+8, self.boundingBox.size.height*0.216f);
+        [self addChild:spSelect z:2];
+        
+        [spSelect runAction:sequence];
+    }
+}
+
+- (void)updateMonkeyWrongAnimation
+{
+    [self hideMonkeyAndMonster];
+    
+    NSMutableArray *arrAnimation = [NSMutableArray arrayWithCapacity:6];
+    for(int i = 1; i <= 32; i++)
+    {
+        NSString *frameName=[NSString stringWithFormat:@"monkeyWrong%d.png",i];
+        CCSpriteFrame *frame=[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:frameName];
+        [arrAnimation addObject:frame];
+    }
+    
+    CCCallBlockN *callBlockN = [CCCallBlockN actionWithBlock:^(CCNode *node){
+        [self showMonkeyAndMonster];
+        
+        [spSelect removeFromParentAndCleanup:YES];
+        spSelect = nil;
+    }];
+    CCAnimation *animation = [CCAnimation animationWithSpriteFrames:arrAnimation delay:0.05];
+    CCSequence *sequence = [CCSequence actions:[CCAnimate actionWithAnimation:animation], callBlockN, nil];
+    if (!spSelect)
+    {
+        spSelect = [CCSprite spriteWithSpriteFrameName:@"monkeyWrong1.png"];
         spSelect.position = ccp(self.boundingBox.size.width*0.5f, self.boundingBox.size.height*0.186f);
         [self addChild:spSelect z:2];
         
@@ -546,9 +492,9 @@
     [self hideMonkeyAndMonster];
     
     NSMutableArray *arrAnimation = [NSMutableArray arrayWithCapacity:6];
-    for(int i = 0; i <= 39; i++)
+    for(int i = 1; i <= 40; i++)
     {
-        NSString *frameName=[NSString stringWithFormat:@"monkeyJump/%04d",i];
+        NSString *frameName=[NSString stringWithFormat:@"monkeyJump%d.png",i];
         CCSpriteFrame *frame=[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:frameName];
         [arrAnimation addObject:frame];
     }
@@ -561,7 +507,7 @@
     CCSequence *sequence = [CCSequence actions:[CCAnimate actionWithAnimation:animation], callBlockN, nil];
     if (!spSelect)
     {
-        spSelect = [CCSprite spriteWithSpriteFrameName:@"monkeyJump/0000"];
+        spSelect = [CCSprite spriteWithSpriteFrameName:@"monkeyJump1.png"];
         spSelect.position = ccp(self.boundingBox.size.width*0.5f+8, self.boundingBox.size.height*0.216f);
         [self addChild:spSelect z:2];
         [spSelect runAction:sequence];

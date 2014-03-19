@@ -17,28 +17,15 @@
 		<string>translateGameTreesAndRoad.plist</string>
 		<string>translateGameMonkeyChase.plist</string>
 		<string>translateGameMonsterFly.plist</string>
-		<string>translateGameMonkeyJump0.plist</string>
-		<string>translateGameMonkeyWrong0.plist</string>
-		<string>translateGameMonkeyKeepRight0.plist</string>
-		<string>translateGameMonkeyJump0-hd.plist</string>
-		<string>translateGameMonkeyJump0-ipadhd.plist</string>
-		<string>translateGameMonkeyJump1-ipadhd.plist</string>
-		<string>translateGameMonkeyJump3-ipadhd.plist</string>
-		<string>translateGameMonkeyJump2-ipadhd.plist</string>
-		<string>translateGameMonkeyWrong0-hd.plist</string>
-		<string>translateGameMonkeyWrong2-ipadhd.plist</string>
-		<string>translateGameMonkeyWrong0-ipadhd.plist</string>
-		<string>translateGameMonkeyWrong0.plist</string>
-		<string>translateGameMonkeyWrong3-ipadhd.plist</string>
-		<string>translateGameMonkeyWrong1-ipadhd.plist</string>
-		<string>translateGameMonkeyKeepRight4-ipadhd.plist</string>
-		<string>translateGameMonkeyKeepRight2-ipadhd.plist</string>
-		<string>translateGameMonkeyKeepRight1-ipadhd.plist</string>
-		<string>translateGameMonkeyKeepRight3-ipadhd.plist</string>
-		<string>translateGameMonkeyKeepRight0-ipadhd.plist</string>
-		<string>translateGameMonkeyKeepRight1-hd.plist</string>
-		<string>translateGameMonkeyKeepRight0-hd.plist</string>
-		<string>translateGameMonkeyKeepRight5-ipadhd.plist</string>
+		<string>translateGameMonkeyWrong1.plist</string>
+		<string>translateGameMonkeyWrong2.plist</string>
+		<string>translateGameMonkeyWrong3.plist</string>
+		<string>translateGameMonkeyWrong4.plist</string>
+		<string>translateGameMonkeyJump1.plist</string>
+		<string>translateGameMonkeyJump2.plist</string>
+		<string>translateGameMonkeyJump3.plist</string>
+		<string>translateGameMonkeyJump4.plist</string>
+		<string>translateGameMonkeyJump5.plist</string>
 	</array>
 	<key>Images</key>
 	<array/>

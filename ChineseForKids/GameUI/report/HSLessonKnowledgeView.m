@@ -39,6 +39,10 @@
 
 #define kEnglishRect CGRectMake(self.bounds.size.width*0.55f, self.bounds.size.height*0.55f, self.bounds.size.width*0.323f, self.bounds.size.height*0.235f)
 
+@interface HSLessonKnowledgeView ()<AVAudioPlayerDelegate>
+
+@end
+
 @implementation HSLessonKnowledgeView
 {
     CGFloat percent;
@@ -303,11 +307,15 @@
     
     //NSArray *arrAudio = [[NSFileManager defaultManager] subpathsOfDirectoryAtPath:[kDownloadedPath stringByAppendingPathComponent:lessonAudio]  error:nil];
     //NSLog(@"所有的音频文件: %@", arrAudio);
+    NSError *err;
     
-    if (path)
+    if ([[NSFileManager defaultManager] fileExistsAtPath:path])
     {
-        player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path isDirectory:NO] error:nil];
+        DLog(@"存在文件: path: %@", path);
+        player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:&err];
+        player.delegate = self;
         [player prepareToPlay];
+        //NSLog(@"错误信息: %@ ; ds:%@", err.domain, err.localizedDescription);
     }
 }
 
@@ -326,6 +334,36 @@
         [player stop];
         player = nil;
     }
+}
+
+- (void)audioPlayerDecodeErrorDidOccur:(AVAudioPlayer *)player error:(NSError *)error
+{
+    DLog(@"播放错误: %@; %@; %@", error.domain, error.userInfo, error.description);
+}
+
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    DLog(@"%@", NSStringFromSelector(_cmd));
+}
+
+- (void)audioPlayerBeginInterruption:(AVAudioPlayer *)player
+{
+    DLog(@"%@", NSStringFromSelector(_cmd));
+}
+
+- (void)audioPlayerEndInterruption:(AVAudioPlayer *)player
+{
+    DLog(@"%@", NSStringFromSelector(_cmd));
+}
+
+- (void)audioPlayerEndInterruption:(AVAudioPlayer *)player withFlags:(NSUInteger)flags
+{
+    DLog(@"%@", NSStringFromSelector(_cmd));
+}
+
+- (void)audioPlayerEndInterruption:(AVAudioPlayer *)player withOptions:(NSUInteger)flags
+{
+    DLog(@"%@", NSStringFromSelector(_cmd));
 }
 
 #pragma mark - Subviews Manager
@@ -544,8 +582,9 @@
     
     PinyinModel *pinyinModel = (PinyinModel *)[arrKnowledges objectAtIndex:row];
     
-    //NSLog(@"拼音数据: %@, 声音文件: %@", pinyinModel, pinyinModel.audio);
+    NSLog(@"拼音数据: %@, 声音文件: %@", pinyinModel.audio, pinyinModel.audio);
     strAudio = pinyinModel.audio;
+    
     [self stopAudio];
     [self initAudioPlayerWithSource:strAudio];
     [self playAudio];

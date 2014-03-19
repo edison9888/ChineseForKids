@@ -7,28 +7,28 @@
             <key>treesAndRoad1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,370},{1024,366}}</string>
+                <string>{{2,2},{1024,374}}</string>
                 <key>offset</key>
-                <string>{0,0}</string>
+                <string>{0,-197}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{1024,366}}</string>
+                <string>{{0,394},{1024,374}}</string>
                 <key>sourceSize</key>
-                <string>{1024,366}</string>
+                <string>{1024,768}</string>
             </dict>
             <key>treesAndRoad2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{1024,366}}</string>
+                <string>{{2,378},{1024,368}}</string>
                 <key>offset</key>
-                <string>{0,0}</string>
+                <string>{0,-200}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{1024,366}}</string>
+                <string>{{0,400},{1024,368}}</string>
                 <key>sourceSize</key>
-                <string>{1024,366}</string>
+                <string>{1024,768}</string>
             </dict>
         </dict>
         <key>metadata</key>
@@ -38,9 +38,9 @@
             <key>realTextureFileName</key>
             <string>translateGameTreesAndRoad-hd.pvr.ccz</string>
             <key>size</key>
-            <string>{1028,738}</string>
+            <string>{1028,748}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:728eda6aec0889045edeb23503731469:1/1$</string>
+            <string>$TexturePacker:SmartUpdate:d921ce3eb69e518b57c4a47335a3f082:1/1$</string>
             <key>textureFileName</key>
             <string>translateGameTreesAndRoad-hd.pvr.ccz</string>
         </dict>

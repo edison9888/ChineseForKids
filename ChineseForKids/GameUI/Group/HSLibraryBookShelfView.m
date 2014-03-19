@@ -180,7 +180,7 @@
         UIImage *imgCover = [UIImage imageNamed:@"groupCoverPh.png"];
         
         HSComicBookCoverView *tempBookCoverView = [[HSComicBookCoverView alloc] initWithFrame:CGRectZero GroupID:groupModel.groupIDValue ImageURL:groupModel.groupIconURL];
-        tempBookCoverView.userInteractionEnabled = YES;
+        tempBookCoverView.userInteractionEnabled = (i == 0 ? YES : NO);
         [tempBookCoverView addTarget:self action:@selector(bookClickAction:) forControlEvents:UIControlEventTouchUpInside];
         [tempBookCoverView setImageWithURL:[NSURL URLWithString:groupModel.groupIconURL] placeholderImage:imgCover];
         tempBookCoverView.tag = groupModel.groupIDValue;
